@@ -1,0 +1,1 @@
+{"name":"OceanariumFishing.Runtime","rootNamespace":"OceanariumFishing","references":["Unity.InputSystem","Unity.Cinemachine","Unity.Localization","Unity.ResourceManager","Unity.Addressables","Unity.RenderPipelines.Universal.Runtime","Unity.RenderPipelines.Core.Runtime"]}

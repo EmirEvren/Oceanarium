@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: OF_UI_pl
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 73e6651523f2dd64a9d5e4d626dbab22, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11652202496
+    m_Localized: 'OCEANARIUM
+
+      FISHING'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11706728448
+    m_Localized: A small island. A sanctuary to grow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922752
+    m_Localized: Begin island exploration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922753
+    m_Localized: Settings & language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922754
+    m_Localized: "ASTRA 0.0  /  Foundation preview\nSolo exploration \u2022 No progress
+      saving"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922755
+    m_Localized: HOME REEF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922756
+    m_Localized: Explore the cabin, collect a rod at the pier, and discover your
+      future aquarium garden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922757
+    m_Localized: Starter rod collected. Explore your island sanctuary.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922758
+    m_Localized: WASD  Move     SHIFT  Sprint     Hold RMB  Camera     E  Interact    
+      ESC  Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922759
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922760
+    m_Localized: Return to main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922761
+    m_Localized: Camera sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922762
+    m_Localized: 17 locales prepared. Untranslated content uses English. Language
+      preference is saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922763
+    m_Localized: COMING LATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922764
+    m_Localized: This scene is reserved for a future milestone. No gameplay is implemented
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922765
+    m_Localized: '[E] Inspect cabin'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922766
+    m_Localized: '[E] Inspect supply chest'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922767
+    m_Localized: '[E] Collect starter rod'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922768
+    m_Localized: '[E] Discover sanctuary garden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922769
+    m_Localized: Your reefkeeper cabin. Interiors will arrive in a later milestone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922770
+    m_Localized: A shared supply chest. Inventory and persistent storage are planned
+      for later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922771
+    m_Localized: Your first rod! Casting and fishing will arrive in the fishing milestone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922772
+    m_Localized: You already have a rod. These are reserved for the rest of your
+      future crew.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922773
+    m_Localized: A place for your future aquarium sanctuary. Construction comes in
+      a later milestone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922774
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922775
+    m_Localized: Turkish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922776
+    m_Localized: French
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922777
+    m_Localized: Italian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922778
+    m_Localized: German
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922779
+    m_Localized: Spanish (Spain)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922780
+    m_Localized: Chinese (Simplified)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922781
+    m_Localized: Portuguese (Brazil)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922782
+    m_Localized: Dutch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922783
+    m_Localized: Chinese (Traditional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922784
+    m_Localized: Japanese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922785
+    m_Localized: Korean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922786
+    m_Localized: Spanish (Latin America)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922787
+    m_Localized: Polish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922788
+    m_Localized: Portuguese (Portugal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922789
+    m_Localized: Russian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922790
+    m_Localized: Ukrainian
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

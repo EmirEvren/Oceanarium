@@ -1,0 +1,6 @@
+{
+  "name": "Oceanarium.Editor",
+  "rootNamespace": "Oceanarium.Editor",
+  "references": ["Oceanarium.Runtime"],
+  "includePlatforms": ["Editor"]
+}

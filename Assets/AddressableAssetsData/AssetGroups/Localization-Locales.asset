@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Locales
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Locales
+  m_GUID: b479b74ce6de6174780b9246fb2cbeb3
+  m_SerializeEntries:
+  - m_GUID: 01fed0ca33821d840a6e47bdd323b35e
+    m_Address: pl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bb274bf8b268ab43916f5c937eddd09
+    m_Address: ko
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 511b448e6e25f234099e77c65a2242f2
+    m_Address: it
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525b1f214d3505a4aa477d3700d8e908
+    m_Address: zh-Hant
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ab4a1b8a67e4734597cd4070839aeb1
+    m_Address: en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d27debcc35e51942aea882e85a6b73f
+    m_Address: uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e6faf9ff9a6d04484bc121635acbdd
+    m_Address: tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d1c9a588c1fa546903fbd4de4d1417
+    m_Address: de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8910bd88fa4e3b249a2be3681a2aa4f4
+    m_Address: zh-Hans
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c32bfdeeb1a0ed40ae1cc9760d0f1d9
+    m_Address: ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a307747a881cb6a439ca59122e8f4b7f
+    m_Address: pt-PT
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acd7079ceb7db354899fccd764ee74f6
+    m_Address: fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf2e826fe174ed347881f878333539a7
+    m_Address: es-419
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5085310beec90f49b534b3a37ac03c3
+    m_Address: ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95f2179b6ab97b4081253ecd4fb1627
+    m_Address: nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa9d2cf7e5dca1468f3911543be3f1e
+    m_Address: pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f130cf42aa0c6b8499e302ebdf1b00ef
+    m_Address: es-ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 44b4dcfaa9bacd145beb0fd1dc80c7da, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a67cea9424b103c43b741835dfbc1218, type: 2}
+    - {fileID: 11400000, guid: cad69b277681d1c438553f3310739a4d, type: 2}
+    - {fileID: 11400000, guid: 60d7aebed7434224499c4301e2d6fef2, type: 2}

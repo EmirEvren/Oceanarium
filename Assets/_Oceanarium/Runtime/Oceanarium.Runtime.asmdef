@@ -1,0 +1,5 @@
+{
+  "name": "Oceanarium.Runtime",
+  "rootNamespace": "Oceanarium",
+  "references": ["Unity.InputSystem"]
+}

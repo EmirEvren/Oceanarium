@@ -6,8 +6,34 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_Boot.unity
+    guid: 00abe7168b2785747a7eec301cff1c45
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_MainMenu.unity
+    guid: c48654996558a4f45a12f122c8f2d0ed
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_CharacterCreator.unity
+    guid: 8c5a5bd98fdd0ca4a87addabf635e7c4
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_HomeIsland.unity
+    guid: df255ef272454714db71971f42392c69
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_TownIsland.unity
+    guid: 3e6d4f2857da3c1439bd45a579497f96
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_ExplorationIsland_01.unity
+    guid: 73552132754eb3b4a9ef4b26959ebdbd
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_ExplorationIsland_02.unity
+    guid: 22d68804ba496ea4193bbf07eb856b3a
+  - enabled: 1
+    path: Assets/OceanariumFishing/Scenes/OF_ExplorationIsland_03.unity
+    guid: 07dacf901d531ee44bed83ea0973d4c9
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 56ffe9383793dc04e817eb22b431bf47, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 19ed8f6d57629a44b8badec3fb35aa34, type: 2}
   m_UseUCBPForAssetBundles: 0

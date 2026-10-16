@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 62884d279c64636458041deb31eaf724
+  m_SerializeEntries:
+  - m_GUID: 73e6651523f2dd64a9d5e4d626dbab22
+    m_Address: Assets/OceanariumFishing/Localization/Tables/OF_UI Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d58e08fb019e55f40ab2484d3fb48813
+    m_Address: Assets/OceanariumFishing/Localization/Tables/OF_Assets Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 44b4dcfaa9bacd145beb0fd1dc80c7da, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b1fb8e1198e06b047ab025ec8fa24221, type: 2}
+    - {fileID: 11400000, guid: c9f0a3067ee9446458351e9dc3813ca3, type: 2}
+    - {fileID: 11400000, guid: ab4c3c4647e880e4bb13104302ad8f4b, type: 2}

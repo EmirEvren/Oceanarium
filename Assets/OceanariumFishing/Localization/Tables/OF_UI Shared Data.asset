@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: OF_UI Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: OF_UI
+  m_TableCollectionNameGuidString: 73e6651523f2dd64a9d5e4d626dbab22
+  m_Entries:
+  - m_Id: 11652202496
+    m_Key: brand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11706728448
+    m_Key: tagline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922752
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922753
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922754
+    m_Key: milestone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922755
+    m_Key: home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922756
+    m_Key: objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922757
+    m_Key: objective.done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922758
+    m_Key: controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922759
+    m_Key: close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922760
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922761
+    m_Key: sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922762
+    m_Key: language.note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922763
+    m_Key: reserved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922764
+    m_Key: reserved.body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922765
+    m_Key: interact.cabin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922766
+    m_Key: interact.chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922767
+    m_Key: interact.starterrod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922768
+    m_Key: interact.aquariumplot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922769
+    m_Key: notice.cabin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922770
+    m_Key: notice.chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922771
+    m_Key: notice.starterrod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922772
+    m_Key: notice.owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922773
+    m_Key: notice.aquariumplot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922774
+    m_Key: locale.en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922775
+    m_Key: locale.tr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922776
+    m_Key: locale.fr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922777
+    m_Key: locale.it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922778
+    m_Key: locale.de
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922779
+    m_Key: locale.es-ES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922780
+    m_Key: locale.zh-Hans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922781
+    m_Key: locale.pt-BR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922782
+    m_Key: locale.nl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922783
+    m_Key: locale.zh-Hant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922784
+    m_Key: locale.ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922785
+    m_Key: locale.ko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922786
+    m_Key: locale.es-419
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922787
+    m_Key: locale.pl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922788
+    m_Key: locale.pt-PT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922789
+    m_Key: locale.ru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11710922790
+    m_Key: locale.uk
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5618340964303896683
+  references:
+    version: 2
+    RefIds:
+    - rid: 5618340964303896683
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1792153304850
