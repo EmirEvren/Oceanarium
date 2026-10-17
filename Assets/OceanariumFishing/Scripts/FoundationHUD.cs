@@ -36,7 +36,7 @@ namespace OceanariumFishing
             {
                 Panel(new Rect(65,90,500,420));GUILayout.BeginArea(new Rect(95,115,440,375));
                 GUILayout.Label(T("brand"),heading);GUILayout.Label(T("tagline"),body);GUILayout.Space(35);
-                if(GUILayout.Button(T("play"),button))session.Travel(Destination.HomeIsland);
+                if(GUILayout.Button(T("play"),button))session.Travel(Destination.CharacterCreator);
                 if(GUILayout.Button(T("settings"),button))settings=!settings;
                 GUILayout.Space(18);GUILayout.Label(T("milestone"),small);GUILayout.EndArea();
             }
@@ -48,7 +48,7 @@ namespace OceanariumFishing
                 if(interactor.Nearby!=null && !settings){Panel(new Rect(w/2-200,h-130,400,45));GUI.Label(new Rect(w/2-180,h-122,360,35),T(interactor.Nearby.PromptKey),body);}
                 if(Time.unscaledTime<noticeUntil){Panel(new Rect(w/2-310,h-240,620,80));GUI.Label(new Rect(w/2-290,h-230,580,65),T(notice),body);}
             }
-            else
+            else if(destination!=Destination.CharacterCreator)
             {
                 Panel(new Rect(50,70,600,260));GUILayout.BeginArea(new Rect(75,95,550,215));GUILayout.Label(T("reserved"),heading);GUILayout.Label(T("reserved.body"),body);
                 if(GUILayout.Button(T("back"),button))session.Travel(Destination.MainMenu);GUILayout.EndArea();

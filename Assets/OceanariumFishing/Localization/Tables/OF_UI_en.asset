@@ -110,7 +110,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922771
-    m_Localized: Your first rod! Casting and fishing will arrive in the fishing milestone.
+    m_Localized: Your rod is equipped! Face the sea, hold LMB to charge and release
+      to cast.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772
@@ -189,6 +190,835 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 11710922790
     m_Localized: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666036072448
+    m_Localized: Appearance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598400
+    m_Localized: Masculine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598401
+    m_Localized: Feminine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598402
+    m_Localized: Hairstyles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598403
+    m_Localized: Short Classic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598404
+    m_Localized: Messy Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598405
+    m_Localized: Side Swept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598406
+    m_Localized: Curly Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598407
+    m_Localized: Medium Layered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598408
+    m_Localized: Long Straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598409
+    m_Localized: Long Wavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598410
+    m_Localized: High Ponytail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598411
+    m_Localized: Low Ponytail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598412
+    m_Localized: Twin Tails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598413
+    m_Localized: Short Bob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598414
+    m_Localized: Wavy Bob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598415
+    m_Localized: Braided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598416
+    m_Localized: Double Buns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598417
+    m_Localized: Shoulder Layers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598418
+    m_Localized: Hair color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598419
+    m_Localized: Black
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598420
+    m_Localized: Dark Brown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598421
+    m_Localized: Brown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598422
+    m_Localized: Light Brown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598423
+    m_Localized: Blonde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598424
+    m_Localized: Platinum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598425
+    m_Localized: Ginger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598426
+    m_Localized: Auburn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598427
+    m_Localized: White
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598428
+    m_Localized: Silver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598429
+    m_Localized: Pink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598430
+    m_Localized: Pastel Pink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598431
+    m_Localized: Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598432
+    m_Localized: Pastel Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598433
+    m_Localized: Purple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598434
+    m_Localized: Mint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598435
+    m_Localized: Skin tone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598436
+    m_Localized: Porcelain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598437
+    m_Localized: Ivory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598438
+    m_Localized: Peach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598439
+    m_Localized: Warm Beige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598440
+    m_Localized: Golden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598441
+    m_Localized: Tan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598442
+    m_Localized: Caramel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598443
+    m_Localized: Bronze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598444
+    m_Localized: Umber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598445
+    m_Localized: Cocoa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598446
+    m_Localized: Deep Brown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598447
+    m_Localized: Ebony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598448
+    m_Localized: Eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598449
+    m_Localized: Round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598450
+    m_Localized: Soft Oval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598451
+    m_Localized: Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598452
+    m_Localized: Sleepy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598453
+    m_Localized: Wide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598454
+    m_Localized: Gentle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598455
+    m_Localized: Eye color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598456
+    m_Localized: Hazel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598457
+    m_Localized: Green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598458
+    m_Localized: Light Green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598459
+    m_Localized: Light Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598460
+    m_Localized: Gray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598461
+    m_Localized: Amber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598462
+    m_Localized: Violet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598463
+    m_Localized: Eyebrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598464
+    m_Localized: Straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598465
+    m_Localized: Soft Curved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598466
+    m_Localized: Thick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598467
+    m_Localized: Thin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598468
+    m_Localized: Raised
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598469
+    m_Localized: Rounded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598470
+    m_Localized: Eyebrow color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598471
+    m_Localized: Mouth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598472
+    m_Localized: Small Smile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598473
+    m_Localized: Neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598474
+    m_Localized: Cheerful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598475
+    m_Localized: Soft Smile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598476
+    m_Localized: Tiny Open Smile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598477
+    m_Localized: Relaxed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598478
+    m_Localized: Nose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598479
+    m_Localized: Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598480
+    m_Localized: Soft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598481
+    m_Localized: Pointed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598482
+    m_Localized: Face details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598483
+    m_Localized: None
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598484
+    m_Localized: Freckles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598485
+    m_Localized: Blush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598486
+    m_Localized: Beauty Mark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598487
+    m_Localized: Cheek Detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598488
+    m_Localized: Facial hair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598489
+    m_Localized: Light Stubble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598490
+    m_Localized: Short Beard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598491
+    m_Localized: Full Beard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598492
+    m_Localized: Mustache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598493
+    m_Localized: Goatee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598494
+    m_Localized: Facial hair color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598495
+    m_Localized: Tops
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598496
+    m_Localized: Basic Tshirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598497
+    m_Localized: Striped Tshirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598498
+    m_Localized: Sweater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598499
+    m_Localized: Fisherman Shirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598500
+    m_Localized: Hoodie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598501
+    m_Localized: Jacket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598502
+    m_Localized: Bottoms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598503
+    m_Localized: Shorts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598504
+    m_Localized: Denim Shorts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598505
+    m_Localized: Pants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598506
+    m_Localized: Cargo Pants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598507
+    m_Localized: Short Skirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598508
+    m_Localized: Long Skirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598509
+    m_Localized: Shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598510
+    m_Localized: Sneakers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598511
+    m_Localized: Simple Boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598512
+    m_Localized: Fisherman Boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598513
+    m_Localized: Sandals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598514
+    m_Localized: Cozy Shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598515
+    m_Localized: Hats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598516
+    m_Localized: Baseball Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598517
+    m_Localized: Straw Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598518
+    m_Localized: Fisherman Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598519
+    m_Localized: Beanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598520
+    m_Localized: Bucket Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598521
+    m_Localized: Glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598522
+    m_Localized: Round Glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598523
+    m_Localized: Square Glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598524
+    m_Localized: Sunglasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598525
+    m_Localized: Accessories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598526
+    m_Localized: Backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598527
+    m_Localized: Crossbody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598528
+    m_Localized: Necklace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598529
+    m_Localized: Bracelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598530
+    m_Localized: Clothing color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598531
+    m_Localized: Seafoam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598532
+    m_Localized: Coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598533
+    m_Localized: Cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598534
+    m_Localized: Navy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598535
+    m_Localized: Lavender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598536
+    m_Localized: Ochre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598537
+    m_Localized: Meet your island self
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598538
+    m_Localized: A little character. A whole ocean of possibility.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598539
+    m_Localized: OCEANARIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598540
+    m_Localized: THE REEFKEEPER STUDIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598541
+    m_Localized: Face
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598542
+    m_Localized: Randomize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598543
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598544
+    m_Localized: Save & continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598545
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598546
+    m_Localized: Reset view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598547
+    m_Localized: "Drag to turn \xB7 Scroll to zoom"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598548
+    m_Localized: Match hair color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281666090598549
+    m_Localized: Could not save. Please check available storage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396518260736
+    m_Localized: Reefkeeper's rod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398080
+    m_Localized: A little patience. A big ocean.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398081
+    m_Localized: Find your perfect cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398082
+    m_Localized: Out to sea!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398083
+    m_Localized: "Watch your float\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398084
+    m_Localized: BITE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398085
+    m_Localized: PERFECT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398086
+    m_Localized: GREAT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398087
+    m_Localized: GOOD!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398088
+    m_Localized: "Hooked \u2014 just in time!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398089
+    m_Localized: Aim at open water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398090
+    m_Localized: No fish here right now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398091
+    m_Localized: The moment slipped away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396564398092
+    m_Localized: The fish got away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592384
+    m_Localized: A new ocean story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592385
+    m_Localized: Catch safely stored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592386
+    m_Localized: Back to the blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592387
+    m_Localized: Could not save. Try again before leaving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592388
+    m_Localized: Bring it home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592389
+    m_Localized: Catch progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592390
+    m_Localized: Line tension
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592391
+    m_Localized: Fish stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592392
+    m_Localized: Fish pulls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592393
+    m_Localized: "COMBO \xD7{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592394
+    m_Localized: Cast power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592395
+    m_Localized: 'Weight: {0:0.00} kg'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592396
+    m_Localized: 'Length: {0:0.0} cm'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592397
+    m_Localized: Exceptional specimen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592398
+    m_Localized: Healthy specimen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592399
+    m_Localized: NEW PERSONAL BEST!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592400
+    m_Localized: KEEP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592401
+    m_Localized: RELEASE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592402
+    m_Localized: "Hold LMB to charge \xB7 Release to cast \xB7 Hold RMB to aim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592403
+    m_Localized: "Q: cancel \xB7 Keep watching the float"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592404
+    m_Localized: Click LMB now to hook!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592405
+    m_Localized: "Hold LMB: reel \xB7 Release: cool tension\nMove mouse against the
+      pull \xB7 Q: cancel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592406
+    m_Localized: Clownfish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592407
+    m_Localized: Blue tang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592408
+    m_Localized: Sardine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592409
+    m_Localized: Mackerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592410
+    m_Localized: Red snapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592411
+    m_Localized: Sea bream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592412
+    m_Localized: Pufferfish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592413
+    m_Localized: Golden trevally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592414
+    m_Localized: COMMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592415
+    m_Localized: UNCOMMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592416
+    m_Localized: RARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592417
+    m_Localized: EPIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288396568592418
+    m_Localized: LEGENDARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997865779200
+    m_Localized: Cast distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333632
+    m_Localized: Accuracy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333633
+    m_Localized: Rod strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333634
+    m_Localized: Line strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333635
+    m_Localized: Reel speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333636
+    m_Localized: Handling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289997899333637
+    m_Localized: Durability
     m_Metadata:
       m_Items: []
   references:

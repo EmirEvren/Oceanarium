@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869548de3c38e044d85c32c6c8836483, type: 3}
+  m_Name: CozyFishingTuning
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingTuning
+  chargeDuration: 1.6
+  minCast: 3
+  flightDuration: 0.9
+  minWait: 2.5
+  maxWait: 6
+  hookWindow: 1.8
+  perfectWindow: 0.48
+  goodWindow: 1.15
+  tensionRise: 0.2
+  tensionRecovery: 0.32
+  breakGrace: 1.2
+  slackGrace: 6
+  progressRate: 0.09
+  staminaDrain: 0.12
+  escapeRate: 0.025
+  comboSeconds: 2.1
+  maxCombo: 5

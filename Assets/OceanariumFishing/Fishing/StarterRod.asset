@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2ddd78244724f499eac8851e681cd3, type: 3}
+  m_Name: StarterRod
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingRodDefinition
+  id: starter
+  nameKey: fishing.rod.starter
+  castDistance: 14
+  accuracy: 0.92
+  strength: 1
+  lineStrength: 1
+  reelSpeed: 1
+  handling: 1
+  durabilityEnabled: 0
+  maxDurability: 100
+  upgradeLevel: 0
+  rarity: 0
+  visualPrefab: {fileID: 2531812809699029995, guid: 118e13b55b07e1548870bf7f8c8bf096, type: 3}

@@ -1,0 +1,6 @@
+PASS
+Real Input System fishing demonstration
+Rod equipped via E; LMB pressed
+Charged release casts
+LMB hooks during bite window
+Genuine catch reached through live simulation: sardine

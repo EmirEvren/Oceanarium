@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
+  m_Name: sea_bream
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  id: sea_bream
+  nameKey: fishing.fish.sea_bream
+  rarity: 0
+  minWeight: 0.1875
+  maxWeight: 1.5
+  minLength: 21
+  maxLength: 42
+  baseValue: 57
+  biteProbability: 1
+  fightingStrength: 1.1
+  stamina: 1.05
+  habitats: 00000000010000000200000003000000
+  islands:
+  - OF_HomeIsland
+  weather:
+  - clear
+  - cloudy
+  startHour: 0
+  endHour: 24
+  preferredBait: none
+  aquariumEligible: 1
+  encyclopediaKey: fish.sea_bream
+  behavior: 0
+  color: {r: 0.555, g: 0.67, b: 0.69, a: 1}
+  shape: {x: 1, y: 0.6, z: 0.35}

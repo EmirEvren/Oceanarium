@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
+  m_Name: mackerel
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  id: mackerel
+  nameKey: fishing.fish.mackerel
+  rarity: 0
+  minWeight: 0.15
+  maxWeight: 1.2
+  minLength: 22.5
+  maxLength: 45
+  baseValue: 39
+  biteProbability: 1
+  fightingStrength: 0.91999996
+  stamina: 0.89
+  habitats: 00000000010000000200000003000000
+  islands:
+  - OF_HomeIsland
+  weather:
+  - clear
+  - cloudy
+  startHour: 0
+  endHour: 24
+  preferredBait: none
+  aquariumEligible: 1
+  encyclopediaKey: fish.mackerel
+  behavior: 3
+  color: {r: 0.48499998, g: 0.67, b: 0.69, a: 1}
+  shape: {x: 1.15, y: 0.4, z: 0.3}

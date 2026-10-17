@@ -86,10 +86,11 @@ namespace OceanariumFishing.Editor
                 Check(Vector3.Distance(before,player.transform.position)>.8f,direction+" movement input");
                 InputSystem.QueueStateEvent(testKeyboard,new KeyboardState());
             }
-            var motion=player.GetComponent<CharacterMotion>();var legRotation=motion.leftLeg.localRotation;
+            var avatar=player.GetComponentInChildren<CharacterAppearance>();
+            var leg=avatar!=null?avatar.Bones[12]:player.GetComponent<CharacterMotion>().leftLeg;var legRotation=leg.localRotation;
             until=EditorApplication.timeSinceStartup+.2;
             while(EditorApplication.timeSinceStartup<until){InputSystem.QueueStateEvent(testKeyboard,new KeyboardState(Key.W));yield return null;}
-            Check(Quaternion.Angle(legRotation,motion.leftLeg.localRotation)>1,"Walk animation articulates legs");
+            Check(Quaternion.Angle(legRotation,leg.localRotation)>1,"Walk animation articulates legs");
             InputSystem.QueueStateEvent(testKeyboard,new KeyboardState());
             // Approach the front wall beyond the porch. Collision must prevent crossing it.
             var cabin=GameObject.Find("OF_Cabin").transform;

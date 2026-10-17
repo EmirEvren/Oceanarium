@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
+  m_Name: blue_tang
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  id: blue_tang
+  nameKey: fishing.fish.blue_tang
+  rarity: 1
+  minWeight: 0.075
+  maxWeight: 0.6
+  minLength: 15
+  maxLength: 30
+  baseValue: 21
+  biteProbability: 1
+  fightingStrength: 0.74
+  stamina: 0.72999996
+  habitats: 0000000001000000
+  islands:
+  - OF_HomeIsland
+  weather:
+  - clear
+  - cloudy
+  startHour: 0
+  endHour: 24
+  preferredBait: none
+  aquariumEligible: 1
+  encyclopediaKey: fish.blue_tang
+  behavior: 1
+  color: {r: 0.13, g: 0.43, b: 0.9, a: 1}
+  shape: {x: 1, y: 0.6, z: 0.35}

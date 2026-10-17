@@ -8910,6 +8910,70 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c55250bb696fc646b6da0342dc43052, type: 3}
+--- !u!1 &272714249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272714250}
+  - component: {fileID: 272714251}
+  m_Layer: 0
+  m_Name: Deep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272714250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272714249}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1418668492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272714251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272714249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492a8f8ee2222da4eb6cda15b6350bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingZone
+  zoneId: home.deep
+  habitat: 3
+  radius: 24
+  entries:
+  - species: {fileID: 11400000, guid: 1ba76c76d93823340bd09698bf2c4802, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4ffe7a5d2ee942a46b8f85088ab776d4, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: a3bf0b10801ec77428abbbc261e0e16f, type: 2}
+    weight: 2
+  - species: {fileID: 11400000, guid: 47008f55a2ffa2948abe70030b50896d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 0a835a68a8838224fb46523fced28eb1, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 6ab12e7a72a8a4c44b4fa6b29c4f494d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4878a9a981dc04b49b65c904b34c2d6a, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 1c963964a61e5d345807fdedcf7898d1, type: 2}
+    weight: 1
 --- !u!1 &273542106
 GameObject:
   m_ObjectHideFlags: 0
@@ -16207,6 +16271,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 423496810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &461414884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461414885}
+  - component: {fileID: 461414886}
+  m_Layer: 0
+  m_Name: Pier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &461414885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461414884}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1418668492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &461414886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461414884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492a8f8ee2222da4eb6cda15b6350bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingZone
+  zoneId: home.pier
+  habitat: 2
+  radius: 18
+  entries:
+  - species: {fileID: 11400000, guid: 1ba76c76d93823340bd09698bf2c4802, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4ffe7a5d2ee942a46b8f85088ab776d4, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: a3bf0b10801ec77428abbbc261e0e16f, type: 2}
+    weight: 2
+  - species: {fileID: 11400000, guid: 47008f55a2ffa2948abe70030b50896d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 0a835a68a8838224fb46523fced28eb1, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 6ab12e7a72a8a4c44b4fa6b29c4f494d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4878a9a981dc04b49b65c904b34c2d6a, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 1c963964a61e5d345807fdedcf7898d1, type: 2}
+    weight: 1
 --- !u!1 &461522228
 GameObject:
   m_ObjectHideFlags: 0
@@ -18262,6 +18390,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1822643928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &512134997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512134998}
+  - component: {fileID: 512134999}
+  m_Layer: 0
+  m_Name: Rocky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &512134998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512134997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22, y: 0, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1418668492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &512134999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512134997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492a8f8ee2222da4eb6cda15b6350bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingZone
+  zoneId: home.rocky
+  habitat: 1
+  radius: 18
+  entries:
+  - species: {fileID: 11400000, guid: 1ba76c76d93823340bd09698bf2c4802, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4ffe7a5d2ee942a46b8f85088ab776d4, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: a3bf0b10801ec77428abbbc261e0e16f, type: 2}
+    weight: 2
+  - species: {fileID: 11400000, guid: 47008f55a2ffa2948abe70030b50896d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 0a835a68a8838224fb46523fced28eb1, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 6ab12e7a72a8a4c44b4fa6b29c4f494d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4878a9a981dc04b49b65c904b34c2d6a, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 1c963964a61e5d345807fdedcf7898d1, type: 2}
+    weight: 1
 --- !u!1 &512509955
 GameObject:
   m_ObjectHideFlags: 0
@@ -28488,6 +28680,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 364137960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862598198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 862598199}
+  - component: {fileID: 862598200}
+  m_Layer: 0
+  m_Name: Beach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &862598199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862598198}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22, y: 0, z: -6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1418668492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &862598200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862598198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492a8f8ee2222da4eb6cda15b6350bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingZone
+  zoneId: home.beach
+  habitat: 0
+  radius: 18
+  entries:
+  - species: {fileID: 11400000, guid: 1ba76c76d93823340bd09698bf2c4802, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4ffe7a5d2ee942a46b8f85088ab776d4, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: a3bf0b10801ec77428abbbc261e0e16f, type: 2}
+    weight: 2
+  - species: {fileID: 11400000, guid: 47008f55a2ffa2948abe70030b50896d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 0a835a68a8838224fb46523fced28eb1, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 6ab12e7a72a8a4c44b4fa6b29c4f494d, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 4878a9a981dc04b49b65c904b34c2d6a, type: 2}
+    weight: 1
+  - species: {fileID: 11400000, guid: 1c963964a61e5d345807fdedcf7898d1, type: 2}
+    weight: 1
 --- !u!1 &864432036
 GameObject:
   m_ObjectHideFlags: 0
@@ -46699,6 +46955,56 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 364137960}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1418668490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418668492}
+  - component: {fileID: 1418668491}
+  m_Layer: 0
+  m_Name: Fishing habitats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1418668491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418668490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7634415b41b5a4c4d89281edfa580128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingWater
+  ocean: {fileID: 2100000, guid: d7b5456d7002a0546ac2fb2def565eb9, type: 2}
+  baseHeight: 0.05
+--- !u!4 &1418668492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418668490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 862598199}
+  - {fileID: 512134998}
+  - {fileID: 461414885}
+  - {fileID: 272714250}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419317771
 GameObject:
@@ -69284,3 +69590,4 @@ SceneRoots:
   - {fileID: 560117319}
   - {fileID: 880321258}
   - {fileID: 1603148045}
+  - {fileID: 1418668492}

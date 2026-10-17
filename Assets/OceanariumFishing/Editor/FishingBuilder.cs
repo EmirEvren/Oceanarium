@@ -1,0 +1,42 @@
+using System;
+using System.IO;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+using UnityEngine.Localization.Tables;
+using UnityEngine.SceneManagement;
+namespace OceanariumFishing.Editor
+{
+    public static class FishingBuilder
+    {
+        const string R=FoundationBuilder.Root;const string D=R+"/Fishing";
+        static T Asset<T>(string name)where T:ScriptableObject{string p=D+"/"+name+".asset";var a=AssetDatabase.LoadAssetAtPath<T>(p);if(!a){a=ScriptableObject.CreateInstance<T>();AssetDatabase.CreateAsset(a,p);}return a;}
+        [MenuItem("Oceanarium Fishing/Build ASTRA 0.3 Fishing")]
+        public static void Build()
+        {
+            if(EditorApplication.isPlaying)throw new InvalidOperationException("Stop Play Mode before fishing setup");Directory.CreateDirectory(D);AssetDatabase.Refresh();
+            var rod=Asset<FishingRodDefinition>("StarterRod");var tuning=Asset<FishingTuning>("CozyFishingTuning");
+            var surface=AssetDatabase.LoadAssetAtPath<Material>(R+"/Characters/OF_AvatarSurface.mat");var line=AssetDatabase.LoadAssetAtPath<Material>(D+"/FishingLine.mat");if(!line){line=new Material(Shader.Find("Universal Render Pipeline/Particles/Unlit"));line.SetColor("_BaseColor",new Color(.95f,.95f,.83f));AssetDatabase.CreateAsset(line,D+"/FishingLine.mat");}
+            string[] ids={"clownfish","blue_tang","sardine","mackerel","red_snapper","sea_bream","pufferfish","golden_trevally"};float[] maxW={.25f,.6f,.2f,1.2f,4,1.5f,1,5};float[] maxL={15,30,23,45,65,42,32,70};var species=new FishSpecies[8];
+            for(int i=0;i<8;i++)
+            {
+                var s=species[i]=Asset<FishSpecies>(ids[i]);s.id=ids[i];s.nameKey="fishing.fish."+ids[i];s.maxWeight=maxW[i];s.minWeight=maxW[i]*.125f;s.maxLength=maxL[i];s.minLength=maxL[i]*.5f;s.rarity=i==7?FishRarity.Rare:i==1||i==4||i==6?FishRarity.Uncommon:FishRarity.Common;s.behavior=(FishBehavior)(i%5);s.fightingStrength=.65f+i*.09f;s.stamina=.65f+i*.08f;s.baseValue=12+i*9;s.encyclopediaKey="fish."+ids[i];s.habitats=i==0||i==1?new[]{FishHabitat.Beach,FishHabitat.Rocky}:i==7?new[]{FishHabitat.Deep,FishHabitat.Pier}:new[]{FishHabitat.Beach,FishHabitat.Rocky,FishHabitat.Pier,FishHabitat.Deep};s.color=i==0?new Color(1,.43f,.13f):i==1?new Color(.13f,.43f,.9f):i==4?new Color(.88f,.32f,.29f):i==7?new Color(.96f,.73f,.22f):new Color(.38f+i*.035f,.67f,.69f);s.shape=i==6?new Vector3(.8f,.85f,.7f):i==2||i==3?new Vector3(1.15f,.4f,.3f):new Vector3(1,.6f,.35f);EditorUtility.SetDirty(s);
+            }
+            string prefabPath=D+"/OF_EquippedStarterRod.prefab";if(!File.Exists(prefabPath)){var p=new GameObject("Starter rod presentation anchor");rod.visualPrefab=PrefabUtility.SaveAsPrefabAsset(p,prefabPath);UnityEngine.Object.DestroyImmediate(p);}else rod.visualPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);EditorUtility.SetDirty(rod);EditorUtility.SetDirty(tuning);
+            var player=PrefabUtility.LoadPrefabContents(R+"/Prefabs/OF_Player.prefab");try{var f=player.GetComponent<FishingController>()??player.AddComponent<FishingController>();var p=player.GetComponent<FishingPresentation>()??player.AddComponent<FishingPresentation>();var ui=player.GetComponent<FishingHUD>()??player.AddComponent<FishingHUD>();f.rod=rod;f.tuning=tuning;f.presentation=p;p.owner=f;p.material=surface;p.lineMaterial=line;ui.fishing=f;PrefabUtility.SaveAsPrefabAsset(player,R+"/Prefabs/OF_Player.prefab");}finally{PrefabUtility.UnloadPrefabContents(player);}
+            EditorSceneManager.OpenScene(R+"/Scenes/OF_HomeIsland.unity");var root=GameObject.Find("Fishing habitats");if(!root)root=new GameObject("Fishing habitats");var water=root.GetComponent<FishingWater>()??root.AddComponent<FishingWater>();water.ocean=AssetDatabase.LoadAssetAtPath<Material>(R+"/Materials/OF_Ocean.mat");
+            Vector3[] positions={new(-22,0,-6),new(22,0,3),new(1,0,-30),new(0,0,32)};
+            for(int i=0;i<4;i++){string name=((FishHabitat)i).ToString();var child=root.transform.Find(name);var zone=child?child.GetComponent<FishingZone>():new GameObject(name).AddComponent<FishingZone>();zone.transform.SetParent(root.transform);zone.transform.position=positions[i];zone.zoneId="home."+name.ToLowerInvariant();zone.habitat=(FishHabitat)i;zone.radius=i==3?24:18;zone.entries=new FishSpawnEntry[8];for(int j=0;j<8;j++)zone.entries[j]=new FishSpawnEntry{species=species[j],weight=j==2?2:1};}
+            Localize();EditorSceneManager.SaveScene(SceneManager.GetActiveScene());AssetDatabase.SaveAssets();Debug.Log("ASTRA 0.3 fishing built");
+        }
+        public static void Localize()
+        {
+            var en=AssetDatabase.LoadAssetAtPath<StringTable>(R+"/Localization/Tables/OF_UI_en.asset");var tr=AssetDatabase.LoadAssetAtPath<StringTable>(R+"/Localization/Tables/OF_UI_tr.asset");
+            void Add(string k,string e,string t){en.AddEntry("fishing."+k,e);tr.AddEntry("fishing."+k,t);}
+            Add("rod.starter","Reefkeeper's rod","Resif bekçisinin oltası");Add("ready","A little patience. A big ocean.","Biraz sabır. Kocaman bir okyanus.");Add("charge","Find your perfect cast","Atış gücünü ayarla");Add("cast","Out to sea!","Denize doğru!");Add("waiting","Watch your float…","Şamandırayı izle…");Add("bite","BITE!","BALIK VURDU!");Add("perfect","PERFECT!","MÜKEMMEL!");Add("great","GREAT!","HARİKA!");Add("good","GOOD!","GÜZEL!");Add("late","Hooked — just in time!","Son anda yakaladın!");Add("invalid","Aim at open water","Açık suya nişan al");Add("empty","No fish here right now","Şu anda burada balık yok");Add("missed","The moment slipped away","Kancalama fırsatı kaçtı");Add("escaped","The fish got away","Balık kaçtı");Add("caught","A new ocean story","Okyanustan yeni bir hikâye");Add("kept","Catch safely stored","Balık kaydedildi");Add("released","Back to the blue","Yeniden maviliklere");Add("save_error","Could not save. Try again before leaving.","Kaydedilemedi. Ayrılmadan tekrar dene.");Add("fight","Bring it home","Kontrol sende");Add("progress","Catch progress","Yakalama ilerlemesi");Add("tension","Line tension","Misina gerilimi");Add("stamina","Fish stamina","Balığın dayanıklılığı");Add("pull","Fish pulls","Balığın yönü");Add("combo","COMBO ×{0}","KOMBO ×{0}");Add("power","Cast power","Atış gücü");Add("weight","Weight: {0:0.00} kg","Ağırlık: {0:0.00} kg");Add("length","Length: {0:0.0} cm","Uzunluk: {0:0.0} cm");Add("quality.large","Exceptional specimen","İri ve özel örnek");Add("quality.healthy","Healthy specimen","Sağlıklı örnek");Add("record","NEW PERSONAL BEST!","YENİ KİŞİSEL REKOR!");Add("keep","KEEP","SAKLA");Add("release","RELEASE","SERBEST BIRAK");Add("cast_help","Hold LMB to charge · Release to cast · Hold RMB to aim","Sol fareyi basılı tut: güç · Bırak: atış · Sağ fare: nişan");Add("cancel_help","Q: cancel · Keep watching the float","Q: iptal · Şamandırayı izlemeye devam et");Add("hook_help","Click LMB now to hook!","Kancalamak için şimdi sol tıkla!");Add("fight_help","Hold LMB: reel · Release: cool tension\nMove mouse against the pull · Q: cancel","Sol fare: sar · Bırak: gerilimi düşür\nFareyi çekişin tersine götür · Q: iptal");
+            string[] ids={"clownfish","blue_tang","sardine","mackerel","red_snapper","sea_bream","pufferfish","golden_trevally"},names={"Clownfish","Blue tang","Sardine","Mackerel","Red snapper","Sea bream","Pufferfish","Golden trevally"},turkish={"Palyaço balığı","Mavi cerrah balığı","Sardalya","Uskumru","Kırmızı mercan","Çipura","Balon balığı","Altın istavrit"};for(int i=0;i<8;i++)Add("fish."+ids[i],names[i],turkish[i]);string[] tiers={"common","uncommon","rare","epic","legendary"},trTiers={"Yaygın","Az rastlanan","Nadir","Destansı","Efsanevi"};for(int i=0;i<5;i++)Add("rarity."+tiers[i],tiers[i].ToUpperInvariant(),trTiers[i]);
+            Add("stat.cast_distance","Cast distance","Atış mesafesi");Add("stat.accuracy","Accuracy","İsabet");Add("stat.strength","Rod strength","Olta gücü");Add("stat.line","Line strength","Misina dayanıklılığı");Add("stat.reel","Reel speed","Sarma hızı");Add("stat.handling","Handling","Kontrol");Add("stat.durability","Durability","Dayanıklılık");
+            en.AddEntry("notice.starterrod","Your rod is equipped! Face the sea, hold LMB to charge and release to cast.");tr.AddEntry("notice.starterrod","Oltan takıldı! Denize dön, sol fareyi basılı tutarak güç topla ve bırakarak at.");EditorUtility.SetDirty(en);EditorUtility.SetDirty(tr);EditorUtility.SetDirty(en.SharedData);
+        }
+    }
+}

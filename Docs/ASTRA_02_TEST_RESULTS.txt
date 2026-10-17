@@ -1,0 +1,52 @@
+PASS 2026-10-17T07:13:57.1589414Z
+PASS: Creator running in Play Mode
+PASS: all 2 presentation selections applied with valid meshes, materials, bones and weights
+PASS: all 15 hair selections applied with valid meshes, materials, bones and weights
+PASS: all 16 hairColor selections applied with valid meshes, materials, bones and weights
+PASS: all 12 skin selections applied with valid meshes, materials, bones and weights
+PASS: all 6 eyes selections applied with valid meshes, materials, bones and weights
+PASS: all 10 eyeColor selections applied with valid meshes, materials, bones and weights
+PASS: all 6 brows selections applied with valid meshes, materials, bones and weights
+PASS: all 16 browColor selections applied with valid meshes, materials, bones and weights
+PASS: all 6 mouth selections applied with valid meshes, materials, bones and weights
+PASS: all 3 nose selections applied with valid meshes, materials, bones and weights
+PASS: all 5 detail selections applied with valid meshes, materials, bones and weights
+PASS: all 6 beard selections applied with valid meshes, materials, bones and weights
+PASS: all 16 beardColor selections applied with valid meshes, materials, bones and weights
+PASS: all 6 top selections applied with valid meshes, materials, bones and weights
+PASS: all 6 bottom selections applied with valid meshes, materials, bones and weights
+PASS: all 5 shoes selections applied with valid meshes, materials, bones and weights
+PASS: all 6 hat selections applied with valid meshes, materials, bones and weights
+PASS: all 4 glasses selections applied with valid meshes, materials, bones and weights
+PASS: all 5 accessory selections applied with valid meshes, materials, bones and weights
+PASS: all 6 outfitColor selections applied with valid meshes, materials, bones and weights
+PASS: 30 random appearances
+PASS: Reset restores defaults
+PASS: Missing/invalid cosmetic IDs fall back
+PASS: Atomic JSON save
+PASS: Disk round trip
+PASS: Malformed JSON fallback
+PASS: Unknown future version is preserved on disk and safely defaults
+PASS: Creator localization/fallback: en
+PASS: Creator localization/fallback: tr
+PASS: Creator localization/fallback: fr
+PASS: Creator localization/fallback: it
+PASS: Creator localization/fallback: de
+PASS: Creator localization/fallback: es-ES
+PASS: Creator localization/fallback: zh-Hans
+PASS: Creator localization/fallback: pt-BR
+PASS: Creator localization/fallback: nl
+PASS: Creator localization/fallback: zh-Hant
+PASS: Creator localization/fallback: ja
+PASS: Creator localization/fallback: ko
+PASS: Creator localization/fallback: es-419
+PASS: Creator localization/fallback: pl
+PASS: Creator localization/fallback: pt-PT
+PASS: Creator localization/fallback: ru
+PASS: Creator localization/fallback: uk
+PASS: Confirm saves and starts Home Island transition
+PASS: Exactly one gameplay player
+PASS: Gameplay reconstructs identical saved appearance
+PASS: No competing placeholder animator
+PASS: Existing interactions and camera preserved
+PASS: Saved appearance remains available to a fresh session

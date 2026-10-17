@@ -1,0 +1,106 @@
+PASS 2026-10-17T07:35:25.2625601Z
+PASS: Fishing controller exists on Home Island
+PASS: Fresh player session restores saved collection
+PASS: Existing pickup grants rod
+PASS: Starter rod equipped on hand
+PASS: Duplicate equip rejected
+PASS: Reached Idle
+PASS: Rod tip follows avatar hierarchy
+PASS: Spawn distribution: home.beach
+PASS: Spawn distribution: home.deep
+PASS: Spawn distribution: home.rocky
+PASS: Spawn distribution: home.pier
+PASS: Eight species definitions
+PASS: Seeded specimen: blue_tang
+PASS: Starter rod balanced catch: blue_tang in 9,4s
+PASS: Overload escape: blue_tang
+PASS: Seeded specimen: clownfish
+PASS: Starter rod balanced catch: clownfish in 8,9s
+PASS: Overload escape: clownfish
+PASS: Seeded specimen: golden_trevally
+PASS: Starter rod balanced catch: golden_trevally in 12,3s
+PASS: Overload escape: golden_trevally
+PASS: Seeded specimen: mackerel
+PASS: Starter rod balanced catch: mackerel in 10,7s
+PASS: Overload escape: mackerel
+PASS: Seeded specimen: pufferfish
+PASS: Starter rod balanced catch: pufferfish in 12,6s
+PASS: Overload escape: pufferfish
+PASS: Seeded specimen: red_snapper
+PASS: Starter rod balanced catch: red_snapper in 10,6s
+PASS: Overload escape: red_snapper
+PASS: Seeded specimen: sardine
+PASS: Starter rod balanced catch: sardine in 10,4s
+PASS: Overload escape: sardine
+PASS: Seeded specimen: sea_bream
+PASS: Starter rod balanced catch: sea_bream in 10,7s
+PASS: Overload escape: sea_bream
+PASS: Begin charged cast
+PASS: Charge reaches optimal band
+PASS: Valid ocean cast accepted
+PASS: Overlapping casts rejected
+PASS: Reached WaitingForBite
+PASS: Bobber travels to water
+PASS: Fishing line has curved control points
+PASS: Bobber tracks shader water height
+PASS: Reached FishBiting
+PASS: Reaction input hooks fish
+PASS: Perfect hook window rewards timing
+PASS: Reached Fighting
+PASS: Skillful reeling produces genuine catch
+PASS: Tension rises and recovers
+PASS: Earned combo bounded at five
+PASS: Catch has generated dimensions
+PASS: KEEP persists catch
+PASS: Duplicate reward rejected
+PASS: Exactly one owned instance added
+PASS: Disk reload preserves owned fish
+PASS: Reached Idle
+PASS: Catch cleanup restores movement and removes cast objects
+PASS: Begin charged cast
+PASS: Charge reaches optimal band
+PASS: Valid ocean cast accepted
+PASS: Overlapping casts rejected
+PASS: Reached WaitingForBite
+PASS: Bobber travels to water
+PASS: Fishing line has curved control points
+PASS: Bobber tracks shader water height
+PASS: Reached FishBiting
+PASS: Reaction input hooks fish
+PASS: Perfect hook window rewards timing
+PASS: Reached Fighting
+PASS: Skillful reeling produces genuine catch
+PASS: Tension rises and recovers
+PASS: Earned combo bounded at five
+PASS: Catch has generated dimensions
+PASS: RELEASE resolves catch
+PASS: Release adds no inventory
+PASS: Reached Idle
+PASS: Repeated cast available
+PASS: Repeat cast succeeds
+PASS: Reached FishEscaped
+PASS: Missed hook produces escape
+PASS: Reached Idle
+PASS: Reached Idle
+PASS: Cancel restores input
+PASS: Land cast rejected
+PASS: Reached Idle
+PASS: Fishing localization fallback: en
+PASS: Fishing localization fallback: tr
+PASS: Fishing localization fallback: fr
+PASS: Fishing localization fallback: it
+PASS: Fishing localization fallback: de
+PASS: Fishing localization fallback: es-ES
+PASS: Fishing localization fallback: zh-Hans
+PASS: Fishing localization fallback: pt-BR
+PASS: Fishing localization fallback: nl
+PASS: Fishing localization fallback: zh-Hant
+PASS: Fishing localization fallback: ja
+PASS: Fishing localization fallback: ko
+PASS: Fishing localization fallback: es-419
+PASS: Fishing localization fallback: pl
+PASS: Fishing localization fallback: pt-PT
+PASS: Fishing localization fallback: ru
+PASS: Fishing localization fallback: uk
+PASS: Customized avatar preserved
+PASS: One local fishing controller

@@ -13,7 +13,7 @@ namespace OceanariumFishing
         private void Awake()=>Actor=GetComponent<InteractionActor>();
         private void Update()
         {
-            Nearby=null;if(!controller.InputEnabled)return;
+            Nearby=null;if(!controller.InputEnabled || controller.FishingLocked)return;
             int count=Physics.OverlapSphereNonAlloc(transform.position+Vector3.up*.7f,range,hits,~0,QueryTriggerInteraction.Collide);
             float closest=float.MaxValue;
             for(int i=0;i<count;i++)

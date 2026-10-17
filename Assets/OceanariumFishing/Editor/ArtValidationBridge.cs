@@ -16,7 +16,21 @@ namespace OceanariumFishing.Editor
             string command;try{command=File.ReadAllText(path).Trim();File.Delete(path);}catch(IOException){return;}
             try
             {
-                if(command=="home")EditorSceneManager.OpenScene(FoundationBuilder.Root+"/Scenes/OF_HomeIsland.unity");
+                if(command=="fishing-localize"){FishingBuilder.Localize();AssetDatabase.SaveAssets();}
+                else if(command=="fishing-demo")FishingInputDemo.Run();
+                else if(command=="fishing-checks")FishingChecks.Run();
+                else if(command=="fishing-build")FishingBuilder.Build();
+                else if(command=="capture03"){Directory.CreateDirectory("Docs/Screenshots");ScreenCapture.CaptureScreenshot("Docs/Screenshots/ASTRA_03_Fishing.png");}
+                else if(command=="creator-localize")CreatorBuilder.AddLocalization();
+                else if(command=="creator-checks")CreatorChecks.Run();
+                else if(command=="creator-build")CreatorBuilder.Build();
+                else if(command.StartsWith("cosmetic:")){var parts=command.Split(':');Object.FindFirstObjectByType<CharacterCreator>().Select(parts[1],parts[2]);}
+                else if(command.StartsWith("category:"))Object.FindFirstObjectByType<CharacterCreator>().SetCategory(command.Substring(9));
+                else if(command=="creator-confirm")Object.FindFirstObjectByType<CharacterCreator>().Confirm();
+                else if(command=="travel-creator")GameSession.Current.Travel(Destination.CharacterCreator);
+                else if(command=="capture02"){Directory.CreateDirectory("Docs/Screenshots");ScreenCapture.CaptureScreenshot("Docs/Screenshots/ASTRA_02_"+UnityEngine.SceneManagement.SceneManager.GetActiveScene().name+".png");}
+                else if(command=="creator")EditorSceneManager.OpenScene(FoundationBuilder.Root+"/Scenes/OF_CharacterCreator.unity");
+                else if(command=="home")EditorSceneManager.OpenScene(FoundationBuilder.Root+"/Scenes/OF_HomeIsland.unity");
                 else if(command=="play")EditorApplication.isPlaying=true;
                 else if(command=="stop")EditorApplication.isPlaying=false;
                 else if(command=="checks")AstraChecks.Run();

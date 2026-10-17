@@ -9,6 +9,7 @@ namespace OceanariumFishing
         public Camera view;
         public float walkSpeed=3.4f, runSpeed=5.8f, acceleration=13, sensitivity=.14f;
         public bool InputEnabled {get;set;}=true;
+        public bool FishingLocked {get;set;}
         public float Speed {get;private set;}
         public Vector3 SafeSpawn {get;private set;}
         private CharacterController motor;
@@ -21,7 +22,7 @@ namespace OceanariumFishing
             Vector2 input=Vector2.zero;
             if(InputEnabled && keys!=null)
             {
-                input=new Vector2((keys.dKey.isPressed?1:0)-(keys.aKey.isPressed?1:0),(keys.wKey.isPressed?1:0)-(keys.sKey.isPressed?1:0));
+                if(!FishingLocked)input=new Vector2((keys.dKey.isPressed?1:0)-(keys.aKey.isPressed?1:0),(keys.wKey.isPressed?1:0)-(keys.sKey.isPressed?1:0));
                 if(mouse!=null && mouse.rightButton.isPressed)
                 {var delta=mouse.delta.ReadValue();yaw+=delta.x*sensitivity;pitch=Mathf.Clamp(pitch-delta.y*sensitivity,8,65);}
             }
