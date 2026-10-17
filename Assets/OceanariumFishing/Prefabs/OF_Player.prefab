@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4549035569308194703}
   - component: {fileID: 8294682974118529863}
   - component: {fileID: 8113301737468496450}
+  - component: {fileID: 4236968199772312273}
   m_Layer: 0
   m_Name: OF_Player
   m_TagString: Player
@@ -153,6 +154,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingHUD
   fishing: {fileID: 4549035569308194703}
+--- !u!114 &4236968199772312273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761538246390555672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5700efef32a45ab4aa8a00801bbfc3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.CollectionHUD
+  fishing: {fileID: 4549035569308194703}
+  species:
+  - {fileID: 11400000, guid: 4ffe7a5d2ee942a46b8f85088ab776d4, type: 2}
+  - {fileID: 11400000, guid: 1ba76c76d93823340bd09698bf2c4802, type: 2}
+  - {fileID: 11400000, guid: 1c963964a61e5d345807fdedcf7898d1, type: 2}
+  - {fileID: 11400000, guid: 47008f55a2ffa2948abe70030b50896d, type: 2}
+  - {fileID: 11400000, guid: 4878a9a981dc04b49b65c904b34c2d6a, type: 2}
+  - {fileID: 11400000, guid: 0a835a68a8838224fb46523fced28eb1, type: 2}
+  - {fileID: 11400000, guid: a3bf0b10801ec77428abbbc261e0e16f, type: 2}
+  - {fileID: 11400000, guid: 6ab12e7a72a8a4c44b4fa6b29c4f494d, type: 2}
 --- !u!1 &5858341048888542295
 GameObject:
   m_ObjectHideFlags: 0

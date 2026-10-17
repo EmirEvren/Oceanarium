@@ -10,6 +10,7 @@ namespace OceanariumFishing
         public FishingState State {get;private set;}=FishingState.Idle;public FishingFight Fight {get;private set;}public FishInstance Catch {get;private set;}public FishSpecies Species {get;private set;}
         public float Charge {get;private set;}public float StateTime=>age;public bool Active=>State!=FishingState.Idle;public bool Equipped {get;private set;}public bool NewRecord {get;private set;}
         public string Feedback {get;private set;}="ready";public FishCollection Collection {get;private set;}
+        public bool NewDiscovery {get;private set;} public FishingDifficulty Difficulty=>tuning.Difficulty(Collection.difficulty); public bool TutorialVisible=>!Collection.tutorialComplete;
         public float Steering=>steer;public bool OptimalCast {get;private set;}
         public bool AimValid=>water && water.Valid(AimPoint());
         LocalPlayerController controller;InteractionActor actor;FishingWater water;float age,wait,steer,rippleTimer,cueTimer;int seed,lastCombo;Vector3 start,target;FishingZone zone;
@@ -42,12 +43,12 @@ namespace OceanariumFishing
             OptimalCast=Charge>=.72f && Charge<=.86f;
             seed=UnityEngine.Random.Range(1,int.MaxValue);var random=new System.Random(seed);
             if(!OptimalCast){var offset=controller.view.transform.right*((float)random.NextDouble()-.5f)*(1-rod.accuracy)*3;var candidate=target+offset;if(water.Valid(candidate))target=candidate;}
-            zone=FishingZone.At(target);Species=zone.Select(seed,12,"clear","none",SceneManager.GetActiveScene().name);if(!Species){Feedback="empty";Cancel();return false;}
-            Catch=FishInstance.Roll(Species,seed,zone.zoneId);target.y=water.Height(target,Time.time);start=presentation.Tip.position;presentation.BeginCast(start);transform.GetComponent<LocalPlayerController>().visual.rotation=Quaternion.LookRotation(Vector3.ProjectOnPlane(target-transform.position,Vector3.up));Feedback="cast";return Transition(FishingState.Casting);
+            zone=FishingZone.At(target);if(!zone){Feedback="empty";Cancel();return false;}Species=zone.Select(seed,12,"clear","none",SceneManager.GetActiveScene().name);if(!Species){Feedback="empty";Cancel();return false;}
+            Catch=FishInstance.Roll(Species,seed,zone.zoneId);Catch.ownerId=Collection.ownerId;Catch.islandId=SceneManager.GetActiveScene().name;Catch.captureMethod="rod:"+rod.id;target.y=water.Height(target,Time.time);start=presentation.Tip.position;presentation.BeginCast(start);transform.GetComponent<LocalPlayerController>().visual.rotation=Quaternion.LookRotation(Vector3.ProjectOnPlane(target-transform.position,Vector3.up));Feedback="cast";return Transition(FishingState.Casting);
         }
         public bool Hook()
         {
-            if(State!=FishingState.FishBiting)return false;bool perfect=age<=tuning.perfectWindow;Feedback=perfect?"perfect":age<=tuning.goodWindow?"good":"late";Fight=new FishingFight(Species,rod,tuning,Catch,perfect);steer=0;lastCombo=Fight.Combo;presentation.Cue(perfect?4:2);return Transition(FishingState.Hooked);
+            if(State!=FishingState.FishBiting)return false;bool perfect=age<=Difficulty.perfectWindow;Feedback=perfect?"perfect":age<=Difficulty.goodWindow?"good":"late";Fight=new FishingFight(Species,rod,tuning,Catch,perfect,Difficulty);steer=0;lastCombo=Fight.Combo;presentation.Cue(perfect?4:2);return Transition(FishingState.Hooked);
         }
         public void Cancel()
         {if(State==FishingState.CatchSuccess)return;if(Active){presentation.ClearCast();Transition(FishingState.ReturningToIdle);}}
@@ -55,9 +56,11 @@ namespace OceanariumFishing
         {
             if(State!=FishingState.CatchSuccess || Catch==null)return false;
             // Stage a complete copy so failed writes neither grant nor consume a reward.
-            var next=JsonUtility.FromJson<FishCollection>(JsonUtility.ToJson(Collection));if(!next.Resolve(Catch,keep))return false;if(!FishCollectionStore.Save(next)){Feedback="save_error";return false;}
+            var next=Collection.Copy();if(!next.Resolve(Catch,keep))return false;next.tutorialComplete=true;if(!FishCollectionStore.Save(next)){Feedback="save_error";return false;}
             Collection=next;Feedback=keep?"kept":"released";presentation.Cue(keep?4:1);presentation.Ripple(target,true);presentation.ClearCast();Transition(FishingState.ReturningToIdle);return true;
         }
+        public bool SetDifficulty(string id)
+        {if(Active)return false;var next=Collection.Copy();next.difficulty=tuning.Difficulty(id).id;if(!FishCollectionStore.Save(next))return false;Collection=next;return true;}
         void Update()
         {
             if(!rod || !tuning || !presentation || ExternalInput)return;if(actor.HasStarterRod && !Equipped)Equip();
@@ -80,14 +83,14 @@ namespace OceanariumFishing
                     float t=Mathf.Clamp01(age/tuning.flightDuration);if(presentation.Bobber)presentation.Bobber.position=Vector3.Lerp(start,target,t)+Vector3.up*(4*t*(1-t)*2.2f);
                     if(t>=1){wait=(Mathf.Lerp(tuning.minWait,tuning.maxWait,(seed%997)/997f)+(int)Species.rarity*.3f)*(OptimalCast?.85f:1);presentation.Ripple(target,true);presentation.Cue(1);Feedback="waiting";Transition(FishingState.WaitingForBite);}break;
                 case FishingState.WaitingForBite:FloatBobber(false);if(age>=wait){presentation.Cue(3);presentation.Ripple(target,true);Feedback="bite";Transition(FishingState.FishBiting);}break;
-                case FishingState.FishBiting:FloatBobber(true);if(age>tuning.hookWindow)Escape("missed");break;
+                case FishingState.FishBiting:FloatBobber(true);if(age>Difficulty.hookWindow)Escape("missed");break;
                 case FishingState.Hooked:if(age>.25f)Transition(FishingState.Fighting);break;
                 case FishingState.Fighting:case FishingState.Reeling:
                     if(reel && State==FishingState.Fighting)Transition(FishingState.Reeling);else if(!reel && State==FishingState.Reeling)Transition(FishingState.Fighting);
                     Fight.Step(dt,reel,direction);FloatBobber(true);
-                    if(Fight.Combo>lastCombo){lastCombo=Fight.Combo;Feedback="great";presentation.Cue(4);}
+                    if(Fight.RecoveryReward){Feedback="recovered";presentation.Cue(4);}if(Fight.Combo>lastCombo){lastCombo=Fight.Combo;Feedback="great";presentation.Cue(4);}
                     if(cueTimer>(Fight.Tension>.85f?.8f:1.3f) && reel){cueTimer=0;presentation.Cue(Fight.Tension>.85f?2:0);}
-                    if(Fight.Lost)Escape("escaped");else if(Fight.Won){NewRecord=Collection.IsRecord(Catch);Transition(FishingState.CatchSuccess);Feedback="caught";presentation.ShowFish(Species);presentation.Ripple(target,true);}break;
+                    if(Fight.Lost)Escape("escaped");else if(Fight.Won){NewRecord=Collection.IsRecord(Catch);NewDiscovery=!Collection.Discovered(Catch.speciesId);var updated=Collection.Copy();updated.RecordCatch(Catch);bool saved=FishCollectionStore.Save(updated);if(saved)Collection=updated;Transition(FishingState.CatchSuccess);Feedback=saved?"caught":"save_error";presentation.ShowFish(Species);presentation.Ripple(target,true);}break;
                 case FishingState.FishEscaped:if(age>1.5f){presentation.ClearCast();Transition(FishingState.ReturningToIdle);}break;
                 case FishingState.ReturningToIdle:if(age>.4f){Fight=null;Catch=null;Transition(FishingState.Idle);}break;
             }

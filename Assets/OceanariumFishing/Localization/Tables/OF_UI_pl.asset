@@ -36,28 +36,8 @@ MonoBehaviour:
     m_Localized: "Ustawienia i j\u0119zyk"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Podgl\u0105d wyspy domowej\nEksploracja solo \u2022
-      Post\u0119py nie s\u0105 zapisywane"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: DOMOWA RAFA
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Zbadaj chatk\u0119, we\u017A w\u0119dk\u0119 z pomostu i odkryj
-      miejsce na sw\xF3j przysz\u0142y ogr\xF3d akwariowy."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Pocz\u0105tkowa w\u0119dka zebrana. Odkrywaj swoj\u0105 wyspiarsk\u0105
-      oaz\u0119."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Ruch \xB7 SHIFT Sprint \xB7 Przytrzymaj prawy przycisk myszy
-      Kamera \xB7 E Interakcja \xB7 ESC Ustawienia"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -110,11 +90,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Wsp\xF3lna skrzynia z zapasami. Ekwipunek i trwa\u0142y magazyn
       pojawi\u0105 si\u0119 p\xF3\u017Aniej."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "Twoja pierwsza w\u0119dka! Zarzucanie i \u0142owienie pojawi\u0105
-      si\u0119 na etapie w\u0119dkowania."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

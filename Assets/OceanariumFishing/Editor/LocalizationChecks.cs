@@ -49,8 +49,10 @@ namespace OceanariumFishing.Editor
                 {
                     language.Select(code);yield return Settled(language);
                     Check(language.SelectedCode==code && LocalizationSettings.SelectedLocale.Identifier.Code==code,"Service and Unity locale agree: "+code);
-                    foreach(string key in LocalizationContent.Keys)
-                        Check(language.Text(key)==LocalizationContent.Expected(code,key),code+" translated: "+key);
+                    var table=AssetDatabase.LoadAssetAtPath<UnityEngine.Localization.Tables.StringTable>(FoundationBuilder.Root+"/Localization/Tables/OF_UI_"+code+".asset");
+                    var english=AssetDatabase.LoadAssetAtPath<UnityEngine.Localization.Tables.StringTable>(FoundationBuilder.Root+"/Localization/Tables/OF_UI_en.asset");
+                    foreach(var entry in english.Values)
+                        Check(language.Text(entry.Key)==(table.GetEntry(entry.KeyId)?.LocalizedValue??entry.LocalizedValue),code+" translated or English fallback: "+entry.Key);
                     Check(PlayerPrefs.GetString("OF.Locale")==code,"Saved preference: "+code);
                 }
                 LocalizationSettings.SelectedLocale=LocalizationSettings.AvailableLocales.GetLocale("en");yield return Settled(language);

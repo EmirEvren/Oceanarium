@@ -36,26 +36,8 @@ MonoBehaviour:
     m_Localized: "\u8BBE\u7F6E\u4E0E\u8BED\u8A00"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / \u5BB6\u56ED\u5C9B\u9884\u89C8\n\u5355\u4EBA\u63A2\u7D22
-      \u2022 \u4E0D\u4FDD\u5B58\u8FDB\u5EA6"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: "\u5BB6\u56ED\u73CA\u745A\u7901"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "\u63A2\u7D22\u5C0F\u5C4B\uFF0C\u5728\u7801\u5934\u9886\u53D6\u9C7C\u7AFF\uFF0C\u5BFB\u627E\u672A\u6765\u6C34\u65CF\u82B1\u56ED\u7684\u4F4D\u7F6E\u3002"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "\u5DF2\u9886\u53D6\u521D\u59CB\u9C7C\u7AFF\u3002\u63A2\u7D22\u4F60\u7684\u5C9B\u5C7F\u5BB6\u56ED\u5427\u3002"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD \u79FB\u52A8 \xB7 SHIFT \u5954\u8DD1 \xB7 \u6309\u4F4F\u9F20\u6807\u53F3\u952E
-      \u8F6C\u52A8\u955C\u5934 \xB7 E \u4E92\u52A8 \xB7 ESC \u8BBE\u7F6E"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -104,10 +86,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 11710922770
     m_Localized: "\u5171\u7528\u8865\u7ED9\u7BB1\u3002\u80CC\u5305\u548C\u6301\u4E45\u50A8\u7269\u529F\u80FD\u5C06\u5728\u540E\u7EED\u9636\u6BB5\u52A0\u5165\u3002"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "\u4F60\u7684\u7B2C\u4E00\u6839\u9C7C\u7AFF\uFF01\u629B\u7AFF\u548C\u9493\u9C7C\u529F\u80FD\u5C06\u5728\u9493\u9C7C\u5F00\u53D1\u9636\u6BB5\u52A0\u5165\u3002"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

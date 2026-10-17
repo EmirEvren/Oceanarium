@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: "Configura\xE7\xF5es e idioma"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Pr\xE9via da ilha principal\nExplora\xE7\xE3o solo
-      \u2022 O progresso n\xE3o \xE9 salvo"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: RECIFE DO LAR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Explore a cabana, pegue uma vara no p\xEDer e descubra seu futuro
-      jardim aqu\xE1tico."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Vara inicial coletada. Explore seu ref\xFAgio na ilha."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Mover \xB7 SHIFT Correr \xB7 Segurar bot\xE3o direito C\xE2mera
-      \xB7 E Interagir \xB7 ESC Configura\xE7\xF5es"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -108,10 +89,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Um ba\xFA de suprimentos compartilhado. O invent\xE1rio e o armazenamento
       permanente chegar\xE3o depois."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "Sua primeira vara! Arremessos e pesca chegar\xE3o na etapa de pesca."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

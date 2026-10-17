@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
   m_Name: red_snapper
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  icon: {fileID: 2800000, guid: 1036c1a6dab997e4db4629751c6f1284, type: 2}
+  silhouette: {fileID: 2800000, guid: 7f4dcbb3e04432848a034a1defb2d3db, type: 2}
   id: red_snapper
   nameKey: fishing.fish.red_snapper
   rarity: 1

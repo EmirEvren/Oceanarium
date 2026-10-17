@@ -7,22 +7,24 @@ namespace OceanariumFishing
         private GameSession session; private LocalPlayerController player; private PlayerInteractor interactor;
         private Destination destination; private bool settings; private string notice; private float noticeUntil;
         private GUIStyle heading,body,small,button; private Vector2 languageScroll;
+        public bool SettingsOpen=>settings;
+        private CollectionHUD collection;
         public void Bind(GameSession service,LocalPlayerController localPlayer,Destination scene)
         {
-            session=service;player=localPlayer;destination=scene;
+            session=service;player=localPlayer;destination=scene;collection=player?player.GetComponent<CollectionHUD>():null;
             if(player!=null){interactor=player.GetComponent<PlayerInteractor>();interactor.Actor.Feedback+=Feedback;}
         }
         private void Feedback(string key){notice=key;noticeUntil=Time.unscaledTime+5;}
         private void OnDestroy(){if(interactor!=null && interactor.Actor!=null)interactor.Actor.Feedback-=Feedback;}
         private void Update()
         {
-            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true)settings=!settings;
-            if(player!=null)player.InputEnabled=!settings && session!=null && !session.Loading;
+            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true && collection?.IsOpen!=true)settings=!settings;
+            if(player!=null)player.InputEnabled=!settings && collection?.IsOpen!=true && session!=null && !session.Loading;
         }
         private string T(string key)=>session.Languages.Text(key);
         private void OnGUI()
         {
-            if(session==null || !session.Languages.Ready)return;
+            if(session==null || !session.Languages.Ready || collection?.IsOpen==true)return;
             if(heading==null)
             {
                 heading=new GUIStyle(GUI.skin.label){fontSize=44,fontStyle=FontStyle.Bold,wordWrap=true};
@@ -57,11 +59,18 @@ namespace OceanariumFishing
             {
                 Panel(new Rect(w-470,30,440,h-115));GUILayout.BeginArea(new Rect(w-445,50,390,h-155));
                 GUILayout.Label(T("settings"),body);GUILayout.Label(T("language.note"),small);
-                languageScroll=GUILayout.BeginScrollView(languageScroll,GUILayout.Height(370));
+                languageScroll=GUILayout.BeginScrollView(languageScroll,GUILayout.Height(player?230:370));
                 foreach(var code in LanguageService.Codes)
                 {if(GUILayout.Button((code==session.Languages.SelectedCode?"• ":"")+T("locale."+code),button))session.Languages.Select(code);}
                 GUI.enabled=true;GUILayout.EndScrollView();
                 if(player!=null){GUILayout.Label(T("sensitivity"),small);player.sensitivity=GUILayout.HorizontalSlider(player.sensitivity,.04f,.3f);}
+                if(collection!=null)
+                {
+                    var fishing=player.GetComponent<FishingController>();GUILayout.Label(T("collection.difficulty"),small);
+                    foreach(var id in new[]{"cozy","normal","experienced"})
+                    {GUI.enabled=!fishing.Active;if(GUILayout.Button((fishing.Collection.difficulty==id?"• ":"")+T("difficulty."+id),button))fishing.SetDifficulty(id);}
+                    if(GUILayout.Button(T("collection.journal"),button)){settings=false;collection.Open(true);}GUI.enabled=true;
+                }
                 if(GUILayout.Button(T("close"),button))settings=false;
                 if(destination!=Destination.MainMenu && GUILayout.Button(T("back"),button))session.Travel(Destination.MainMenu);
                 GUILayout.EndArea();

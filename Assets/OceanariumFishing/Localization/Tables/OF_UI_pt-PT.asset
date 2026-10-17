@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: "Defini\xE7\xF5es e idioma"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Antevis\xE3o da ilha principal\nExplora\xE7\xE3o a
-      solo \u2022 O progresso n\xE3o \xE9 guardado"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: RECIFE DO LAR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Explora a cabana, apanha uma cana no pont\xE3o e descobre o teu
-      futuro jardim aqu\xE1tico."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Cana inicial recolhida. Explora o teu ref\xFAgio na ilha."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Mover \xB7 SHIFT Correr \xB7 Manter bot\xE3o direito C\xE2mara
-      \xB7 E Interagir \xB7 ESC Defini\xE7\xF5es"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -108,11 +89,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Um ba\xFA de provis\xF5es partilhado. O invent\xE1rio e o armazenamento
       permanente chegar\xE3o depois."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "A tua primeira cana! O lan\xE7amento e a pesca chegar\xE3o na fase
-      de pesca."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

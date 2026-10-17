@@ -37,8 +37,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Home Island preview\nSolo exploration \u2022 No progress
-      saving"
+    m_Localized: 'ASTRA 0.4 / Cozy fishing & collection
+
+      Catches, journal and
+      preferences are saved'
     m_Metadata:
       m_Items: []
   - m_Id: 11710922755
@@ -46,17 +48,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922756
-    m_Localized: Explore the cabin, collect a rod at the pier, and discover your
-      future aquarium garden.
+    m_Localized: Explore your island. Collect a rod at the pier, then cast into the
+      sea.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922757
-    m_Localized: Starter rod collected. Explore your island sanctuary.
+    m_Localized: "Your rod is ready. I: Inventory \xB7 J: Journal"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922758
-    m_Localized: "WASD Move \xB7 SHIFT Sprint \xB7 Hold RMB Camera \xB7 E Interact
-      \xB7 ESC Settings"
+    m_Localized: "WASD Move \xB7 SHIFT Sprint \xB7 RMB Camera \xB7 E Interact \xB7
+      I Inventory \xB7 J Journal \xB7 ESC Settings"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -1019,6 +1021,324 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 289997899333637
     m_Localized: Durability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058652127232
+    m_Localized: Fish Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653184
+    m_Localized: Oceanarium Journal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653185
+    m_Localized: Fishing records
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653186
+    m_Localized: Fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653187
+    m_Localized: specimens owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653188
+    m_Localized: Sort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653189
+    m_Localized: Date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653190
+    m_Localized: Weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653191
+    m_Localized: Rarity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653192
+    m_Localized: Species
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653193
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653194
+    m_Localized: Rarity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653195
+    m_Localized: Island filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653196
+    m_Localized: Specimen quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653197
+    m_Localized: Catch location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653198
+    m_Localized: Catch date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653199
+    m_Localized: Estimated value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653200
+    m_Localized: Personal best!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653201
+    m_Localized: Your collection is waiting for its first fish. Keep a catch to see
+      its individual details here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653202
+    m_Localized: FISH DISCOVERED  {0} / {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653203
+    m_Localized: Discovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653204
+    m_Localized: Undiscovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653205
+    m_Localized: Unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653206
+    m_Localized: An ocean secret. Catch this species to reveal its story. Released
+      fish count too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653207
+    m_Localized: Habitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653208
+    m_Localized: Discovered at
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653209
+    m_Localized: Preferred weather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653210
+    m_Localized: Active hours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653211
+    m_Localized: Caught
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653212
+    m_Localized: Heaviest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653213
+    m_Localized: Longest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653214
+    m_Localized: First discovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653215
+    m_Localized: Total fish caught
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653216
+    m_Localized: Most caught species
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653217
+    m_Localized: Rarest species
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653218
+    m_Localized: Some older catches have incomplete dates or counts. Existing records
+      are preserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653219
+    m_Localized: The collection save could not be read. It has been preserved and
+      will not be overwritten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653220
+    m_Localized: "I Inventory \xB7 J Journal \xB7 ESC Close"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653221
+    m_Localized: Previous page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653222
+    m_Localized: Next page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653223
+    m_Localized: Fishing difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653224
+    m_Localized: Cozy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653225
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653226
+    m_Localized: Experienced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653227
+    m_Localized: 'Hold LMB to reel. Release if tension is high.
+
+      Mouse direction
+      is optional.
+
+      Q: cancel'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653228
+    m_Localized: "! HIGH TENSION \u2014 Release to recover"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041792
+    m_Localized: Steady reeling. You have time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041793
+    m_Localized: GREAT RECOVERY!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041794
+    m_Localized: 'YOUR FIRST CAST
+
+      1. Hold LMB, then release to cast.
+
+      2.
+      Click when the fish bites.
+
+      3. Hold LMB to reel.
+
+      4. Release when
+      tension is high.
+
+      5. Keep or release your catch.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041795
+    m_Localized: NEW SPECIES DISCOVERED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041796
+    m_Localized: Recorded in your Oceanarium Journal. Keeping or releasing preserves
+      your discovery.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041797
+    m_Localized: Home Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041798
+    m_Localized: Town Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041799
+    m_Localized: Exploration Island 01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041800
+    m_Localized: Exploration Island 02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041801
+    m_Localized: Exploration Island 03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041802
+    m_Localized: Shallow beach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041803
+    m_Localized: Shallow beach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041804
+    m_Localized: Rocky reef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041805
+    m_Localized: Rocky reef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041806
+    m_Localized: Pier waters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041807
+    m_Localized: Pier waters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041808
+    m_Localized: Deep water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041809
+    m_Localized: Deep water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041810
+    m_Localized: Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041811
+    m_Localized: Cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041812
+    m_Localized: A bright little reef companion with creamy white bands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041813
+    m_Localized: A vivid blue reef swimmer with a golden tail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041814
+    m_Localized: A slender silver fish that glimmers in coastal waters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041815
+    m_Localized: A swift swimmer with dark rippling stripes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041816
+    m_Localized: A warm red fish with a sturdy silhouette.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041817
+    m_Localized: A silvery coastal fish with a golden accent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041818
+    m_Localized: A round, spotted reef visitor with tiny fins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041819
+    m_Localized: A golden ocean traveller with bold dark bars.
     m_Metadata:
       m_Items: []
   references:

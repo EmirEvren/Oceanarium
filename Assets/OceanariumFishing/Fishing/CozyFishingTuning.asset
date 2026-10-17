@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869548de3c38e044d85c32c6c8836483, type: 3}
   m_Name: CozyFishingTuning
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishingTuning
+  difficulties: {fileID: 11400000, guid: 5e973793c4368d247914ff3e927f1867, type: 2}
   chargeDuration: 1.6
   minCast: 3
   flightDuration: 0.9

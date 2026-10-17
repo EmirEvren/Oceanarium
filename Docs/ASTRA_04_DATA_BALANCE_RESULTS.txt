@@ -1,0 +1,129 @@
+PASS 2026-10-17T09:31:12.8965640Z
+PASS: Exactly eight existing species, stable unique IDs
+PASS: Three configured difficulty profiles
+PASS: Cozy is the default for new players
+PASS: 3.0 / 2.0 / 1.25 second hook windows
+MEASURED cozy blue_tang Uncommon: 100/100 caught; successful duration mean 9,06s, min 7,85s, max 11,15s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: blue_tang
+PASS: Generated icon and silhouette: blue_tang
+PASS: Locked illustration reveals no color: blue_tang
+MEASURED cozy clownfish Common: 100/100 caught; successful duration mean 6,20s, min 5,35s, max 7,65s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: clownfish
+PASS: Generated icon and silhouette: clownfish
+PASS: Locked illustration reveals no color: clownfish
+MEASURED cozy golden_trevally Rare: 100/100 caught; successful duration mean 13,97s, min 11,30s, max 17,75s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: golden_trevally
+PASS: Generated icon and silhouette: golden_trevally
+PASS: Locked illustration reveals no color: golden_trevally
+MEASURED cozy mackerel Common: 100/100 caught; successful duration mean 6,36s, min 5,50s, max 7,80s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: mackerel
+PASS: Generated icon and silhouette: mackerel
+PASS: Locked illustration reveals no color: mackerel
+MEASURED cozy pufferfish Uncommon: 100/100 caught; successful duration mean 9,45s, min 8,10s, max 12,20s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: pufferfish
+PASS: Generated icon and silhouette: pufferfish
+PASS: Locked illustration reveals no color: pufferfish
+MEASURED cozy red_snapper Uncommon: 100/100 caught; successful duration mean 9,23s, min 8,00s, max 11,35s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: red_snapper
+PASS: Generated icon and silhouette: red_snapper
+PASS: Locked illustration reveals no color: red_snapper
+MEASURED cozy sardine Common: 100/100 caught; successful duration mean 6,31s, min 5,45s, max 7,75s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: sardine
+PASS: Generated icon and silhouette: sardine
+PASS: Locked illustration reveals no color: sardine
+MEASURED cozy sea_bream Common: 100/100 caught; successful duration mean 6,48s, min 5,65s, max 7,90s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Cozy controlled success target: sea_bream
+PASS: Generated icon and silhouette: sea_bream
+PASS: Locked illustration reveals no color: sea_bream
+MEASURED normal blue_tang Uncommon: 100/100 caught; successful duration mean 9,63s, min 8,30s, max 12,30s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: blue_tang
+PASS: Generated icon and silhouette: blue_tang
+PASS: Locked illustration reveals no color: blue_tang
+MEASURED normal clownfish Common: 100/100 caught; successful duration mean 8,86s, min 7,00s, max 12,00s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: clownfish
+PASS: Generated icon and silhouette: clownfish
+PASS: Locked illustration reveals no color: clownfish
+MEASURED normal golden_trevally Rare: 100/100 caught; successful duration mean 13,34s, min 10,95s, max 17,50s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: golden_trevally
+PASS: Generated icon and silhouette: golden_trevally
+PASS: Locked illustration reveals no color: golden_trevally
+MEASURED normal mackerel Common: 100/100 caught; successful duration mean 10,40s, min 8,40s, max 13,55s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: mackerel
+PASS: Generated icon and silhouette: mackerel
+PASS: Locked illustration reveals no color: mackerel
+MEASURED normal pufferfish Uncommon: 100/100 caught; successful duration mean 12,07s, min 9,85s, max 16,20s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: pufferfish
+PASS: Generated icon and silhouette: pufferfish
+PASS: Locked illustration reveals no color: pufferfish
+MEASURED normal red_snapper Uncommon: 100/100 caught; successful duration mean 10,77s, min 8,40s, max 13,50s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: red_snapper
+PASS: Generated icon and silhouette: red_snapper
+PASS: Locked illustration reveals no color: red_snapper
+MEASURED normal sardine Common: 100/100 caught; successful duration mean 10,27s, min 8,25s, max 13,30s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: sardine
+PASS: Generated icon and silhouette: sardine
+PASS: Locked illustration reveals no color: sardine
+MEASURED normal sea_bream Common: 100/100 caught; successful duration mean 11,28s, min 9,65s, max 14,80s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with normal: sea_bream
+PASS: Generated icon and silhouette: sea_bream
+PASS: Locked illustration reveals no color: sea_bream
+MEASURED experienced blue_tang Uncommon: 100/100 caught; successful duration mean 12,49s, min 9,55s, max 16,70s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: blue_tang
+PASS: Generated icon and silhouette: blue_tang
+PASS: Locked illustration reveals no color: blue_tang
+MEASURED experienced clownfish Common: 100/100 caught; successful duration mean 10,94s, min 9,05s, max 14,80s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: clownfish
+PASS: Generated icon and silhouette: clownfish
+PASS: Locked illustration reveals no color: clownfish
+MEASURED experienced golden_trevally Rare: 100/100 caught; successful duration mean 18,97s, min 15,25s, max 25,65s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: golden_trevally
+PASS: Generated icon and silhouette: golden_trevally
+PASS: Locked illustration reveals no color: golden_trevally
+MEASURED experienced mackerel Common: 100/100 caught; successful duration mean 13,78s, min 10,95s, max 18,35s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: mackerel
+PASS: Generated icon and silhouette: mackerel
+PASS: Locked illustration reveals no color: mackerel
+MEASURED experienced pufferfish Uncommon: 100/100 caught; successful duration mean 17,16s, min 14,10s, max 23,25s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: pufferfish
+PASS: Generated icon and silhouette: pufferfish
+PASS: Locked illustration reveals no color: pufferfish
+MEASURED experienced red_snapper Uncommon: 100/100 caught; successful duration mean 14,16s, min 10,85s, max 19,30s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: red_snapper
+PASS: Generated icon and silhouette: red_snapper
+PASS: Locked illustration reveals no color: red_snapper
+MEASURED experienced sardine Common: 100/100 caught; successful duration mean 13,37s, min 10,60s, max 17,80s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: sardine
+PASS: Generated icon and silhouette: sardine
+PASS: Locked illustration reveals no color: sardine
+MEASURED experienced sea_bream Common: 100/100 caught; successful duration mean 15,08s, min 12,25s, max 20,90s. Regular hook; starter rod; Cozy uses zero directional input.
+PASS: Competent player can catch with experienced: sea_bream
+PASS: Generated icon and silhouette: sea_bream
+PASS: Locked illustration reveals no color: sea_bream
+PASS: Difficulty changes real tension and catch progress
+PASS: Release lowers tension
+PASS: A one-second tension spike cannot snap Cozy line
+PASS: Release during grace rescues the line
+PASS: Version 1 migrates without replacing specimen IDs or measurements
+PASS: Migration preserves released-species records and personal bests
+PASS: Incomplete legacy catch history is explicit, not invented
+PASS: Catch event counted exactly once before retention decision
+PASS: Release neither owns nor duplicates fish
+PASS: Released catch discovers its species and updates records
+PASS: Keep creates one individually owned fish
+PASS: Migrated collection saved atomically
+PASS: Inventory, dimensions, discovery and totals survive disk round trip
+PASS: Duplicate saved specimen IDs are removed
+PASS: Weight sorting uses individual data
+PASS: Rarity sorting
+PASS: Species sorting
+PASS: Island and rarity filters use actual specimen metadata
+PASS: Ownership validation rejects another player
+PASS: Stored eligible fish may be assigned to a tank
+PASS: Displayed fish cannot simultaneously be sold
+PASS: Removal clears placement before sale state
+PASS: Sale-state removal keeps discovery records
+PASS: Specimen valuation is deterministic
+PASS: Difficulty and tutorial completion persist
+PASS: Future-schema save cannot be silently overwritten
+PASS: Corrupt source is retained and writes blocked
+PASS: Empty optional fields repair safely without replacing identity

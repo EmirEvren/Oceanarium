@@ -1,12 +1,12 @@
 # Oceanarium Fishing
 
-## Active milestone: ASTRA 0.1
+## Active milestone: ASTRA 0.4
 
-The Home Island visual pass is documented in [ASTRA 0.1 delivery](Docs/ASTRA_01_DELIVERY.md), with [regression results](Docs/ASTRA_01_TEST_RESULTS.txt) and [performance evidence](Docs/ASTRA_01_PERFORMANCE.txt).
+Cozy fishing, specimen inventory, discovery journal and save migration are documented in [ASTRA 0.4 delivery](Docs/ASTRA_04_DELIVERY.md). See [balance/data tests](Docs/ASTRA_04_DATA_BALANCE_RESULTS.txt), [live-input demonstration](Docs/ASTRA_04_LIVE_INPUT_RESULTS.txt), and [regression results](Docs/ASTRA_04_REGRESSION_RESULTS.txt). The earlier [Home Island visual pass](Docs/ASTRA_01_DELIVERY.md) remains intact.
 
 The active production foundation is **Assets/OceanariumFishing**, built in the existing Unity 6000.3.13f1 project. Open `Assets/OceanariumFishing/Scenes/OF_HomeIsland.unity` and press Play. For the complete boot flow, open `OF_Boot.unity` instead.
 
-Controls: WASD move, Shift sprint, hold right mouse to orbit, E interact, Esc settings. Settings offers persistent language selection and camera sensitivity. English is the default source; untranslated locales intentionally fall back to English.
+Controls: WASD move, Shift sprint, hold right mouse to orbit, E interact, I inventory, J journal, Esc settings/close. Pick up a rod, hold/release LMB to cast, click on a bite, then hold LMB to reel and release to ease tension. Cozy is the default difficulty; direction is optional. Settings offers saved language/difficulty selection and camera sensitivity. English is the default source; incomplete translations fall back to English.
 
 Read [architecture and integration boundaries](Docs/ASTRA_00_ARCHITECTURE.md), [delivery inventory](Docs/ASTRA_00_DELIVERY.md), and [actual test results](Docs/ASTRA_00_TEST_RESULTS.txt).
 

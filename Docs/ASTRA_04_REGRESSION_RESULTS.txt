@@ -1,0 +1,1828 @@
+PASS 2026-10-17T11:24:54.9513719Z
+PASS: Fresh Play Mode session restores all saved inventory, history, records and preferences
+PASS: No duplicated catch events after restart
+PASS: One local player and camera
+PASS: Saved customized appearance is preserved
+PASS: W moves the character
+PASS: A moves the character
+PASS: S moves the character
+PASS: D moves the character
+PASS: Sprint remains responsive
+PASS: RMB camera orbit responds
+PASS: Inventory shortcut opens modal and blocks movement
+PASS: Escape closes inventory without also opening pause menu
+MEASURED journal: 120 editor frames, mean 5,45 ms; managed heap delta 1585152 bytes (includes editor/runtime activity; not per-frame allocation or standalone profiling).
+PASS: Scene transition: MainMenu
+PASS: Main menu HUD available
+PASS: Scene transition: CharacterCreator
+PASS: Character Creator restores existing draft and skeleton
+PASS: Scene transition: HomeIsland
+PASS: Fishing references survive scene transitions
+PASS: Character save bytes unchanged by collection workflows
+PASS: Scene transitions do not rewrite or lose collection progress
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Front siding
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Foundation
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Lid board
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Meadow grass
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Window cross
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Entry step
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rope rail
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Porch board
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Corner post
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Sanctuary ribbon
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_PetalWhite
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Body
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Brass binding
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fishing line
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Corner post
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Porch board
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rope rail
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Survey stake
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Reel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Porch board
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Back siding
+PASS: Supported material: Pollen
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
+PASS: Supported material: Roof tile
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Reel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Sand
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Reel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Terracotta
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Door
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Survey stake
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pier support
+PASS: Supported material: Petal
+PASS: Supported material: Window cross
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Roof tile
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Sanctuary ribbon
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Stem
+PASS: Supported material: Front siding
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Corner post
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Reel
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Shirt
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Rock
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafSun
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fish emblem
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Glass
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Lid board
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Roof tile
+PASS: Supported material: Pollen
+PASS: Supported material: Roof ridge
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Brass binding
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Garden sign
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_RoofLight
+PASS: Supported material: Pollen
+PASS: Supported material: Porch board
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Side siding
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Sanctuary ribbon
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Entry step
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fishing line
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Door handle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Survey stake
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cork grip
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Petal
+PASS: Supported material: Rock
+PASS: Supported material: Organic island
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Weathered board
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Glass
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Rock
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pier support
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Lid board
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Lid board
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Signpost
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Lagoon
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Side siding
+PASS: Supported material: Sanctuary ribbon
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pier support
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Latch
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Cork grip
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Lid board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Back siding
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Window
+PASS: Supported material: Stem
+PASS: Supported material: Window
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Terracotta
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Window cross
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pier support
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Survey stake
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Back siding
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Back siding
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Back siding
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fishing line
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Cork grip
+PASS: Supported material: Pollen
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Window cross
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_RoofLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Corner post
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Fishing line
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Cork grip
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: #854B49
+PASS: Supported material: #FFF4DF
+PASS: Supported material: warm_beige
+PASS: Supported material: #242630
+PASS: Supported material: navy
+PASS: Supported material: #CC887B
+PASS: Supported material: green
+PASS: Supported material: brown
+PASS: Supported material: #FFFFFF
+PASS: Supported material: cream
+PASS: Supported material: seafoam

@@ -37,8 +37,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Ana ada \xF6n izlemesi\nTek ki\u015Filik ke\u015Fif
-      \u2022 \u0130lerleme kaydedilmez"
+    m_Localized: "ASTRA 0.4 / Rahat bal\u0131k\xE7\u0131l\u0131k ve koleksiyon\nBal\u0131klar,
+      g\xFCnl\xFCk ve tercihler kaydedilir"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922755
@@ -46,18 +46,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922756
-    m_Localized: "Kul\xFCbeyi ke\u015Ffet, iskeleden bir olta al ve gelecekteki akvaryum
-      bah\xE7eni bul."
+    m_Localized: "Adan\u0131 ke\u015Ffet. \u0130skelede bir olta al, sonra denize
+      at."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922757
-    m_Localized: "Ba\u015Flang\u0131\xE7 oltas\u0131 al\u0131nd\u0131. Adandaki huzurlu
-      yuvan\u0131 ke\u015Ffet."
+    m_Localized: "Oltan haz\u0131r. I: Envanter \xB7 J: G\xFCnl\xFCk"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922758
-    m_Localized: "WASD Hareket \xB7 SHIFT Ko\u015F \xB7 Sa\u011F fareyi bas\u0131l\u0131
-      tut Kamera \xB7 E Etkile\u015Fim \xB7 ESC Ayarlar"
+    m_Localized: "WASD Hareket \xB7 SHIFT Ko\u015F \xB7 Sa\u011F fare Kamera \xB7
+      E Etkile\u015Fim \xB7 I Envanter \xB7 J G\xFCnl\xFCk \xB7 ESC Ayarlar"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -1022,6 +1021,316 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 289997899333637
     m_Localized: "Dayan\u0131kl\u0131l\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058652127232
+    m_Localized: "Bal\u0131k Envanteri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653184
+    m_Localized: "Oceanarium G\xFCnl\xFC\u011F\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653185
+    m_Localized: "Bal\u0131k\xE7\u0131l\u0131k rekorlar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653186
+    m_Localized: "Bal\u0131klar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653187
+    m_Localized: "bal\u0131k saklan\u0131yor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653188
+    m_Localized: "S\u0131rala"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653189
+    m_Localized: Tarih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653190
+    m_Localized: "A\u011F\u0131rl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653191
+    m_Localized: Nadirlik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653192
+    m_Localized: "T\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653193
+    m_Localized: "T\xFCm\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653194
+    m_Localized: Nadirlik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653195
+    m_Localized: Ada filtresi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653196
+    m_Localized: "Bal\u0131\u011F\u0131n kalitesi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653197
+    m_Localized: "Yakaland\u0131\u011F\u0131 yer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653198
+    m_Localized: Yakalanma tarihi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653199
+    m_Localized: "Tahmini de\u011Fer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653200
+    m_Localized: "Ki\u015Fisel rekor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653201
+    m_Localized: "Koleksiyonun ilk bal\u0131\u011F\u0131n\u0131 bekliyor. Yakalad\u0131\u011F\u0131n
+      bir bal\u0131\u011F\u0131 saklayarak ayr\u0131nt\u0131lar\u0131n\u0131 burada
+      g\xF6rebilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653202
+    m_Localized: "KE\u015EFED\u0130LEN BALIKLAR  {0} / {1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653203
+    m_Localized: "Ke\u015Ffedildi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653204
+    m_Localized: "Ke\u015Ffedilmedi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653205
+    m_Localized: Bilinmiyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653206
+    m_Localized: "Okyanusun bir s\u0131rr\u0131. Bu t\xFCr\xFC yakalayarak hik\xE2yesini
+      \xF6\u011Fren. Serbest b\u0131rakt\u0131\u011F\u0131n bal\u0131klar da say\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653207
+    m_Localized: "Ya\u015Fam alan\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653208
+    m_Localized: "Ke\u015Ffedildi\u011Fi yer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653209
+    m_Localized: "Tercih etti\u011Fi hava"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653210
+    m_Localized: Etkin saatler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653211
+    m_Localized: Yakalanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653212
+    m_Localized: "En a\u011F\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653213
+    m_Localized: En uzun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653214
+    m_Localized: "\u0130lk ke\u015Fif"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653215
+    m_Localized: "Toplam yakalanan bal\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653216
+    m_Localized: "En \xE7ok yakalanan t\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653217
+    m_Localized: "En nadir t\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653218
+    m_Localized: "Baz\u0131 eski yakalamalar\u0131n tarih veya adet bilgisi eksik.
+      Mevcut rekorlar korundu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653219
+    m_Localized: "Koleksiyon kayd\u0131 okunamad\u0131. Dosya korundu ve \xFCzerine
+      yaz\u0131lmayacak."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653220
+    m_Localized: "I Envanter \xB7 J G\xFCnl\xFCk \xB7 ESC Kapat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653221
+    m_Localized: "\xD6nceki sayfa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653222
+    m_Localized: Sonraki sayfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653223
+    m_Localized: "Bal\u0131k\xE7\u0131l\u0131k zorlu\u011Fu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653224
+    m_Localized: Rahat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653225
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653226
+    m_Localized: Deneyimli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653227
+    m_Localized: "Sarmak i\xE7in sol fareyi bas\u0131l\u0131 tut. Gerilim y\xFCksekse
+      b\u0131rak.\nFare y\xF6n\xFC iste\u011Fe ba\u011Fl\u0131d\u0131r.\nQ: iptal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653228
+    m_Localized: "! Y\xDCKSEK GER\u0130L\u0130M \u2014 Toparlanmak i\xE7in b\u0131rak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041792
+    m_Localized: Sakince sar. Vaktin var.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041793
+    m_Localized: "HAR\u0130KA TOPARLADIN!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041794
+    m_Localized: "\u0130LK ATI\u015EIN\n1. Sol fareyi bas\u0131l\u0131 tut, atmak
+      i\xE7in b\u0131rak.\n2. Bal\u0131k vurunca t\u0131kla.\n3. Sarmak i\xE7in sol
+      fareyi bas\u0131l\u0131 tut.\n4. Gerilim y\xFCkselince b\u0131rak.\n5. Bal\u0131\u011F\u0131n\u0131
+      sakla veya serbest b\u0131rak."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041795
+    m_Localized: "YEN\u0130 T\xDCR KE\u015EFED\u0130LD\u0130!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041796
+    m_Localized: "Oceanarium G\xFCnl\xFC\u011F\xFCne i\u015Flendi. Saklasan da serbest
+      b\u0131raksan da ke\u015Ffin korunur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041797
+    m_Localized: Ana Ada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041798
+    m_Localized: "Kasaba Adas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041799
+    m_Localized: "Ke\u015Fif Adas\u0131 01"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041800
+    m_Localized: "Ke\u015Fif Adas\u0131 02"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041801
+    m_Localized: "Ke\u015Fif Adas\u0131 03"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041802
+    m_Localized: "S\u0131\u011F k\u0131y\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041803
+    m_Localized: "S\u0131\u011F k\u0131y\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041804
+    m_Localized: "Kayal\u0131k resif"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041805
+    m_Localized: "Kayal\u0131k resif"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041806
+    m_Localized: "\u0130skele sular\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041807
+    m_Localized: "\u0130skele sular\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041808
+    m_Localized: Derin su
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041809
+    m_Localized: Derin su
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041810
+    m_Localized: "A\xE7\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041811
+    m_Localized: Bulutlu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041812
+    m_Localized: "Krem rengi bantlar\u0131yla resifin parlak k\xFC\xE7\xFCk sakini."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041813
+    m_Localized: "Alt\u0131n renkli kuyru\u011Fuyla canl\u0131 mavi bir resif y\xFCz\xFCc\xFCs\xFC."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041814
+    m_Localized: "K\u0131y\u0131 sular\u0131nda parlayan ince, g\xFCm\xFC\u015F renkli
+      bir bal\u0131k."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041815
+    m_Localized: "Koyu dalgal\u0131 \xE7izgileri olan h\u0131zl\u0131 bir y\xFCz\xFCc\xFC."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041816
+    m_Localized: "G\xFC\xE7l\xFC siluetli, s\u0131cak k\u0131rm\u0131z\u0131 renkli
+      bir bal\u0131k."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041817
+    m_Localized: "Alt\u0131n renkli ayr\u0131nt\u0131s\u0131 olan g\xFCm\xFC\u015F
+      bir k\u0131y\u0131 bal\u0131\u011F\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041818
+    m_Localized: "Minik y\xFCzge\xE7leriyle yuvarlak ve benekli bir resif ziyaret\xE7isi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041819
+    m_Localized: "Belirgin koyu bantlar\u0131 olan alt\u0131n renkli bir okyanus
+      gezgini."
     m_Metadata:
       m_Items: []
   references:

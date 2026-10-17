@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: "Param\xE8tres et langue"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Aper\xE7u de l\u2019\xEEle principale\nExploration
-      solo \u2022 Progression non sauvegard\xE9e"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: "LE R\xC9CIF DU FOYER"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Explorez la cabane, prenez une canne sur le ponton et d\xE9couvrez
-      votre futur jardin aquatique."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Canne de d\xE9part r\xE9cup\xE9r\xE9e. Explorez votre havre insulaire."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD D\xE9placement \xB7 SHIFT Course \xB7 Clic droit maintenu
-      Cam\xE9ra \xB7 E Interagir \xB7 ESC Param\xE8tres"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -109,11 +90,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Un coffre de provisions partag\xE9. L\u2019inventaire et le stockage
       persistant arriveront plus tard."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "Votre premi\xE8re canne ! Le lancer et la p\xEAche seront ajout\xE9s
-      \xE0 l\u2019\xE9tape d\xE9di\xE9e."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

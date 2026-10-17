@@ -1,0 +1,14 @@
+PASS
+ASTRA 0.4 live input demonstration
+Controlled legal spawn seeds, regular hook, neutral directional input, actual wall-clock fight simulation.
+Locked species available before catches: 8
+Legal spawn RNG seed 1, target rarity Common
+Regular hook at 0,85 seconds
+Caught sardine Common in 5,66 s; direction input 0; new discovery=True; personal best=True
+Persisted one specimen fd8ba394f39c42b4b9b3fe908afb5295; duplicate claim rejected
+Legal spawn RNG seed 51, target rarity Rare
+Regular hook at 0,85 seconds
+Caught golden_trevally Rare in 17,37 s; direction input 0; new discovery=True; personal best=True
+Persisted one specimen c6f96c2d1be6428fbffd418357cda576; duplicate claim rejected
+I opens inventory; retained individual selected
+J opens journal; rare species discovery and personal records visible

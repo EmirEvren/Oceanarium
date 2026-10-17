@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
   m_Name: golden_trevally
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  icon: {fileID: 2800000, guid: 86f1e263593856248bfacceb8e1b8787, type: 2}
+  silhouette: {fileID: 2800000, guid: 3dd4038f252f7ef4c8ce318df42cd878, type: 2}
   id: golden_trevally
   nameKey: fishing.fish.golden_trevally
   rarity: 2

@@ -1,0 +1,93 @@
+# ASTRA 0.4 file inventory
+
+Working-tree changes for this milestone; companion .meta files are also present.
+
+## Modified files
+
+- `Assets/OceanariumFishing/Editor/ArtValidationBridge.cs`
+- `Assets/OceanariumFishing/Editor/LocalizationChecks.cs`
+- `Assets/OceanariumFishing/Fishing/blue_tang.asset`
+- `Assets/OceanariumFishing/Fishing/clownfish.asset`
+- `Assets/OceanariumFishing/Fishing/CozyFishingTuning.asset`
+- `Assets/OceanariumFishing/Fishing/golden_trevally.asset`
+- `Assets/OceanariumFishing/Fishing/mackerel.asset`
+- `Assets/OceanariumFishing/Fishing/pufferfish.asset`
+- `Assets/OceanariumFishing/Fishing/red_snapper.asset`
+- `Assets/OceanariumFishing/Fishing/sardine.asset`
+- `Assets/OceanariumFishing/Fishing/sea_bream.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI Shared Data.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_de.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_en.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_es-419.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_es-ES.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_fr.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_it.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_ja.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_ko.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_nl.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_pl.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_pt-BR.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_pt-PT.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_ru.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_tr.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_uk.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_zh-Hans.asset`
+- `Assets/OceanariumFishing/Localization/Tables/OF_UI_zh-Hant.asset`
+- `Assets/OceanariumFishing/Prefabs/OF_Player.prefab`
+- `Assets/OceanariumFishing/Scripts/FishingController.cs`
+- `Assets/OceanariumFishing/Scripts/FishingData.cs`
+- `Assets/OceanariumFishing/Scripts/FishingHUD.cs`
+- `Assets/OceanariumFishing/Scripts/FishingSimulation.cs`
+- `Assets/OceanariumFishing/Scripts/FishingTuning.cs`
+- `Assets/OceanariumFishing/Scripts/FishSpecies.cs`
+- `Assets/OceanariumFishing/Scripts/FoundationHUD.cs`
+- `Assets/OceanariumFishing/Scripts/LanguageService.cs`
+- `README.md`
+
+## New files
+
+- `Assets/OceanariumFishing/Editor/CozyFishingBuilder.cs`
+- `Assets/OceanariumFishing/Editor/CozyFishingChecks.cs`
+- `Assets/OceanariumFishing/Editor/CozyFishingDemo.cs`
+- `Assets/OceanariumFishing/Editor/CozyRuntimeChecks.cs`
+- `Assets/OceanariumFishing/Fishing/DifficultyProfiles.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/blue_tang_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/blue_tang_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/clownfish_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/clownfish_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/golden_trevally_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/golden_trevally_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/mackerel_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/mackerel_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/pufferfish_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/pufferfish_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/red_snapper_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/red_snapper_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/sardine_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/sardine_locked.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/sea_bream_color.asset`
+- `Assets/OceanariumFishing/Fishing/Icons/sea_bream_locked.asset`
+- `Assets/OceanariumFishing/Scripts/CollectionHUD.cs`
+- `Assets/OceanariumFishing/Scripts/CozyUI.cs`
+- `Assets/OceanariumFishing/Scripts/FishingDifficultyProfiles.cs`
+- `Docs/ASTRA_01_LOCALIZATION_TEST_RESULTS.txt`
+- `Docs/ASTRA_04_AUDIT.md`
+- `Docs/ASTRA_04_DATA_BALANCE_RESULTS.txt`
+- `Docs/ASTRA_04_DELIVERY.md`
+- `Docs/ASTRA_04_FILE_INVENTORY.md`
+- `Docs/ASTRA_04_LIVE_INPUT_RESULTS.txt`
+- `Docs/ASTRA_04_LOCALIZATION_COVERAGE.txt`
+- `Docs/ASTRA_04_REGRESSION_RESULTS.txt`
+- `Docs/Screenshots/ASTRA_04_Common_Catch.png`
+- `Docs/Screenshots/ASTRA_04_Current.png`
+- `Docs/Screenshots/ASTRA_04_Fight_0.png`
+- `Docs/Screenshots/ASTRA_04_Fight_1.png`
+- `Docs/Screenshots/ASTRA_04_Inventory_Detail.png`
+- `Docs/Screenshots/ASTRA_04_Inventory_Final.png`
+- `Docs/Screenshots/ASTRA_04_Inventory_Turkish.png`
+- `Docs/Screenshots/ASTRA_04_Journal_Before.png`
+- `Docs/Screenshots/ASTRA_04_Journal_Discovered.png`
+- `Docs/Screenshots/ASTRA_04_Journal_Final.png`
+- `Docs/Screenshots/ASTRA_04_Journal_Locked_Final.png`
+- `Docs/Screenshots/ASTRA_04_Rare_Catch.png`
+- `Docs/Screenshots/ASTRA_04_Records_Final.png`

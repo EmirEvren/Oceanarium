@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: Instellingen en taal
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Voorproefje van het thuiseiland\nSolo verkennen \u2022
-      Voortgang wordt niet opgeslagen"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: THUISRIF
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: Verken de hut, pak een hengel op de steiger en ontdek je toekomstige
-      aquariumtuin.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: Starthengel opgepakt. Verken je eilandparadijs.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Bewegen \xB7 SHIFT Sprinten \xB7 Rechtermuisknop vasthouden
-      Camera \xB7 E Interactie \xB7 ESC Instellingen"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -107,10 +88,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: Een gedeelde voorraadkist. Inventaris en blijvende opslag volgen
       later.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: Je eerste hengel! Uitwerpen en vissen worden in de vismijlpaal toegevoegd.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

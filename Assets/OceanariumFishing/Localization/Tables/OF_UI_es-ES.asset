@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: Ajustes e idioma
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Vista previa de la isla principal\nExploraci\xF3n individual
-      \u2022 El progreso no se guarda"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: ARRECIFE DEL HOGAR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Explora la caba\xF1a, recoge una ca\xF1a en el muelle y descubre
-      tu futuro jard\xEDn acu\xE1tico."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Ca\xF1a inicial recogida. Explora tu refugio isle\xF1o."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Moverse \xB7 SHIFT Correr \xB7 Mantener bot\xF3n derecho C\xE1mara
-      \xB7 E Interactuar \xB7 ESC Ajustes"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -108,11 +89,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Un cofre de provisiones compartido. El inventario y el almacenamiento
       permanente llegar\xE1n despu\xE9s."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "\xA1Tu primera ca\xF1a! El lanzamiento y la pesca llegar\xE1n en
-      la fase dedicada a la pesca."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

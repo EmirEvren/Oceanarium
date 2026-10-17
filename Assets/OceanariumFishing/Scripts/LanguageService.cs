@@ -10,7 +10,7 @@ namespace OceanariumFishing
     {
         public static readonly string[] Codes={"en","tr","fr","it","de","es-ES","zh-Hans","pt-BR","nl","zh-Hant","ja","ko","es-419","pl","pt-PT","ru","uk"};
         private Dictionary<string,string> cache=new();
-        private string requestedCode;
+        private string requestedCode, loadingCode;
         private bool assigningLocale, initialized;
         public event Action Changed;
         public string SelectedCode {get; private set;}="en";
@@ -25,7 +25,9 @@ namespace OceanariumFishing
         private void LocaleChanged(Locale locale)
         {
             // The editor locale selector and LocalizedString users share this source of truth.
-            if(initialized && !assigningLocale && locale!=null)Select(locale.Identifier.Code);
+            if(!initialized || assigningLocale || locale==null || locale!=LocalizationSettings.SelectedLocale)return;
+            if(locale.Identifier.Code==loadingCode || (!Busy && Ready && locale.Identifier.Code==SelectedCode))return;
+            Select(locale.Identifier.Code);
         }
         public IEnumerator Initialize()
         {
@@ -43,13 +45,14 @@ namespace OceanariumFishing
         {
             try
             {
-                yield return LocalizationSettings.InitializationOperation;
+                if(!initialized)yield return LocalizationSettings.InitializationOperation;
                 initialized=true;
                 while(requestedCode!=null)
                 {
                     var code=requestedCode;requestedCode=null;
                     var english=LocalizationSettings.AvailableLocales.GetLocale("en");
                     var locale=LocalizationSettings.AvailableLocales.GetLocale(code) ?? english;
+                    loadingCode=locale.Identifier.Code;
                     assigningLocale=true;
                     try{LocalizationSettings.SelectedLocale=locale;}
                     finally{assigningLocale=false;}
@@ -70,7 +73,7 @@ namespace OceanariumFishing
                     PlayerPrefs.SetString("OF.Locale",SelectedCode);PlayerPrefs.Save();Changed?.Invoke();
                 }
             }
-            finally{Busy=false;}
+            finally{loadingCode=null;Busy=false;}
         }
     }
 }

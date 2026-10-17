@@ -1007,6 +1007,302 @@ MonoBehaviour:
     m_Key: fishing.stat.durability
     m_Metadata:
       m_Items: []
+  - m_Id: 317058652127232
+    m_Key: collection.inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653184
+    m_Key: collection.journal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653185
+    m_Key: collection.records
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653186
+    m_Key: collection.fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653187
+    m_Key: collection.specimens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653188
+    m_Key: collection.sort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653189
+    m_Key: collection.sort.date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653190
+    m_Key: collection.sort.weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653191
+    m_Key: collection.sort.rarity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653192
+    m_Key: collection.sort.species
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653193
+    m_Key: collection.all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653194
+    m_Key: collection.rarity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653195
+    m_Key: collection.island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653196
+    m_Key: collection.quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653197
+    m_Key: collection.location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653198
+    m_Key: collection.date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653199
+    m_Key: collection.value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653200
+    m_Key: collection.personal_best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653201
+    m_Key: collection.empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653202
+    m_Key: collection.discovered_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653203
+    m_Key: collection.discovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653204
+    m_Key: collection.undiscovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653205
+    m_Key: collection.unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653206
+    m_Key: collection.locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653207
+    m_Key: collection.habitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653208
+    m_Key: collection.islands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653209
+    m_Key: collection.weather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653210
+    m_Key: collection.time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653211
+    m_Key: collection.caught
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653212
+    m_Key: collection.heaviest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653213
+    m_Key: collection.longest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653214
+    m_Key: collection.first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653215
+    m_Key: collection.total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653216
+    m_Key: collection.most_common
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653217
+    m_Key: collection.rarest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653218
+    m_Key: collection.legacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653219
+    m_Key: collection.load_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653220
+    m_Key: collection.shortcuts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653221
+    m_Key: collection.previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653222
+    m_Key: collection.next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653223
+    m_Key: collection.difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653224
+    m_Key: difficulty.cozy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653225
+    m_Key: difficulty.normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653226
+    m_Key: difficulty.experienced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653227
+    m_Key: fishing.cozy_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058706653228
+    m_Key: fishing.warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041792
+    m_Key: fishing.calm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041793
+    m_Key: fishing.recovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041794
+    m_Key: fishing.tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041795
+    m_Key: fishing.discovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041796
+    m_Key: fishing.journal_added
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041797
+    m_Key: island.OF_HomeIsland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041798
+    m_Key: island.OF_TownIsland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041799
+    m_Key: island.OF_ExplorationIsland01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041800
+    m_Key: island.OF_ExplorationIsland02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041801
+    m_Key: island.OF_ExplorationIsland03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041802
+    m_Key: habitat.beach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041803
+    m_Key: zone.home.beach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041804
+    m_Key: habitat.rocky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041805
+    m_Key: zone.home.rocky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041806
+    m_Key: habitat.pier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041807
+    m_Key: zone.home.pier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041808
+    m_Key: habitat.deep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041809
+    m_Key: zone.home.deep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041810
+    m_Key: weather.clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041811
+    m_Key: weather.cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041812
+    m_Key: fish.clownfish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041813
+    m_Key: fish.blue_tang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041814
+    m_Key: fish.sardine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041815
+    m_Key: fish.mackerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041816
+    m_Key: fish.red_snapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041817
+    m_Key: fish.sea_bream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041818
+    m_Key: fish.pufferfish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317058715041819
+    m_Key: fish.golden_trevally
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

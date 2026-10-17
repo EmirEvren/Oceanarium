@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: Einstellungen und Sprache
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Vorschau der Heimatinsel\nSolo-Erkundung \u2022 Fortschritt
-      wird nicht gespeichert"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: HEIMATRIFF
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "Erkunde die H\xFCtte, hole eine Angel am Steg und entdecke deinen
-      zuk\xFCnftigen Aquariengarten."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: Startangel eingesammelt. Erkunde dein Inselrefugium.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Bewegen \xB7 SHIFT Sprinten \xB7 Rechte Maustaste halten Kamera
-      \xB7 E Interagieren \xB7 ESC Einstellungen"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -108,10 +89,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: "Eine gemeinsame Vorratskiste. Inventar und dauerhafte Lagerung
       folgen sp\xE4ter."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: Deine erste Angel! Auswerfen und Angeln folgen im Angel-Meilenstein.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

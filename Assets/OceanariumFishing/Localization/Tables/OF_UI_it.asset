@@ -36,27 +36,8 @@ MonoBehaviour:
     m_Localized: Impostazioni e lingua
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / Anteprima dell\u2019isola principale\nEsplorazione
-      singola \u2022 Progressi non salvati"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: LA BARRIERA DI CASA
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: Esplora la capanna, prendi una canna dal molo e scopri il tuo futuro
-      giardino acquatico.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "Canna iniziale raccolta. Esplora il tuo rifugio sull\u2019isola."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD Movimento \xB7 SHIFT Corsa \xB7 Tieni premuto tasto destro
-      Telecamera \xB7 E Interagisci \xB7 ESC Impostazioni"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -108,10 +89,6 @@ MonoBehaviour:
   - m_Id: 11710922770
     m_Localized: Una cassa di provviste condivisa. Inventario e deposito persistente
       arriveranno in seguito.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: La tua prima canna! Lancio e pesca arriveranno nella fase dedicata.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772

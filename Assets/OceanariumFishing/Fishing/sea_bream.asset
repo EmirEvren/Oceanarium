@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
   m_Name: sea_bream
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  icon: {fileID: 2800000, guid: 1e167a0bff8d1dd4980e7e4c64bc3357, type: 2}
+  silhouette: {fileID: 2800000, guid: 38b6a55c2b276bd4ba6f4e3b460944c7, type: 2}
   id: sea_bream
   nameKey: fishing.fish.sea_bream
   rarity: 0

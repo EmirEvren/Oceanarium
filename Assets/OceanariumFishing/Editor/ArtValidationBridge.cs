@@ -16,7 +16,15 @@ namespace OceanariumFishing.Editor
             string command;try{command=File.ReadAllText(path).Trim();File.Delete(path);}catch(IOException){return;}
             try
             {
-                if(command=="fishing-localize"){FishingBuilder.Localize();AssetDatabase.SaveAssets();}
+                if(command=="cozy-build")CozyFishingBuilder.Build();
+                else if(command=="cozy-checks")CozyFishingChecks.Run();
+                else if(command=="cozy-demo")CozyFishingDemo.Run();
+                else if(command=="cozy-runtime-checks")CozyRuntimeChecks.Run();
+                else if(command=="capture04"){Directory.CreateDirectory("Docs/Screenshots");ScreenCapture.CaptureScreenshot("Docs/Screenshots/ASTRA_04_Current.png");}
+                else if(command=="inventory")Object.FindFirstObjectByType<CollectionHUD>().Open(false);
+                else if(command=="journal")Object.FindFirstObjectByType<CollectionHUD>().Open(true);
+                else if(command=="close-collection")Object.FindFirstObjectByType<CollectionHUD>().Close();
+                else if(command=="fishing-localize"){FishingBuilder.Localize();AssetDatabase.SaveAssets();}
                 else if(command=="fishing-demo")FishingInputDemo.Run();
                 else if(command=="fishing-checks")FishingChecks.Run();
                 else if(command=="fishing-build")FishingBuilder.Build();

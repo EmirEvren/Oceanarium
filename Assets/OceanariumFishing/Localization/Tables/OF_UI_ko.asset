@@ -36,30 +36,8 @@ MonoBehaviour:
     m_Localized: "\uC124\uC815 \uBC0F \uC5B8\uC5B4"
     m_Metadata:
       m_Items: []
-  - m_Id: 11710922754
-    m_Localized: "ASTRA 0.1 / \uACE0\uD5A5 \uC12C \uBBF8\uB9AC \uBCF4\uAE30\n\uD63C\uC790
-      \uD0D0\uD5D8 \u2022 \uC9C4\uD589 \uC0C1\uD669 \uC800\uC7A5 \uC548 \uB428"
-    m_Metadata:
-      m_Items: []
   - m_Id: 11710922755
     m_Localized: "\uC6B0\uB9AC \uC9D1 \uC0B0\uD638\uCD08"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922756
-    m_Localized: "\uC624\uB450\uB9C9\uC744 \uB458\uB7EC\uBCF4\uACE0 \uBD80\uB450\uC5D0\uC11C
-      \uB09A\uC2EF\uB300\uB97C \uBC1B\uC544 \uBBF8\uB798\uC758 \uC218\uC871\uAD00
-      \uC815\uC6D0\uC744 \uCC3E\uC544\uBCF4\uC138\uC694."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922757
-    m_Localized: "\uCCAB \uB09A\uC2EF\uB300\uB97C \uBC1B\uC558\uC2B5\uB2C8\uB2E4.
-      \uC12C\uC758 \uC548\uC2DD\uCC98\uB97C \uD0D0\uD5D8\uD558\uC138\uC694."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922758
-    m_Localized: "WASD \uC774\uB3D9 \xB7 SHIFT \uB2EC\uB9AC\uAE30 \xB7 \uB9C8\uC6B0\uC2A4
-      \uC624\uB978\uCABD \uAE38\uAC8C \uB204\uB974\uAE30 \uCE74\uBA54\uB77C \xB7
-      E \uC0C1\uD638\uC791\uC6A9 \xB7 ESC \uC124\uC815"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -115,11 +93,6 @@ MonoBehaviour:
     m_Localized: "\uACF5\uC6A9 \uBCF4\uAE09\uD488 \uC0C1\uC790\uC785\uB2C8\uB2E4.
       \uC18C\uC9C0\uD488\uACFC \uC601\uAD6C \uBCF4\uAD00 \uAE30\uB2A5\uC740 \uCD94\uD6C4
       \uCD94\uAC00\uB429\uB2C8\uB2E4."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 11710922771
-    m_Localized: "\uCCAB \uB09A\uC2EF\uB300\uC785\uB2C8\uB2E4! \uB358\uC9C0\uAE30\uC640
-      \uB09A\uC2DC\uB294 \uB09A\uC2DC \uAC1C\uBC1C \uB2E8\uACC4\uC5D0\uC11C \uCD94\uAC00\uB429\uB2C8\uB2E4."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772
