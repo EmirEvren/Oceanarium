@@ -25,103 +25,103 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11706728448
-    m_Localized: A small island. A sanctuary to grow.
+    m_Localized: "Uma pequena ilha. Um ref\xFAgio para cultivar."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922752
-    m_Localized: Begin island exploration
+    m_Localized: Explorar a ilha
     m_Metadata:
       m_Items: []
   - m_Id: 11710922753
-    m_Localized: Settings & language
+    m_Localized: "Configura\xE7\xF5es e idioma"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922754
-    m_Localized: "ASTRA 0.0  /  Foundation preview\nSolo exploration \u2022 No progress
-      saving"
+    m_Localized: "ASTRA 0.1 / Pr\xE9via da ilha principal\nExplora\xE7\xE3o solo
+      \u2022 O progresso n\xE3o \xE9 salvo"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922755
-    m_Localized: HOME REEF
+    m_Localized: RECIFE DO LAR
     m_Metadata:
       m_Items: []
   - m_Id: 11710922756
-    m_Localized: Explore the cabin, collect a rod at the pier, and discover your
-      future aquarium garden.
+    m_Localized: "Explore a cabana, pegue uma vara no p\xEDer e descubra seu futuro
+      jardim aqu\xE1tico."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922757
-    m_Localized: Starter rod collected. Explore your island sanctuary.
+    m_Localized: "Vara inicial coletada. Explore seu ref\xFAgio na ilha."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922758
-    m_Localized: WASD  Move     SHIFT  Sprint     Hold RMB  Camera     E  Interact    
-      ESC  Settings
+    m_Localized: "WASD Mover \xB7 SHIFT Correr \xB7 Segurar bot\xE3o direito C\xE2mera
+      \xB7 E Interagir \xB7 ESC Configura\xE7\xF5es"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
-    m_Localized: Close
+    m_Localized: Fechar
     m_Metadata:
       m_Items: []
   - m_Id: 11710922760
-    m_Localized: Return to main menu
+    m_Localized: Voltar ao menu principal
     m_Metadata:
       m_Items: []
   - m_Id: 11710922761
-    m_Localized: Camera sensitivity
+    m_Localized: "Sensibilidade da c\xE2mera"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922762
-    m_Localized: 17 locales prepared. Untranslated content uses English. Language
-      preference is saved.
+    m_Localized: "O idioma muda imediatamente e sua prefer\xEAncia \xE9 salva."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922763
-    m_Localized: COMING LATER
+    m_Localized: EM BREVE
     m_Metadata:
       m_Items: []
   - m_Id: 11710922764
-    m_Localized: This scene is reserved for a future milestone. No gameplay is implemented
-      here.
+    m_Localized: "Esta cena est\xE1 reservada para uma etapa futura. Ainda n\xE3o
+      h\xE1 conte\xFAdo jog\xE1vel aqui."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922765
-    m_Localized: '[E] Inspect cabin'
+    m_Localized: '[E] Examinar a cabana'
     m_Metadata:
       m_Items: []
   - m_Id: 11710922766
-    m_Localized: '[E] Inspect supply chest'
+    m_Localized: "[E] Examinar o ba\xFA de suprimentos"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922767
-    m_Localized: '[E] Collect starter rod'
+    m_Localized: '[E] Pegar a vara inicial'
     m_Metadata:
       m_Items: []
   - m_Id: 11710922768
-    m_Localized: '[E] Discover sanctuary garden'
+    m_Localized: "[E] Descobrir o jardim aqu\xE1tico"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922769
-    m_Localized: Your reefkeeper cabin. Interiors will arrive in a later milestone.
+    m_Localized: "Sua cabana de guardi\xE3o do recife. Os interiores ser\xE3o adicionados
+      mais tarde."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922770
-    m_Localized: A shared supply chest. Inventory and persistent storage are planned
-      for later.
+    m_Localized: "Um ba\xFA de suprimentos compartilhado. O invent\xE1rio e o armazenamento
+      permanente chegar\xE3o depois."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922771
-    m_Localized: Your first rod! Casting and fishing will arrive in the fishing milestone.
+    m_Localized: "Sua primeira vara! Arremessos e pesca chegar\xE3o na etapa de pesca."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922772
-    m_Localized: You already have a rod. These are reserved for the rest of your
-      future crew.
+    m_Localized: "Voc\xEA j\xE1 tem uma vara. Estas est\xE3o reservadas para sua
+      futura tripula\xE7\xE3o."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922773
-    m_Localized: A place for your future aquarium sanctuary. Construction comes in
-      a later milestone.
+    m_Localized: "O local do seu futuro jardim aqu\xE1tico. A constru\xE7\xE3o ser\xE1
+      adicionada mais tarde."
     m_Metadata:
       m_Items: []
   - m_Id: 11710922774
@@ -129,67 +129,67 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922775
-    m_Localized: Turkish
+    m_Localized: "T\xFCrk\xE7e"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922776
-    m_Localized: French
+    m_Localized: "Fran\xE7ais"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922777
-    m_Localized: Italian
+    m_Localized: Italiano
     m_Metadata:
       m_Items: []
   - m_Id: 11710922778
-    m_Localized: German
+    m_Localized: Deutsch
     m_Metadata:
       m_Items: []
   - m_Id: 11710922779
-    m_Localized: Spanish (Spain)
+    m_Localized: "Espa\xF1ol (Espa\xF1a)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922780
-    m_Localized: Chinese (Simplified)
+    m_Localized: "\u7B80\u4F53\u4E2D\u6587"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922781
-    m_Localized: Portuguese (Brazil)
+    m_Localized: "Portugu\xEAs (Brasil)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922782
-    m_Localized: Dutch
+    m_Localized: Nederlands
     m_Metadata:
       m_Items: []
   - m_Id: 11710922783
-    m_Localized: Chinese (Traditional)
+    m_Localized: "\u7E41\u9AD4\u4E2D\u6587"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922784
-    m_Localized: Japanese
+    m_Localized: "\u65E5\u672C\u8A9E"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922785
-    m_Localized: Korean
+    m_Localized: "\uD55C\uAD6D\uC5B4"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922786
-    m_Localized: Spanish (Latin America)
+    m_Localized: "Espa\xF1ol (Latinoam\xE9rica)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922787
-    m_Localized: Polish
+    m_Localized: Polski
     m_Metadata:
       m_Items: []
   - m_Id: 11710922788
-    m_Localized: Portuguese (Portugal)
+    m_Localized: "Portugu\xEAs (Portugal)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922789
-    m_Localized: Russian
+    m_Localized: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922790
-    m_Localized: Ukrainian
+    m_Localized: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430"
     m_Metadata:
       m_Items: []
   references:

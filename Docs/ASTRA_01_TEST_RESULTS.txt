@@ -1,0 +1,69 @@
+PASS - 2026-10-16T19:21:07.6602562Z
+PASS: 17 locale assets loaded
+PASS: 8 foundation scenes registered
+PASS: Home Island local controller exists
+PASS: One local camera
+PASS: Exactly four starter rods
+PASS: Terrain collision height is valid
+PASS: all scene materials use supported shaders
+PASS: Locale switch and fallback: en
+PASS: Locale switch and fallback: tr
+PASS: Locale switch and fallback: fr
+PASS: Locale switch and fallback: it
+PASS: Locale switch and fallback: de
+PASS: Locale switch and fallback: es-ES
+PASS: Locale switch and fallback: zh-Hans
+PASS: Locale switch and fallback: pt-BR
+PASS: Locale switch and fallback: nl
+PASS: Locale switch and fallback: zh-Hant
+PASS: Locale switch and fallback: ja
+PASS: Locale switch and fallback: ko
+PASS: Locale switch and fallback: es-419
+PASS: Locale switch and fallback: pl
+PASS: Locale switch and fallback: pt-PT
+PASS: Locale switch and fallback: ru
+PASS: Locale switch and fallback: uk
+PASS: Language preference persisted
+PASS: W input moves player on terrain
+PASS: Release decelerates player to rest
+PASS: Shift sprint reaches running speed
+PASS: A movement input
+PASS: S movement input
+PASS: D movement input
+PASS: Walk animation articulates legs
+PASS: Cabin solid collider blocks walking through wall
+PASS: Right mouse input rotates camera target
+PASS: Below-terrain recovery returns to safe spawn
+PASS: Pier proximity resolves rod prompt
+PASS: E input claims one rod
+PASS: Second rod preserved for another actor
+PASS: Home -> Menu transition
+PASS: Session survives transition
+PASS: Menu -> Home: exactly one local player
+PASS: No duplicate audio listener after travel
+PASS: Boot entry automatically loads main menu
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 0
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 1
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 2
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 3
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 4
+PASS: Camera clearance at (-8.00, 2.00, -1.00) orbit sample 5
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 0
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 1
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 2
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 3
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 4
+PASS: Camera clearance at (-13.00, 2.00, 8.00) orbit sample 5
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 0
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 1
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 2
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 3
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 4
+PASS: Camera clearance at (-4.00, 4.00, 10.00) orbit sample 5
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 0
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 1
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 2
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 3
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 4
+PASS: Camera clearance at (1.00, 0.85, -21.00) orbit sample 5
+Input tests use temporary Input System devices. Manual feel, visual quality, standalone build and multiplayer remain separate checks.

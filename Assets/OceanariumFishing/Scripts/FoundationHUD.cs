@@ -59,7 +59,7 @@ namespace OceanariumFishing
                 GUILayout.Label(T("settings"),body);GUILayout.Label(T("language.note"),small);
                 languageScroll=GUILayout.BeginScrollView(languageScroll,GUILayout.Height(370));
                 foreach(var code in LanguageService.Codes)
-                {GUI.enabled=!session.Languages.Busy;if(GUILayout.Button((code==session.Languages.SelectedCode?"• ":"")+T("locale."+code),button))session.Languages.Select(code);}
+                {if(GUILayout.Button((code==session.Languages.SelectedCode?"• ":"")+T("locale."+code),button))session.Languages.Select(code);}
                 GUI.enabled=true;GUILayout.EndScrollView();
                 if(player!=null){GUILayout.Label(T("sensitivity"),small);player.sensitivity=GUILayout.HorizontalSlider(player.sensitivity,.04f,.3f);}
                 if(GUILayout.Button(T("close"),button))settings=false;

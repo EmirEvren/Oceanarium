@@ -1,6 +1,8 @@
 # Oceanarium Fishing
 
-## Active milestone: ASTRA 0.0
+## Active milestone: ASTRA 0.1
+
+The Home Island visual pass is documented in [ASTRA 0.1 delivery](Docs/ASTRA_01_DELIVERY.md), with [regression results](Docs/ASTRA_01_TEST_RESULTS.txt) and [performance evidence](Docs/ASTRA_01_PERFORMANCE.txt).
 
 The active production foundation is **Assets/OceanariumFishing**, built in the existing Unity 6000.3.13f1 project. Open `Assets/OceanariumFishing/Scenes/OF_HomeIsland.unity` and press Play. For the complete boot flow, open `OF_Boot.unity` instead.
 
@@ -45,3 +47,4 @@ Sahne kendi kamera ve ışığını çalışma anında oluşturur. Mevcut Sample
 Kesin tam liste `Packages/manifest.json` ve `Packages/packages-lock.json` içindedir. Bu çalışmada paket kurulmadı. Cinemachine, Localization, FishNet ve Steam transport entegrasyonu yapılmadı; uyumluluk doğrulaması sonraki aşamaların işidir.
 
 Unity `.meta` dosyalarını kaynaklarla birlikte sürüm kontrolüne alın. `Library`, `Temp`, `Logs` ve `UserSettings` mevcut `.gitignore` tarafından dışlanır.
+

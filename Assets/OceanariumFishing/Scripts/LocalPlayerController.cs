@@ -13,7 +13,7 @@ namespace OceanariumFishing
         public Vector3 SafeSpawn {get;private set;}
         private CharacterController motor;
         private Vector3 velocity;
-        private float gravitySpeed,yaw,pitch=24;
+        private float gravitySpeed,yaw,pitch=18;
         private void Awake() {motor=GetComponent<CharacterController>();SafeSpawn=transform.position;yaw=transform.eulerAngles.y;}
         private void Update()
         {
@@ -36,7 +36,9 @@ namespace OceanariumFishing
             if(velocity.sqrMagnitude>.05f) visual.rotation=Quaternion.Slerp(visual.rotation,Quaternion.LookRotation(velocity),1-Mathf.Exp(-12*Time.deltaTime));
             if(transform.position.y < -2) Teleport(SafeSpawn);
         }
+        public void SetViewAngles(float heading,float elevation){yaw=heading;pitch=Mathf.Clamp(elevation,8,65);cameraTarget.rotation=Quaternion.Euler(pitch,yaw,0);}
         public void Teleport(Vector3 position) {motor.enabled=false;transform.position=position;motor.enabled=true;velocity=Vector3.zero;gravitySpeed=0;}
         private void OnDisable() {Cursor.lockState=CursorLockMode.None;Cursor.visible=true;}
     }
 }
+

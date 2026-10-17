@@ -1,0 +1,9 @@
+ASTRA 0.1 editor measurement — 2026-10-16T19:17:20.1114071Z
+GPU: NVIDIA GeForce RTX 3050 Laptop GPU, VRAM 3962 MB, API Direct3D12
+CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, threads 16; RAM 16085 MB
+Render resolution: 1920x1080; samples 600; vSync 0; targetFrameRate -1
+Mean frame 7,11 ms (140,6 FPS); median 6,93 ms; p95 8,46 ms
+Mean batches 1726,0; draw calls 1743,6; triangles 4074982
+Texture memory (all loaded textures, editor included): 403,9 MB graphics driver allocation (not isolated texture memory).
+Editor Play Mode, stationary spawn viewpoint, Game and Scene view may both render. Not a standalone or mid-range hardware certification; no claim of stable 60 FPS from this sample alone.
+Active mesh renderers 468; unique scene materials 24; transparent materials 0; referenced material textures 1, runtime bytes 156543. Excludes pipeline render targets, probes, sky and UI.

@@ -310,11 +310,10 @@ namespace OceanariumFishing.Editor
             foreach(var table in collection.StringTables)
             {
                 foreach(var pair in text)table.AddEntry(pair.Key,pair.Value);
-                // One QA marker demonstrates locale refresh without claiming translated game content.
-                if(table.LocaleIdentifier.Code=="tr")table.AddEntry("settings","Ayarlar / Settings");
                 EditorUtility.SetDirty(table);EditorUtility.SetDirty(table.SharedData);
             }
             AssetDatabase.SaveAssets();
+            LocalizationContent.Apply();
         }
     }
 }

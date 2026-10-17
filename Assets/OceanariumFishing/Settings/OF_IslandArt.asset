@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e8c017481b7424faa9ff1972f0c96d, type: 3}
+  m_Name: OF_IslandArt
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.IslandArtSettings
+  seed: 1847
+  hillHeight: 2.7
+  vegetationDensity: 1
+  windStrength: 0.055
+  sunlight: {r: 1, g: 0.92, b: 0.78, a: 1}
+  sunIntensity: 1.3
+  sunEuler: {x: 42, y: -35, z: 0}
+  skyAmbient: {r: 0.62, g: 0.76, b: 0.84, a: 1}
+  horizon: {r: 0.56, g: 0.78, b: 0.87, a: 1}

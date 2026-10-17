@@ -1,0 +1,7 @@
+PASS
+ASTRA 0.1 asset validation
+OceanariumFishing/Cozy Ocean: supported=True, compiler errors=0
+OceanariumFishing/Coastal Grass: supported=True, compiler errors=0
+OceanariumFishing/Island Blend: supported=True, compiler errors=0
+OceanariumFishing/Tropical Sky: supported=True, compiler errors=0
+Generated mesh vertex finiteness checked.

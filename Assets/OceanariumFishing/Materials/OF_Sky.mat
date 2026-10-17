@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: OF_Sky
-  m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 3f3ec5eaca31f304082e965c6f1126ec, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _SUNDISK_HIGH_QUALITY
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -26,13 +26,16 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _AtmosphereThickness: 0.65
-    - _Exposure: 1.1
+    - _AtmosphereThickness: 0.8
+    - _Exposure: 0.95
     - _SunDisk: 2
     - _SunSize: 0.04
     - _SunSizeConvergence: 5
     m_Colors:
+    - _Cloud: {r: 0.95, g: 0.94, b: 0.87, a: 1}
     - _GroundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
+    - _Horizon: {r: 0.42, g: 0.7, b: 0.86, a: 1}
     - _SkyTint: {r: 0.42, g: 0.59, b: 0.7, a: 1}
+    - _Zenith: {r: 0.13, g: 0.42, b: 0.8, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

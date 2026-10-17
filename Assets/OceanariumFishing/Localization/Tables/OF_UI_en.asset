@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922754
-    m_Localized: "ASTRA 0.0  /  Foundation preview\nSolo exploration \u2022 No progress
+    m_Localized: "ASTRA 0.1 / Home Island preview\nSolo exploration \u2022 No progress
       saving"
     m_Metadata:
       m_Items: []
@@ -55,8 +55,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922758
-    m_Localized: WASD  Move     SHIFT  Sprint     Hold RMB  Camera     E  Interact    
-      ESC  Settings
+    m_Localized: "WASD Move \xB7 SHIFT Sprint \xB7 Hold RMB Camera \xB7 E Interact
+      \xB7 ESC Settings"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922759
@@ -72,8 +72,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922762
-    m_Localized: 17 locales prepared. Untranslated content uses English. Language
-      preference is saved.
+    m_Localized: Language changes apply immediately and your preference is saved.
     m_Metadata:
       m_Items: []
   - m_Id: 11710922763
@@ -129,67 +128,67 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11710922775
-    m_Localized: Turkish
+    m_Localized: "T\xFCrk\xE7e"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922776
-    m_Localized: French
+    m_Localized: "Fran\xE7ais"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922777
-    m_Localized: Italian
+    m_Localized: Italiano
     m_Metadata:
       m_Items: []
   - m_Id: 11710922778
-    m_Localized: German
+    m_Localized: Deutsch
     m_Metadata:
       m_Items: []
   - m_Id: 11710922779
-    m_Localized: Spanish (Spain)
+    m_Localized: "Espa\xF1ol (Espa\xF1a)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922780
-    m_Localized: Chinese (Simplified)
+    m_Localized: "\u7B80\u4F53\u4E2D\u6587"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922781
-    m_Localized: Portuguese (Brazil)
+    m_Localized: "Portugu\xEAs (Brasil)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922782
-    m_Localized: Dutch
+    m_Localized: Nederlands
     m_Metadata:
       m_Items: []
   - m_Id: 11710922783
-    m_Localized: Chinese (Traditional)
+    m_Localized: "\u7E41\u9AD4\u4E2D\u6587"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922784
-    m_Localized: Japanese
+    m_Localized: "\u65E5\u672C\u8A9E"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922785
-    m_Localized: Korean
+    m_Localized: "\uD55C\uAD6D\uC5B4"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922786
-    m_Localized: Spanish (Latin America)
+    m_Localized: "Espa\xF1ol (Latinoam\xE9rica)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922787
-    m_Localized: Polish
+    m_Localized: Polski
     m_Metadata:
       m_Items: []
   - m_Id: 11710922788
-    m_Localized: Portuguese (Portugal)
+    m_Localized: "Portugu\xEAs (Portugal)"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922789
-    m_Localized: Russian
+    m_Localized: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
     m_Metadata:
       m_Items: []
   - m_Id: 11710922790
-    m_Localized: Ukrainian
+    m_Localized: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430"
     m_Metadata:
       m_Items: []
   references:
