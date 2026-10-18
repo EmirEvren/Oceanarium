@@ -2307,6 +2307,1198 @@ MonoBehaviour:
     m_Key: travel.select_destination
     m_Metadata:
       m_Items: []
+  - m_Id: 834910231625728
+    m_Key: town.npc.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374464
+    m_Key: town.shop.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374465
+    m_Key: town.profession.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374466
+    m_Key: town.bio.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374467
+    m_Key: town.greeting.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809920
+    m_Key: town.npc.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809921
+    m_Key: town.shop.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809922
+    m_Key: town.profession.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809923
+    m_Key: town.bio.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809924
+    m_Key: town.greeting.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051072
+    m_Key: town.npc.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051073
+    m_Key: town.shop.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051074
+    m_Key: town.profession.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051075
+    m_Key: town.bio.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051076
+    m_Key: town.greeting.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680832
+    m_Key: town.npc.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680833
+    m_Key: town.shop.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680834
+    m_Key: town.profession.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680835
+    m_Key: town.bio.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680836
+    m_Key: town.greeting.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921984
+    m_Key: town.npc.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921985
+    m_Key: town.shop.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921986
+    m_Key: town.profession.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921987
+    m_Key: town.bio.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921988
+    m_Key: town.greeting.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357440
+    m_Key: town.npc.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357441
+    m_Key: town.shop.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357442
+    m_Key: town.profession.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357443
+    m_Key: town.bio.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357444
+    m_Key: town.greeting.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598592
+    m_Key: town.npc.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598593
+    m_Key: town.shop.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598594
+    m_Key: town.profession.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598595
+    m_Key: town.bio.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598596
+    m_Key: town.greeting.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005568
+    m_Key: town.npc.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005569
+    m_Key: town.shop.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005570
+    m_Key: town.profession.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005571
+    m_Key: town.bio.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005572
+    m_Key: town.greeting.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858112
+    m_Key: town.npc.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858113
+    m_Key: town.shop.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858114
+    m_Key: town.profession.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858115
+    m_Key: town.bio.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858116
+    m_Key: town.greeting.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516352
+    m_Key: town.npc.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516353
+    m_Key: town.shop.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516354
+    m_Key: town.profession.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516355
+    m_Key: town.bio.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516356
+    m_Key: town.greeting.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340416
+    m_Key: town.npc.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340417
+    m_Key: town.shop.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340418
+    m_Key: town.profession.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340419
+    m_Key: town.bio.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340420
+    m_Key: town.greeting.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387264
+    m_Key: town.npc.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387265
+    m_Key: town.shop.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387266
+    m_Key: town.profession.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387267
+    m_Key: town.bio.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387268
+    m_Key: town.greeting.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913465434112
+    m_Key: town.item.coastal_rod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913738063872
+    m_Key: town.item.braided_line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914023276544
+    m_Key: town.item.balanced_hook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914375598080
+    m_Key: town.item.java_moss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914673393664
+    m_Key: town.item.anubias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914979577856
+    m_Key: town.item.island_tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915289956352
+    m_Key: town.item.antique_decor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915608723456
+    m_Key: town.item.gull_coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915898130432
+    m_Key: town.item.recycled_bench
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916204314624
+    m_Key: town.item.picture_frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916506304512
+    m_Key: town.item.luna_coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916808294400
+    m_Key: town.item.oak_bench
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227328
+    m_Key: town.item.display_stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227329
+    m_Key: town.talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227330
+    m_Key: town.hearts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227331
+    m_Key: town.coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227332
+    m_Key: town.rare_shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227333
+    m_Key: town.scrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227334
+    m_Key: town.greeting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227335
+    m_Key: town.shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227336
+    m_Key: town.gifts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227337
+    m_Key: town.sell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227338
+    m_Key: town.buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227339
+    m_Key: town.give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227340
+    m_Key: town.chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227341
+    m_Key: town.claim_friendship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227342
+    m_Key: town.confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227343
+    m_Key: town.confirm_button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227344
+    m_Key: town.cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227345
+    m_Key: town.sell_selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227346
+    m_Key: town.fish_market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227347
+    m_Key: town.success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227348
+    m_Key: town.error.owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227349
+    m_Key: town.error.save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227350
+    m_Key: town.error.replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227351
+    m_Key: town.error.stale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227352
+    m_Key: town.error.unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227353
+    m_Key: town.error.locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227354
+    m_Key: town.error.stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227355
+    m_Key: town.error.funds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227356
+    m_Key: town.error.daily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227357
+    m_Key: town.error.inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227358
+    m_Key: town.error.owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227359
+    m_Key: town.preference.loved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227360
+    m_Key: town.preference.liked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227361
+    m_Key: town.preference.neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227362
+    m_Key: town.preference.disliked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227363
+    m_Key: town.item.rare_shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227364
+    m_Key: town.item.driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227365
+    m_Key: town.item.scrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227366
+    m_Key: town.item.rope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837765743149056
+    m_Key: town.quest.oliver_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837765785092096
+    m_Key: town.quest.oliver_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766426820608
+    m_Key: town.quest.oliver_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766426820609
+    m_Key: town.quest.oliver_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766737199104
+    m_Key: town.quest.marina_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766737199105
+    m_Key: town.quest.marina_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766976274432
+    m_Key: town.quest.marina_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766976274433
+    m_Key: town.quest.marina_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767244709888
+    m_Key: town.quest.rosie_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767244709889
+    m_Key: town.quest.rosie_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767529922560
+    m_Key: town.quest.rosie_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767529922561
+    m_Key: town.quest.rosie_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767756414976
+    m_Key: town.quest.morris_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767756414977
+    m_Key: town.quest.morris_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767987101696
+    m_Key: town.quest.morris_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767987101697
+    m_Key: town.quest.morris_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768226177024
+    m_Key: town.quest.gull_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768226177025
+    m_Key: town.quest.gull_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768452669440
+    m_Key: town.quest.gull_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768452669441
+    m_Key: town.quest.gull_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768700133376
+    m_Key: town.quest.bruno_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768700133377
+    m_Key: town.quest.bruno_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768964374528
+    m_Key: town.quest.bruno_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768964374529
+    m_Key: town.quest.bruno_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769228615680
+    m_Key: town.quest.iris_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769228615681
+    m_Key: town.quest.iris_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769652240384
+    m_Key: town.quest.iris_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769652240385
+    m_Key: town.quest.iris_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770012950528
+    m_Key: town.quest.lily_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770012950529
+    m_Key: town.quest.lily_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770335911936
+    m_Key: town.quest.lily_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770335911937
+    m_Key: town.quest.lily_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770721787904
+    m_Key: town.quest.luna_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770721787905
+    m_Key: town.quest.luna_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771350933504
+    m_Key: town.quest.luna_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771350933505
+    m_Key: town.quest.luna_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771959107584
+    m_Key: town.quest.theo_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771959107585
+    m_Key: town.quest.theo_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837772655362048
+    m_Key: town.quest.theo_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837772655362049
+    m_Key: town.quest.theo_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773078986752
+    m_Key: town.quest.eddie_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773078986753
+    m_Key: town.quest.eddie_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773519388672
+    m_Key: town.quest.eddie_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773519388673
+    m_Key: town.quest.eddie_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774228226048
+    m_Key: town.quest.henry_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774228226049
+    m_Key: town.quest.henry_welcome.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774697988096
+    m_Key: town.quest.henry_help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774697988097
+    m_Key: town.quest.henry_help.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773568
+    m_Key: town.quests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773569
+    m_Key: town.residents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773570
+    m_Key: town.known_gifts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773571
+    m_Key: town.accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773572
+    m_Key: town.claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773573
+    m_Key: town.track
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773574
+    m_Key: town.filter.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773575
+    m_Key: town.filter.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773576
+    m_Key: town.filter.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773577
+    m_Key: town.error.objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773578
+    m_Key: town.collect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169402966016
+    m_Key: town.item.tailored_hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169788841984
+    m_Key: town.item.tailored_coat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169814007808
+    m_Key: town.drink_tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838646639263744
+    m_Key: town.item.camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353216
+    m_Key: town.arcade_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353217
+    m_Key: town.arcade_rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353218
+    m_Key: town.arcade_reel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353219
+    m_Key: town.arcade_win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353220
+    m_Key: town.arcade_retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 839155051823104
+    m_Key: town.bulletin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157263323136
+    m_Key: town.item.island_cookie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157607256064
+    m_Key: town.item.bait_dough
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157921828864
+    m_Key: town.item.river_sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158261567488
+    m_Key: town.item.botanist_kelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158588723200
+    m_Key: town.item.anemone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158907490304
+    m_Key: town.item.antique_anchor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159234646016
+    m_Key: town.item.treasure_chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159540830208
+    m_Key: town.item.treasure_clue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159855403008
+    m_Key: town.item.pearl_frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160182558720
+    m_Key: town.item.gull_hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160497131520
+    m_Key: town.item.salvage_cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160828481536
+    m_Key: town.item.hull_component
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161147248640
+    m_Key: town.item.camera_filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161466015744
+    m_Key: town.item.photo_stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161788977152
+    m_Key: town.item.tailored_boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162099355648
+    m_Key: town.item.tailored_skirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162413928448
+    m_Key: town.item.tailored_glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162736889856
+    m_Key: town.item.tailored_bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163051462656
+    m_Key: town.item.reef_stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163378618368
+    m_Key: town.item.aquarium_lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163718356992
+    m_Key: town.item.oak_cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164058095616
+    m_Key: town.item.oak_floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057024
+    m_Key: town.item.wall_shelf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057025
+    m_Key: town.use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057026
+    m_Key: town.error.passive_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057027
+    m_Key: town.error.future_component
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057028
+    m_Key: town.item.rare_plant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057029
+    m_Key: town.item.sea_pearl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057030
+    m_Key: town.item.exclusive_outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057031
+    m_Key: town.item.luminous_decor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057032
+    m_Key: town.item.fishing_clue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057033
+    m_Key: town.item.cove_clue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057034
+    m_Key: town.item.premium_furniture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057035
+    m_Key: town.item.treasure_clue.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057036
+    m_Key: town.item.fishing_clue.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057037
+    m_Key: town.item.cove_clue.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744627032064
+    m_Key: town.first.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363712
+    m_Key: town.friend.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363713
+    m_Key: town.intro.oliver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363714
+    m_Key: town.first.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363715
+    m_Key: town.friend.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363716
+    m_Key: town.intro.marina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363717
+    m_Key: town.first.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363718
+    m_Key: town.friend.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363719
+    m_Key: town.intro.rosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363720
+    m_Key: town.first.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363721
+    m_Key: town.friend.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363722
+    m_Key: town.intro.morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363723
+    m_Key: town.first.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363724
+    m_Key: town.friend.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363725
+    m_Key: town.intro.gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363726
+    m_Key: town.first.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363727
+    m_Key: town.friend.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363728
+    m_Key: town.intro.bruno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363729
+    m_Key: town.first.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363730
+    m_Key: town.friend.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363731
+    m_Key: town.intro.iris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363732
+    m_Key: town.first.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363733
+    m_Key: town.friend.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363734
+    m_Key: town.intro.lily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363735
+    m_Key: town.first.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363736
+    m_Key: town.friend.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363737
+    m_Key: town.intro.luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363738
+    m_Key: town.first.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363739
+    m_Key: town.friend.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363740
+    m_Key: town.intro.theo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363741
+    m_Key: town.first.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363742
+    m_Key: town.friend.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363743
+    m_Key: town.intro.eddie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363744
+    m_Key: town.first.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363745
+    m_Key: town.friend.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363746
+    m_Key: town.intro.henry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363747
+    m_Key: town.farewell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363748
+    m_Key: town.reaction.loved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363749
+    m_Key: town.reaction.liked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363750
+    m_Key: town.reaction.neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363751
+    m_Key: town.reaction.disliked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363752
+    m_Key: town.sea_pearl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363753
+    m_Key: town.driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845677634945024
+    m_Key: world.weather.clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845677928546304
+    m_Key: world.weather.partly_cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678180204544
+    m_Key: world.weather.cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678452834304
+    m_Key: world.weather.light_rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678738046976
+    m_Key: world.weather.heavy_rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679027453952
+    m_Key: world.weather.windy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679291695104
+    m_Key: world.weather.thunderstorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679576907776
+    m_Key: world.weather.snow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679866314752
+    m_Key: world.weather.light_fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680155721728
+    m_Key: world.season.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680155721729
+    m_Key: world.month.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680453517312
+    m_Key: world.season.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680453517313
+    m_Key: world.month.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680747118592
+    m_Key: world.season.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680747118593
+    m_Key: world.month.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885696
+    m_Key: world.season.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885697
+    m_Key: world.month.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885698
+    m_Key: world.weekday.0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885699
+    m_Key: world.weekday.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885700
+    m_Key: world.weekday.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885701
+    m_Key: world.weekday.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885702
+    m_Key: world.weekday.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885703
+    m_Key: world.weekday.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885704
+    m_Key: world.weekday.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885705
+    m_Key: world.today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885706
+    m_Key: world.tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885707
+    m_Key: world.wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885708
+    m_Key: world.fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885709
+    m_Key: world.calendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885710
+    m_Key: world.close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885711
+    m_Key: world.year
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885712
+    m_Key: world.merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885713
+    m_Key: world.events_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885714
+    m_Key: world.sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885715
+    m_Key: world.sleep_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885716
+    m_Key: world.sleep_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885717
+    m_Key: world.sleep_invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885718
+    m_Key: world.save_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885719
+    m_Key: town.error.closed
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -13,6 +13,7 @@ namespace OceanariumFishing
         public void Interact(InteractionActor actor)
         {
             if(!CanInteract(actor))return;
+            if(kind==InteractionKind.Cabin&&WorldCalendarHUD.Current){WorldCalendarHUD.Current.OpenSleep(this);return;}
             if(kind==InteractionKind.StarterRod)
             {
                 if(!actor.TryGiveStarterRod()){actor.Notify("notice.owned");return;}

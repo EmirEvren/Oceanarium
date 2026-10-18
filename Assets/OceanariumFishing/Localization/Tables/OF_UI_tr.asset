@@ -2358,6 +2358,1264 @@ MonoBehaviour:
     m_Localized: "Var\u0131\u015F noktas\u0131n\u0131 se\xE7"
     m_Metadata:
       m_Items: []
+  - m_Id: 834910231625728
+    m_Localized: Oliver Reed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374464
+    m_Localized: Tidal Tackle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374465
+    m_Localized: Fishing Equipment Merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374466
+    m_Localized: Oliver repairs tackle and teaches patient fishing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910269374467
+    m_Localized: A steady line beats a hurried reel. What are we fishing for today?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809920
+    m_Localized: Marina Bloom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809921
+    m_Localized: Shell & Seaweed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809922
+    m_Localized: Aquatic Botanist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809923
+    m_Localized: Marina grows plants for healthy freshwater and marine exhibits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910537809924
+    m_Localized: A little green turns a glass box into a home. Mind the habitat on
+      each plant!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051072
+    m_Localized: Rosie Baker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051073
+    m_Localized: Saltwind Bakery & Tea House
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051074
+    m_Localized: Baker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051075
+    m_Localized: Rosie makes the harbor feel like a kitchen shared by friends.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834910802051076
+    m_Localized: The kettle is singing. Tell me about your morning by the sea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680832
+    m_Localized: Captain Morris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680833
+    m_Localized: The Sunken Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680834
+    m_Localized: Antique Dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680835
+    m_Localized: Morris collects coastal history, one recovered object at a time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911074680836
+    m_Localized: Every anchor has a story. This one took me three tides to untangle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921984
+    m_Localized: Mysterious Gull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921985
+    m_Localized: Gull Market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921986
+    m_Localized: Traveling Night Merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921987
+    m_Localized: "Pazartesi ve cuma geceleri 20:00\u201302:00 aras\u0131nda gelen
+      sessiz bir t\xFCccar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911338921988
+    m_Localized: You found me between tides. Pearls and rare shells speak louder
+      than Coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357440
+    m_Localized: Bruno Forge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357441
+    m_Localized: Old Mooring Workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357442
+    m_Localized: Recycler & Salvage Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357443
+    m_Localized: Bruno gives washed-up materials another useful life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911607357444
+    m_Localized: Nothing is rubbish until I have tried making a fish out of it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598592
+    m_Localized: Iris Shutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598593
+    m_Localized: Pixel & Lens Studio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598594
+    m_Localized: Photographer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598595
+    m_Localized: Iris collects moments of island life through her lens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834911871598596
+    m_Localized: Hold that thought. The light on the harbor is lovely right now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005568
+    m_Localized: Lily Stitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005569
+    m_Localized: Needle & Sail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005570
+    m_Localized: Tailor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005571
+    m_Localized: Lily makes comfortable clothes for rainy walks and sunny docks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912161005572
+    m_Localized: Salt in your hair, a good stitch in your sleeve. That's island fashion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858112
+    m_Localized: Luna Glow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858113
+    m_Localized: Glowtide Alchemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858114
+    m_Localized: Bioluminescence Researcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858115
+    m_Localized: Luna keeps careful notes on luminous marine life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912416858116
+    m_Localized: Some corals carry their own tiny stars. I study how they shine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516352
+    m_Localized: Theo Current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516353
+    m_Localized: Tidal Press
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516354
+    m_Localized: Journalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516355
+    m_Localized: Theo publishes authored local news and practical fishing tips.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912668516356
+    m_Localized: 'Today''s bulletin: the harbor is open! Exploration routes still
+      need proper preparation.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340416
+    m_Localized: Eddie Dice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340417
+    m_Localized: Harbor Game Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340418
+    m_Localized: Tavern & Arcade Owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340419
+    m_Localized: Eddie gathers fishermen around stories and friendly games.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834912945340420
+    m_Localized: Welcome! A good fishing story needs one impossible detail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387264
+    m_Localized: Henry Oak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387265
+    m_Localized: Master Carpenter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387266
+    m_Localized: Woodworker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387267
+    m_Localized: Henry crafts sturdy display furniture from warm island timber.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913205387268
+    m_Localized: Measure twice, sand once more. Your aquarium deserves a proper home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913465434112
+    m_Localized: "Coastal rod \xB7 +3 m cast, +15% strength"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834913738063872
+    m_Localized: "Braided line \xB7 +20% line strength"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914023276544
+    m_Localized: "Balanced hook \xB7 +12% handling"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914375598080
+    m_Localized: "Java moss \xB7 aquarium build storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914673393664
+    m_Localized: "Anubias \xB7 aquarium build storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834914979577856
+    m_Localized: "Island tea \xB7 gift item"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915289956352
+    m_Localized: "Shipwreck decoration \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915608723456
+    m_Localized: "Rare coral \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834915898130432
+    m_Localized: "Recycled bench \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916204314624
+    m_Localized: "Picture frame \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916506304512
+    m_Localized: "Marine coral \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834916808294400
+    m_Localized: "Oak bench \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227328
+    m_Localized: "Display stand \xB7 aquarium storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227329
+    m_Localized: "[E] Kasabal\u0131yla konu\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227330
+    m_Localized: kalp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227331
+    m_Localized: Sikke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227332
+    m_Localized: Nadir kabuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227333
+    m_Localized: Hurda metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227334
+    m_Localized: Sohbet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227335
+    m_Localized: "D\xFCkkan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227336
+    m_Localized: Hediyeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227337
+    m_Localized: "Bal\u0131k sat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227338
+    m_Localized: "Sat\u0131n al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227339
+    m_Localized: Bir tane hediye et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227340
+    m_Localized: "G\xFCn\xFCn nas\u0131l ge\xE7iyor?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227341
+    m_Localized: "Arkada\u015Fl\u0131k \xF6d\xFCl\xFCn\xFC al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227342
+    m_Localized: "Bu i\u015Flemi onayl\u0131yor musun?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227343
+    m_Localized: Onayla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227344
+    m_Localized: "Vazge\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227345
+    m_Localized: "Se\xE7ilen bal\u0131\u011F\u0131 g\xF6sterilen fiyattan sat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227346
+    m_Localized: "Tidal Tackle'daki Oliver depodaki bal\u0131klar\u0131n\u0131 sat\u0131n
+      al\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227347
+    m_Localized: "Tamam! \u0130lerlemen kaydedildi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227348
+    m_Localized: This inventory belongs to another player.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227349
+    m_Localized: Could not save. Nothing was spent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227350
+    m_Localized: This transaction or reward was already claimed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227351
+    m_Localized: The inventory changed. Please select again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227352
+    m_Localized: This resident is unavailable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227353
+    m_Localized: This item is not unlocked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227354
+    m_Localized: This item is sold out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227355
+    m_Localized: Not enough currency.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227356
+    m_Localized: Come back tomorrow for more friendship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227357
+    m_Localized: That item is not available in your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227358
+    m_Localized: You already own this style.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227359
+    m_Localized: loved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227360
+    m_Localized: liked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227361
+    m_Localized: neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227362
+    m_Localized: disliked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227363
+    m_Localized: Rare shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227364
+    m_Localized: Driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227365
+    m_Localized: Scrap metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834917152227366
+    m_Localized: Rope bundle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837765743149056
+    m_Localized: A Welcome at the Tackle Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837765785092096
+    m_Localized: Have a daily conversation with Oliver Reed. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766426820608
+    m_Localized: A Stronger Line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766426820609
+    m_Localized: Purchase braided line from Oliver. Owned purchases also count.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766737199104
+    m_Localized: Meet the Botanist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766737199105
+    m_Localized: Have a daily conversation with Marina Bloom. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766976274432
+    m_Localized: A Green Beginning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837766976274433
+    m_Localized: Purchase Java moss from Marina for your aquarium.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767244709888
+    m_Localized: Tea and Introductions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767244709889
+    m_Localized: Have a daily conversation with Rosie Baker. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767529922560
+    m_Localized: Tea for the Harbor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767529922561
+    m_Localized: Bring Rosie one island tea from her shop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767756414976
+    m_Localized: A Captain's Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767756414977
+    m_Localized: Have a daily conversation with Captain Morris. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767987101696
+    m_Localized: Shells with a Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837767987101697
+    m_Localized: Bring Morris two rare shells from the town shoreline.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768226177024
+    m_Localized: Between the Tides
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768226177025
+    m_Localized: Have a daily conversation with Mysterious Gull. Return to claim
+      your welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768452669440
+    m_Localized: A Quiet Exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768452669441
+    m_Localized: "Bring the night merchant two rare shells. Visits are on alternate
+      nights, 20:00\u201304:00."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768700133376
+    m_Localized: Nothing Goes to Waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768700133377
+    m_Localized: Have a daily conversation with Bruno Forge. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768964374528
+    m_Localized: Salvage for the Workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837768964374529
+    m_Localized: Bring Bruno three scrap pieces from the salvage trail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769228615680
+    m_Localized: A Photographer's Eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769228615681
+    m_Localized: Have a daily conversation with Iris Shutter. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769652240384
+    m_Localized: A Portrait of the Harbor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837769652240385
+    m_Localized: Buy a pocket camera from Iris. Stand at the town harbor and press
+      P to save a photo, then return.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770012950528
+    m_Localized: A Stitch in Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770012950529
+    m_Localized: Have a daily conversation with Lily Stitch. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770335911936
+    m_Localized: Inspiration in the Square
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770335911937
+    m_Localized: Visit the fountain plaza and return to Lily.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770721787904
+    m_Localized: Tiny Underwater Stars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837770721787905
+    m_Localized: Have a daily conversation with Luna Glow. Return to claim your welcome
+      reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771350933504
+    m_Localized: An Underwater Garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771350933505
+    m_Localized: Place any purchased decoration or furnishing in your home aquarium,
+      then return.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771959107584
+    m_Localized: The Local Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837771959107585
+    m_Localized: Have a daily conversation with Theo Current. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837772655362048
+    m_Localized: Know Your Harbor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837772655362049
+    m_Localized: Visit the town harbor and report back to Theo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773078986752
+    m_Localized: A Fisherman's Tale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773078986753
+    m_Localized: Have a daily conversation with Eddie Dice. Return to claim your
+      welcome reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773519388672
+    m_Localized: Three Fishing Stories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837773519388673
+    m_Localized: Discover three fish species through fishing. Existing discoveries
+      count.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774228226048
+    m_Localized: The Carpenter's Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774228226049
+    m_Localized: Have a daily conversation with Henry Oak. Return to claim your welcome
+      reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774697988096
+    m_Localized: Timber for Tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837774697988097
+    m_Localized: Bring Henry three driftwood pieces from the town shoreline.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773568
+    m_Localized: "G\xF6revler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773569
+    m_Localized: Kasaba sakinleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773570
+    m_Localized: Bilinen hediyeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773571
+    m_Localized: "G\xF6revi kabul et"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773572
+    m_Localized: "\xD6d\xFCl\xFC al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773573
+    m_Localized: "G\xF6revi takip et"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773574
+    m_Localized: "Aktif g\xF6revler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773575
+    m_Localized: "Mevcut g\xF6revler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773576
+    m_Localized: "Tamamlanan g\xF6revler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773577
+    m_Localized: "\xD6d\xFCl almadan \xF6nce hedefi tamamla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837775297773578
+    m_Localized: "[E] K\u0131y\u0131 malzemelerini topla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169402966016
+    m_Localized: "Fisherman hat \xB7 equips on purchase"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169788841984
+    m_Localized: "Cozy jacket \xB7 equips on purchase"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838169814007808
+    m_Localized: "Bir \xE7ay i\xE7 \xB7 Be\u015F dakika boyunca bal\u0131k bekleme
+      s\xFCresi %10 azal\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838646639263744
+    m_Localized: "Pocket camera \xB7 press P to save a photo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353216
+    m_Localized: Play the fishing timing game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353217
+    m_Localized: Free play. Click Reel while the marker is in green. Land 3 of 5
+      attempts to earn 3 Coins, once per town day. No entry fee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353218
+    m_Localized: Reel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353219
+    m_Localized: Well fished! Daily reward saved if not already claimed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 838651433353220
+    m_Localized: Good practice. Start another round from the conversation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 839155051823104
+    m_Localized: "HARBOR BULLETIN \u2014 Authored report\nHome and Town harbors are
+      open. Current skies are clear; dynamic weather arrives in the next milestone.
+      Visit rocky shores for different fish. Keep displayed specimens in their tanks
+      until you choose to remove them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157263323136
+    m_Localized: "Island cookie \xB7 five-minute reel assistance"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157607256064
+    m_Localized: "Bait dough \xB7 five-minute larger-catch luck"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842157921828864
+    m_Localized: Natural river sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158261567488
+    m_Localized: Decorative kelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158588723200
+    m_Localized: Decorative sea anemone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842158907490304
+    m_Localized: Antique anchor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159234646016
+    m_Localized: Recovered treasure chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159540830208
+    m_Localized: "Coastal treasure notes \xB7 read from items"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842159855403008
+    m_Localized: Pearl trader's frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160182558720
+    m_Localized: Night merchant's beanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160497131520
+    m_Localized: Reclaimed cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842160828481536
+    m_Localized: "Hull upgrade component \xB7 reserved for future boat tier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161147248640
+    m_Localized: "Warm camera filter \xB7 activate from items"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161466015744
+    m_Localized: Photo display pedestal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842161788977152
+    m_Localized: Fisherman boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162099355648
+    m_Localized: Long skirt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162413928448
+    m_Localized: Round glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842162736889856
+    m_Localized: Crossbody bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163051462656
+    m_Localized: Reef stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163378618368
+    m_Localized: Warm aquarium floor lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842163718356992
+    m_Localized: Oak aquarium cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164058095616
+    m_Localized: Warm oak flooring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057024
+    m_Localized: Wall shelf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057025
+    m_Localized: Kullan / oku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057026
+    m_Localized: This item is equipped automatically or used through its matching
+      activity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057027
+    m_Localized: Keep this component for a future boat upgrade. No island has been
+      unlocked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057028
+    m_Localized: Rare aquatic plant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057029
+    m_Localized: Sea pearl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057030
+    m_Localized: Exclusive cozy sweater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057031
+    m_Localized: Luminous aquarium decoration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057032
+    m_Localized: Rocky-shore fishing notes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057033
+    m_Localized: Hidden cove notes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057034
+    m_Localized: Premium aquarium cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057035
+    m_Localized: Coastal finds wash up along the town harbor trail. Search both sides
+      of the approach for shells and recovered materials.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057036
+    m_Localized: 'Try the rocky shore on Home Island: habitat changes the species
+      available to your rod.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842164381057037
+    m_Localized: Coral Cove appears on Finn's chart, but requires future navigation
+      upgrades. This note does not unlock travel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744627032064
+    m_Localized: Welcome to Tidal Tackle. I'm Oliver. Tell me what you hope to catch,
+      and we'll start with a steady line.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363712
+    m_Localized: I set aside my best knot advice for you. A quiet cast and an even
+      reel go a long way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363713
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363714
+    m_Localized: I'm Marina! Freshwater roots and salty reefs need different care.
+      Let's find your aquarium something green.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363715
+    m_Localized: Your visits make this little nursery feel like a garden shared with
+      friends.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363716
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363717
+    m_Localized: A new face! I'm Rosie. Sit a moment; the first thing a harbor needs
+      is a good kitchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363718
+    m_Localized: There's always a place for you near my kettle. Tell me about your
+      latest catch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363719
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363720
+    m_Localized: Captain Morris, retired from rushing. If you find something washed
+      ashore, bring its story along.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363721
+    m_Localized: Some treasures are better shared. I'm glad my old stories found
+      a patient listener.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363722
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363723
+    m_Localized: Call me Gull. I trade in things the tide remembers. Look carefully;
+      I won't be here every night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363724
+    m_Localized: You kept coming back. Few people notice what waits between the tides.
+      I remember that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363725
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363726
+    m_Localized: Bruno. Mind the tools! That scrap might be tomorrow's finest cabinet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363727
+    m_Localized: I've been saving the useful offcuts. A friend with an aquarium can
+      always use good timber.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363728
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363729
+    m_Localized: I'm Iris. The harbor changes every time you look. Would you help
+      me collect its little moments?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363730
+    m_Localized: I used to chase perfect sunsets. Now I photograph the people who
+      make this harbor home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363731
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363732
+    m_Localized: Lily, at your service. Comfortable seams first, splendid hats second.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363733
+    m_Localized: 'I know your style now: ready for an adventure, but never too busy
+      to wave hello.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363734
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363735
+    m_Localized: Luna. I study the tiny lights living beneath the waves. Would you
+      like a closer look?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363736
+    m_Localized: I saved my brightest notes for you. A little light feels warmer
+      when someone shares it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363737
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363738
+    m_Localized: Theo Current, Tidal Press. New neighbor? Excellent. There's always
+      room for another story.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363739
+    m_Localized: You have become part of the harbor's story. That's the best kind
+      of news.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363740
+    m_Localized: Read the bulletin for harbor news and fishing hints.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363741
+    m_Localized: Eddie! Pull up a chair. We tell fishing stories here, then test
+      whether our timing lives up to them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363742
+    m_Localized: Our table feels empty when you're away. Another round, or another
+      impossible fish story?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363743
+    m_Localized: Try a free timing round from our conversation. Three catches win
+      the daily prize.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363744
+    m_Localized: Henry Oak. Good wood needs patience. So does a good neighbor. Welcome.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363745
+    m_Localized: I've put extra care into your next piece. That's what working for
+      a friend feels like.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363746
+    m_Localized: Choose something for your next island day. The price is shown before
+      you confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363747
+    m_Localized: See you by the water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363748
+    m_Localized: You remembered my favorite! Thank you. +35 friendship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363749
+    m_Localized: How thoughtful. I'll put this to good use. +20 friendship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363750
+    m_Localized: Thank you for thinking of me. +5 friendship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363751
+    m_Localized: I appreciate the thought, but this isn't really for me. -5 friendship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363752
+    m_Localized: Sea pearls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 843744677363753
+    m_Localized: Driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845677634945024
+    m_Localized: Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845677928546304
+    m_Localized: Partly cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678180204544
+    m_Localized: Cloudy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678452834304
+    m_Localized: Light rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845678738046976
+    m_Localized: Heavy rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679027453952
+    m_Localized: Windy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679291695104
+    m_Localized: Thunderstorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679576907776
+    m_Localized: Snow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845679866314752
+    m_Localized: Light fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680155721728
+    m_Localized: Spring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680155721729
+    m_Localized: Blossom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680453517312
+    m_Localized: Summer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680453517313
+    m_Localized: Suncrest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680747118592
+    m_Localized: Autumn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845680747118593
+    m_Localized: Harvest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885696
+    m_Localized: Winter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885697
+    m_Localized: Frostfall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885698
+    m_Localized: Monday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885699
+    m_Localized: Tuesday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885700
+    m_Localized: Wednesday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885701
+    m_Localized: Thursday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885702
+    m_Localized: Friday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885703
+    m_Localized: Saturday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885704
+    m_Localized: Sunday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885705
+    m_Localized: Today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885706
+    m_Localized: Tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885707
+    m_Localized: Wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885708
+    m_Localized: Active fish nearby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885709
+    m_Localized: Island calendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885710
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885711
+    m_Localized: Year
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885712
+    m_Localized: "Gull \xB7 20:00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885713
+    m_Localized: Gull trades Monday and Friday nights, until 02:00. Season changes
+      on day 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885714
+    m_Localized: Sleep until morning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885715
+    m_Localized: Rest at home until 08:00 tomorrow? Your belongings and quests are
+      kept. No income is awarded for skipped time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885716
+    m_Localized: Sleep until tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885717
+    m_Localized: Return to your cabin and finish your current activity first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885718
+    m_Localized: The world could not be saved. Time was not advanced.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845681065885719
+    m_Localized: "D\xFCkkan kapal\u0131. A\xE7\u0131l\u0131\u015F saatlerinde, \xF6\u011Fle
+      molas\u0131 d\u0131\u015F\u0131nda gel."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: luna
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: luna
+  nameKey: town.npc.luna
+  professionKey: town.profession.luna
+  biographyKey: town.bio.luna
+  greetingKey: town.greeting.luna
+  shopKey: town.shop.luna
+  firstMeetingKey: town.first.luna
+  friendKey: town.friend.luna
+  shopIntroKey: town.intro.luna
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: masculine
+    hair: long_wavy
+    hairColor: white
+    skin: umber
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: sweater
+    bottom: pants
+    shoes: sneakers
+    hat: none
+    glasses: none
+    accessory: none
+    outfitColor: cream
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: 18, y: 1.5174823, z: 8}
+  work: {x: 18, y: 1.5006052, z: 7}
+  social: {x: 1.1999998, y: 1.6464857, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - rare_shell
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: luminous_decor
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 0af7fd8332e35924b8204f59dd289222, type: 2}
+  - {fileID: 11400000, guid: 3de4286a803b44a4fbc291a9ae5dddbe, type: 2}
+  - {fileID: 11400000, guid: c3d8ab5a8ffa3ea4ba196cf1440df68f, type: 2}
+  quests:
+  - {fileID: 11400000, guid: 775d31138d1c37f4c93bdd70f8fb552b, type: 2}
+  - {fileID: 11400000, guid: fab4c944ae21e4b4ca9407eeac99ccc9, type: 2}
+  portrait: {fileID: 2800000, guid: 69b43a625297c8041b516bdb028a9fe1, type: 3}
+  rewardBuildItem: {fileID: 11400000, guid: 89ebf984216124d4c98776e110f70ded, type: 2}

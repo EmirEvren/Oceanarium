@@ -9,7 +9,7 @@ namespace OceanariumFishing
         private GUIStyle heading,body,small,button; private Vector2 languageScroll;
         public bool SettingsOpen=>settings;
         private CollectionHUD collection;
-        private BoatHarbor harbor;private AquariumHUD aquarium;private AquariumBuildHUD building;
+        private BoatHarbor harbor;private AquariumHUD aquarium;private AquariumBuildHUD building;private TownHUD town;
         public void Bind(GameSession service,LocalPlayerController localPlayer,Destination scene)
         {
             session=service;player=localPlayer;destination=scene;collection=player?player.GetComponent<CollectionHUD>():null;
@@ -19,14 +19,14 @@ namespace OceanariumFishing
         private void OnDestroy(){if(interactor!=null && interactor.Actor!=null)interactor.Actor.Feedback-=Feedback;}
         private void Update()
         {
-            if(!harbor)harbor=FindFirstObjectByType<BoatHarbor>();if(!aquarium)aquarium=FindFirstObjectByType<AquariumHUD>();if(!building)building=FindFirstObjectByType<AquariumBuildHUD>();
-            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true)settings=!settings;
-            if(player!=null)player.InputEnabled=!settings && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true && session!=null && !session.Loading;
+            if(!town)town=FindFirstObjectByType<TownHUD>();if(!harbor)harbor=FindFirstObjectByType<BoatHarbor>();if(!aquarium)aquarium=FindFirstObjectByType<AquariumHUD>();if(!building)building=FindFirstObjectByType<AquariumBuildHUD>();
+            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true && town?.BlocksInput!=true && WorldCalendarHUD.Current?.BlocksInput!=true)settings=!settings;
+            if(player!=null)player.InputEnabled=!settings && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true && town?.BlocksInput!=true && WorldCalendarHUD.Current?.BlocksInput!=true && session!=null && !session.Loading;
         }
         private string T(string key)=>session.Languages.Text(key);
         private void OnGUI()
         {
-            if(session==null || !session.Languages.Ready || collection?.IsOpen==true || aquarium?.IsOpen==true || building?.IsOpen==true || harbor?.InputLocked==true)return;
+            if(session==null || !session.Languages.Ready || collection?.IsOpen==true || aquarium?.IsOpen==true || building?.IsOpen==true || harbor?.InputLocked==true || town?.IsOpen==true || WorldCalendarHUD.Current?.BlocksInput==true)return;
             if(heading==null)
             {
                 heading=new GUIStyle(GUI.skin.label){fontSize=44,fontStyle=FontStyle.Bold,wordWrap=true};
@@ -82,6 +82,8 @@ namespace OceanariumFishing
         private static void Panel(Rect rect){var old=GUI.color;GUI.color=new Color(.055f,.16f,.19f,.93f);GUI.DrawTexture(rect,Texture2D.whiteTexture);GUI.color=old;}
     }
 }
+
+
 
 
 

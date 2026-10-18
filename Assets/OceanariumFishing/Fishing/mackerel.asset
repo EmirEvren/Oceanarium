@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fba24d2db287f34480500eb3f0c7009, type: 3}
   m_Name: mackerel
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
+  seasons: 00000000010000000200000003000000
+  preferredWeather:
+  - light_fog
+  - cloudy
   icon: {fileID: 2800000, guid: d43fe5e1781946b42a14df556e029bfd, type: 2}
   silhouette: {fileID: 2800000, guid: 3b29a9cfc01b6c44c98f46c368ded76f, type: 2}
   aquariumHabitat: 1
@@ -33,7 +37,14 @@ MonoBehaviour:
   - OF_HomeIsland
   weather:
   - clear
+  - partly_cloudy
   - cloudy
+  - light_rain
+  - heavy_rain
+  - windy
+  - thunderstorm
+  - snow
+  - light_fog
   startHour: 0
   endHour: 24
   preferredBait: none

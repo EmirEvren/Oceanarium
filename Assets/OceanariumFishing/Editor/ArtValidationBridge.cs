@@ -16,13 +16,19 @@ namespace OceanariumFishing.Editor
             string command;try{command=File.ReadAllText(path).Trim();File.Delete(path);}catch(IOException){return;}
             try
             {
-                if(command=="aquarium-build")AquariumBuilder.Build();
+                if(command=="world-build")WorldBuilder.Build();
+                else if(command=="aquarium-build")AquariumBuilder.Build();
                 else if(command=="aquarium-checks")AquariumChecks.Run();
                 else if(command=="aquarium-restart-checks")AquariumChecks.Restart();
                 else if(command=="aquarium-polish-checks")AquariumChecks.Polish();
                 else if(command=="building-checks")AquariumBuildChecks.Run();
                 else if(command=="building-restart-checks")AquariumBuildChecks.Restart();
                 else if(command=="travel-checks")BoatTravelChecks.Run();
+                else if(command=="town-transaction-checks")TownTransactionChecks.Run();
+                else if(command=="town-build")TownBuilder.Build();
+                else if(command=="town-runtime-checks")TownRuntimeChecks.Run();
+                else if(command=="town-activity-checks")TownActivityChecks.Run();
+                else if(command=="town-content-checks")TownContentChecks.Run();
                 else if(command=="travel-restart-checks")BoatTravelChecks.Restart();
                 else if(command=="travel-build")BoatWorldBuilder.Build();
                 else if(command=="building-generate")AquariumBuildGenerator.Build();

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: bruno
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: bruno
+  nameKey: town.npc.bruno
+  professionKey: town.profession.bruno
+  biographyKey: town.bio.bruno
+  greetingKey: town.greeting.bruno
+  shopKey: town.shop.bruno
+  firstMeetingKey: town.first.bruno
+  friendKey: town.friend.bruno
+  shopIntroKey: town.intro.bruno
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: feminine
+    hair: curly_short
+    hairColor: platinum
+    skin: tan
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: sweater
+    bottom: long_skirt
+    shoes: sneakers
+    hat: none
+    glasses: none
+    accessory: none
+    outfitColor: ochre
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: 13, y: 1.5556457, z: 4}
+  work: {x: 13, y: 1.5633513, z: 3}
+  social: {x: -0.7500001, y: 1.6260473, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - island_tea
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: hull_component
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: a81fe9638bd15954c89946e6181d7753, type: 2}
+  - {fileID: 11400000, guid: 701296deeabe04441b8e79dfb8c0a276, type: 2}
+  - {fileID: 11400000, guid: 72ef287c2a613334493162f4c047f38f, type: 2}
+  quests:
+  - {fileID: 11400000, guid: a87f0a7dbca839745930f42c93953eac, type: 2}
+  - {fileID: 11400000, guid: 1058e3c9c149d6649ab7f8aa3acc5456, type: 2}
+  portrait: {fileID: 2800000, guid: 74ab2d1b5f071d1479b2cfbc46ecc20f, type: 3}
+  rewardBuildItem: {fileID: 0}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: lily
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: lily
+  nameKey: town.npc.lily
+  professionKey: town.profession.lily
+  biographyKey: town.bio.lily
+  greetingKey: town.greeting.lily
+  shopKey: town.shop.lily
+  firstMeetingKey: town.first.lily
+  friendKey: town.friend.lily
+  shopIntroKey: town.intro.lily
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: feminine
+    hair: high_ponytail
+    hairColor: auburn
+    skin: bronze
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: jacket
+    bottom: pants
+    shoes: sneakers
+    hat: none
+    glasses: none
+    accessory: necklace
+    outfitColor: coral
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -20, y: 1.4893548, z: -1}
+  work: {x: -20, y: 1.4815437, z: -2}
+  social: {x: 0.54999983, y: 1.643015, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - island_tea
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: exclusive_outfit
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: da76698c7cd0306448aa54c3a71bb44d, type: 2}
+  - {fileID: 11400000, guid: e62480e5059ec8d4d8d192662a887002, type: 2}
+  - {fileID: 11400000, guid: 38b862bac55e0bd46813803dea5e9372, type: 2}
+  - {fileID: 11400000, guid: 8dd3488fde2318f4881b315e8f798e5f, type: 2}
+  - {fileID: 11400000, guid: da4fcf33882d7634a901a1981feed3f5, type: 2}
+  - {fileID: 11400000, guid: e18d2d5fc312f7f409cd18cbe317c4e4, type: 2}
+  quests:
+  - {fileID: 11400000, guid: c37b9b9caa8fc934d82afc588f367c99, type: 2}
+  - {fileID: 11400000, guid: 844a11d97b3eb9d49b78228b28bd5086, type: 2}
+  portrait: {fileID: 2800000, guid: 64cba0302cb3c4f4aba0a4dd51a66819, type: 3}
+  rewardBuildItem: {fileID: 0}

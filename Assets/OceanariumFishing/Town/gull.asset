@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: gull
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: gull
+  nameKey: town.npc.gull
+  professionKey: town.profession.gull
+  biographyKey: town.bio.gull
+  greetingKey: town.greeting.gull
+  shopKey: town.shop.gull
+  firstMeetingKey: town.first.gull
+  friendKey: town.friend.gull
+  shopIntroKey: town.intro.gull
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: masculine
+    hair: long_straight
+    hairColor: blonde
+    skin: golden
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: jacket
+    bottom: pants
+    shoes: sneakers
+    hat: none
+    glasses: none
+    accessory: none
+    outfitColor: lavender
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -8, y: 1.6167494, z: -21}
+  work: {x: -8, y: 1.6209885, z: -22}
+  social: {x: -1.4000001, y: 1.6130784, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 1
+  appearanceDayInterval: 2
+  loved:
+  - rare_shell
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: sea_pearl
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 2dd9b4a085268524dac612026a9bd257, type: 2}
+  - {fileID: 11400000, guid: 8f0795fdb699edb4a9bd1527bdcfbeec, type: 2}
+  - {fileID: 11400000, guid: 4b9f2ccd5269b0b49826a686588304d1, type: 2}
+  quests:
+  - {fileID: 11400000, guid: 94643587c35946f4ea8f29882c4e4783, type: 2}
+  - {fileID: 11400000, guid: 9d04794a2211d2541a0d3c01f0720f75, type: 2}
+  portrait: {fileID: 2800000, guid: 387ca26031253734eabb6c52e317dbf4, type: 3}
+  rewardBuildItem: {fileID: 0}

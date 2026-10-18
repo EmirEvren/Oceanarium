@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: marina
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: marina
+  nameKey: town.npc.marina
+  professionKey: town.profession.marina
+  biographyKey: town.bio.marina
+  greetingKey: town.greeting.marina
+  shopKey: town.shop.marina
+  firstMeetingKey: town.first.marina
+  friendKey: town.friend.marina
+  shopIntroKey: town.intro.marina
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: feminine
+    hair: braided
+    hairColor: dark_brown
+    skin: ivory
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: jacket
+    bottom: long_skirt
+    shoes: sneakers
+    hat: none
+    glasses: none
+    accessory: none
+    outfitColor: coral
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -10, y: 1.5915346, z: -11}
+  work: {x: -10, y: 1.6011078, z: -12}
+  social: {x: -3.35, y: 1.5639268, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - island_tea
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: rare_plant
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 4725062a5cb0bff478099c7a480e1f32, type: 2}
+  - {fileID: 11400000, guid: f561be08073d1aa44850424dcf6cb126, type: 2}
+  - {fileID: 11400000, guid: 2fa0e16498c42c74e8ddae5417867a2d, type: 2}
+  - {fileID: 11400000, guid: 2e685eed1c848844998ec373f005ff71, type: 2}
+  - {fileID: 11400000, guid: 589974eddbb79bf4db5b9709ee09639e, type: 2}
+  quests:
+  - {fileID: 11400000, guid: b2add6bab91898c43a0e23e5f976f9e5, type: 2}
+  - {fileID: 11400000, guid: a56024798623a764b8a28ed28a0a41dd, type: 2}
+  portrait: {fileID: 2800000, guid: 95453b4058bd51b4e82601da3b892c27, type: 3}
+  rewardBuildItem: {fileID: 11400000, guid: 5c1ad63794b04e448b7ea8d6be4c026f, type: 2}

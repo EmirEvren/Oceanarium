@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: theo
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: theo
+  nameKey: town.npc.theo
+  professionKey: town.profession.theo
+  biographyKey: town.bio.theo
+  greetingKey: town.greeting.theo
+  shopKey: town.shop.theo
+  firstMeetingKey: town.first.theo
+  friendKey: town.friend.theo
+  shopIntroKey: town.intro.theo
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: feminine
+    hair: side_swept
+    hairColor: silver
+    skin: cocoa
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: fisherman_shirt
+    bottom: long_skirt
+    shoes: sneakers
+    hat: none
+    glasses: round_glasses
+    accessory: none
+    outfitColor: navy
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -3, y: 1.951208, z: 11}
+  work: {x: -3, y: 1.7630712, z: 10}
+  social: {x: 1.8499998, y: 1.6466943, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - island_tea
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: fishing_clue
+  rewardQuantity: 1
+  products: []
+  quests:
+  - {fileID: 11400000, guid: c70d9ec38629ace4f8760ab16378ca33, type: 2}
+  - {fileID: 11400000, guid: c9b9eb438c7f5bc46bb5be29291324c8, type: 2}
+  portrait: {fileID: 2800000, guid: 062f4976ae6ab49409d4625f0778a877, type: 3}
+  rewardBuildItem: {fileID: 0}

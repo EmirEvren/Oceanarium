@@ -1,0 +1,23 @@
+PASS 2026-10-18T20:14:47.6196761Z
+PASS: Town world initialized against existing inventory
+PASS: Twelve unique town residents instantiated
+PASS: Stable resident identifiers unique
+PASS: Town navigation grid initialized
+PASS: Walkable route to social area: oliver
+PASS: Walkable route to social area: marina
+PASS: Walkable route to social area: rosie
+PASS: Walkable route to social area: morris
+PASS: Walkable route to social area: bruno
+PASS: Walkable route to social area: iris
+PASS: Walkable route to social area: lily
+PASS: Walkable route to social area: luna
+PASS: Walkable route to social area: theo
+PASS: Walkable route to social area: eddie
+PASS: Walkable route to social area: henry
+PASS: Nearby NPC interaction opens dialogue and locks movement
+PASS: Owned line affects active fishing equipment
+PASS: Closing NPC dialogue restores movement
+PASS: Player specimens preserved by shop validation
+PASS: Museum boat and appearance unchanged
+PASS: Shop inventory and relationship save roundtrip
+PASS: Cross-town route connects both market sides

@@ -24,7 +24,7 @@ namespace OceanariumFishing
         }
         private IEnumerator Load(Destination destination)
         {
-            Loading=true;
+            WorldTimeService.Current?.Flush();Loading=true;
             AsyncOperation operation=null;string error=null;try{string path=catalog.Resolve(destination);if(!Application.CanStreamedLevelBeLoaded(path))error="unavailable";else operation=SceneManager.LoadSceneAsync(path);}catch(Exception e){error=e.Message;}if(operation==null){Loading=false;TransitionFailed?.Invoke(destination,error);yield break;}yield return operation;
             Loading=false;
             TransitionCompleted?.Invoke(destination);

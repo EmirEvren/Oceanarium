@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: iris
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: iris
+  nameKey: town.npc.iris
+  professionKey: town.profession.iris
+  biographyKey: town.bio.iris
+  greetingKey: town.greeting.iris
+  shopKey: town.shop.iris
+  firstMeetingKey: town.first.iris
+  friendKey: town.friend.iris
+  shopIntroKey: town.intro.iris
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: masculine
+    hair: short_bob
+    hairColor: ginger
+    skin: caramel
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: fisherman_shirt
+    bottom: pants
+    shoes: sneakers
+    hat: none
+    glasses: round_glasses
+    accessory: crossbody
+    outfitColor: seafoam
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -13, y: 1.495947, z: 5}
+  work: {x: -13, y: 1.4895616, z: 4}
+  social: {x: -0.10000014, y: 1.6361566, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - rare_shell
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: camera_filter
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 61c81e69a1f452f4da4f395e35bdce3c, type: 2}
+  - {fileID: 11400000, guid: 76b6f2f9a08d41146a409a34f5cdd596, type: 2}
+  - {fileID: 11400000, guid: 86e794f482d188248a75fb921cd05aff, type: 2}
+  - {fileID: 11400000, guid: c0bae174226ff4b40b6d3c862728779b, type: 2}
+  quests:
+  - {fileID: 11400000, guid: 6c6848b79c8f4734d82e059975738424, type: 2}
+  - {fileID: 11400000, guid: 086c1606f93d0004bbdc8f722daad9ee, type: 2}
+  portrait: {fileID: 2800000, guid: 83aa418bb8c92994dadb180a806a0052, type: 3}
+  rewardBuildItem: {fileID: 0}

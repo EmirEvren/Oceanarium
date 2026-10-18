@@ -29,7 +29,7 @@ namespace OceanariumFishing
         void Leave(){Travel(world.entrance.position);route.Enqueue(world.arrival.position);routingOut=true;Set(VisitorState.Leaving);}
         void Update()
         {
-            if(!world||!world.Ready){Destroy(gameObject);return;}float dt=Time.deltaTime;age+=dt;speed=0;
+            if(!world||!world.Ready){Destroy(gameObject);return;}if(!routingOut&&(world.Hour<world.economy.dayStart||world.Hour>=world.economy.dayEnd))Leave();float dt=Time.deltaTime;age+=dt;speed=0;
             if(route.Count>0)
             {
                 if(world.Building&&navGeneration!=world.Building.Navigation.Generation){destination=route.Last();navGeneration=world.Building.Navigation.Generation;Travel(destination);if(route.Count==0){Leave();return;}}Vector3 goal=route.Peek(),delta=goal-transform.position;

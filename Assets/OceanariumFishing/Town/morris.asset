@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: morris
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: morris
+  nameKey: town.npc.morris
+  professionKey: town.profession.morris
+  biographyKey: town.bio.morris
+  greetingKey: town.greeting.morris
+  shopKey: town.shop.morris
+  firstMeetingKey: town.first.morris
+  friendKey: town.friend.morris
+  shopIntroKey: town.intro.morris
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: feminine
+    hair: short_classic
+    hairColor: light_brown
+    skin: warm_beige
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: full_beard
+    beardColor: brown
+    top: fisherman_shirt
+    bottom: pants
+    shoes: sneakers
+    hat: bucket_hat
+    glasses: none
+    accessory: none
+    outfitColor: navy
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: -7, y: 1.4383667, z: -4}
+  work: {x: -7, y: 1.4582453, z: -5}
+  social: {x: -2.0500002, y: 1.5978655, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - island_tea
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: treasure_clue
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 5fb71744cca184440ad36d371480f1d7, type: 2}
+  - {fileID: 11400000, guid: 74c742ffe61c9fc409a46f69276abb71, type: 2}
+  - {fileID: 11400000, guid: 92659b111a9ec4e47a575836f5cdcd8f, type: 2}
+  - {fileID: 11400000, guid: 0f28ee92891df1240a2aed77f6f42301, type: 2}
+  quests:
+  - {fileID: 11400000, guid: cb42a08da90160b498b2188746bee781, type: 2}
+  - {fileID: 11400000, guid: a536aa39065d8b045a66ef6b5a0bfe12, type: 2}
+  portrait: {fileID: 2800000, guid: fe79d62e3a2bbc747b9b3cad63078ef2, type: 3}
+  rewardBuildItem: {fileID: 0}

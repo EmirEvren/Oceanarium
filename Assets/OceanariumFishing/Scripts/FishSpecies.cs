@@ -6,6 +6,7 @@ namespace OceanariumFishing
     [CreateAssetMenu(menuName="Oceanarium/Fish species")]
     public sealed class FishSpecies:ScriptableObject
     {
+        public int[] seasons={0,1,2,3};public string[] preferredWeather={"clear"};
         public Texture2D icon,silhouette;
         public AquariumHabitat aquariumHabitat;public float swimSpeed=.32f;public bool schooling;
         public string id,nameKey;public FishRarity rarity;public float minWeight,maxWeight,minLength,maxLength,baseValue=20,biteProbability=1,fightingStrength=1,stamina=1;

@@ -1,0 +1,6 @@
+PASS 2026-10-18T19:38:25.5314445Z
+PASS: Repair and story restore in fresh Play Mode
+PASS: Travel progression exactly restored
+PASS: Collected resources do not respawn
+PASS: No interrupted cinematic input lock
+PASS: Customized museum routes still valid after return

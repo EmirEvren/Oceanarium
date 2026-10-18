@@ -1,0 +1,9 @@
+PASS 2026-10-18T20:15:12.5370308Z
+PASS: Town activity scene ready
+PASS: Tailor purchase persists through existing appearance store and updates visible avatar
+PASS: Harbor photograph records subject
+PASS: Photo PNG exists in persistent photo library
+Schedule test hour: 13,1, route nodes: 17
+PASS: Resident physically walks toward scheduled break location
+PASS: Twenty-four functional quest definitions present
+PASS: Journal closes without disabling player

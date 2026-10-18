@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaae9eb21e43b34197c95a6b0ef2e1c, type: 3}
+  m_Name: decor_1
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.AquariumBuildItem
+  id: luminous_coral
+  category: 2
+  price: 4
+  level: 1
+  popularity: 1
+  requiredPopularity: 0
+  comfort: 0
+  size: {x: 0.3, y: 0.27, z: 0.28}
+  habitats: 0000000001000000
+  prefab: {fileID: 4915461446062617741, guid: d108b7be011a82a43bbda2413f09c3d7, type: 3}
+  thumbnail: {fileID: 2800000, guid: 31b61a2d1578b794f831c2307dcf9071, type: 3}
+  material: {fileID: 0}
+  tank: {fileID: 0}
+  futureLocked: 0
+  wallMounted: 0
+  decorationCost: 1
+  theme: coastal

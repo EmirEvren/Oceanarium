@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5814d7526ef6e439c200698de1bc01, type: 3}
+  m_Name: oliver
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.TownResidentDefinition
+  id: oliver
+  nameKey: town.npc.oliver
+  professionKey: town.profession.oliver
+  biographyKey: town.bio.oliver
+  greetingKey: town.greeting.oliver
+  shopKey: town.shop.oliver
+  firstMeetingKey: town.first.oliver
+  friendKey: town.friend.oliver
+  shopIntroKey: town.intro.oliver
+  farewellKey: town.farewell
+  appearance:
+    version: 1
+    presentation: masculine
+    hair: messy_short
+    hairColor: black
+    skin: porcelain
+    eyes: gentle
+    eyeColor: green
+    brows: soft_curved
+    browColor: brown
+    mouth: small_smile
+    nose: button
+    detail: blush
+    beard: none
+    beardColor: brown
+    top: fisherman_shirt
+    bottom: pants
+    shoes: sneakers
+    hat: fisherman_hat
+    glasses: none
+    accessory: backpack
+    outfitColor: seafoam
+    matchBrows: 1
+  visualPrefab: {fileID: 0}
+  home: {x: 10, y: 1.4799929, z: -10}
+  work: {x: 10, y: 1.4589655, z: -11}
+  social: {x: -4, y: 1.5469301, z: -6}
+  workStart: 8
+  breakStart: 13
+  breakEnd: 14
+  workEnd: 18
+  nightMerchant: 0
+  appearanceDayInterval: 2
+  loved:
+  - rare_shell
+  liked:
+  - driftwood
+  disliked:
+  - scrap
+  conversationPoints: 15
+  giftLimit: 1
+  rewardHearts: 2
+  rewardResource: coastal_rod
+  rewardQuantity: 1
+  products:
+  - {fileID: 11400000, guid: 35c91dc17f72cd94da87c9c95eb8254d, type: 2}
+  - {fileID: 11400000, guid: dc8e73fbd068300419f02ae5530516c6, type: 2}
+  - {fileID: 11400000, guid: 29514d3aa0949904c95de3d79768321c, type: 2}
+  quests:
+  - {fileID: 11400000, guid: 3206238675c40b94ebabde92b04bbf5e, type: 2}
+  - {fileID: 11400000, guid: 101b75e70faf0114abc703c269201307, type: 2}
+  portrait: {fileID: 2800000, guid: fb645ed93fee2f94eab42f352382a1bc, type: 3}
+  rewardBuildItem: {fileID: 0}

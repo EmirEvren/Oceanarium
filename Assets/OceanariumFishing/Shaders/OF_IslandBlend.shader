@@ -16,13 +16,14 @@ Shader "OceanariumFishing/Island Blend"
  CBUFFER_START(UnityPerMaterial)
  half4 _Grass,_Sand,_Path;
  CBUFFER_END
+ float _OFWetness,_OFSnow;float4 _OFFoliage;
  struct A{float4 p:POSITION;float3 n:NORMAL;float4 c:COLOR;};
  struct V{float4 p:SV_POSITION;float3 w:TEXCOORD0;float3 n:TEXCOORD1;float4 c:COLOR;float fog:TEXCOORD2;};
  V Vert(A i){V o;o.w=TransformObjectToWorld(i.p.xyz);o.p=TransformWorldToHClip(o.w);o.n=TransformObjectToWorldNormal(i.n);o.c=i.c;o.fog=ComputeFogFactor(o.p.z);return o;}
  half4 Frag(V i):SV_Target{
  Light sun=GetMainLight(TransformWorldToShadowCoord(i.w));
  float grain=sin(i.w.x*2.7+sin(i.w.z*3.1))*sin(i.w.z*2.3)*.018+sin(i.w.x*.41+i.w.z*.32)*.025;
- half3 base=lerp(_Sand.rgb,_Grass.rgb,saturate(i.c.r));base=lerp(base,_Path.rgb,i.c.g*.88);base+=grain;
+ half3 base=lerp(_Sand.rgb,_Grass.rgb*lerp(float3(1,1,1),_OFFoliage.rgb,step(.01,_OFFoliage.a)),saturate(i.c.r));base=lerp(base,_Path.rgb,i.c.g*.88);base+=grain;base*=1-_OFWetness*.12;base=lerp(base,half3(.8,.85,.88),_OFSnow*.25);
  float3 n=normalize(i.n);half3 light=SampleSH(n)*.8+sun.color*(saturate(dot(n,sun.direction))*.75+.12)*lerp(.42,1,sun.shadowAttenuation);
  return half4(MixFog(base*light,i.fog),1);}
  ENDHLSL

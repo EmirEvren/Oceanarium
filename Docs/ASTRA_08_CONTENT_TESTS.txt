@@ -1,0 +1,130 @@
+PASS 2026-10-18T20:16:11.7607788Z
+PASS: Twelve resident definitions load from persisted catalog
+PASS: Two quests and portrait: oliver
+PASS: Accept oliver_welcome
+PASS: Complete configured objective oliver_welcome
+PASS: No duplicate quest reward oliver_welcome
+PASS: Accept oliver_help
+PASS: Complete configured objective oliver_help
+PASS: No duplicate quest reward oliver_help
+PASS: Valid product asset: coastal_rod
+PASS: Valid product asset: braided_line
+PASS: Valid product asset: balanced_hook
+PASS: Two quests and portrait: marina
+PASS: Accept marina_welcome
+PASS: Complete configured objective marina_welcome
+PASS: No duplicate quest reward marina_welcome
+PASS: Accept marina_help
+PASS: Complete configured objective marina_help
+PASS: No duplicate quest reward marina_help
+PASS: Valid product asset: java_moss
+PASS: Valid product asset: anubias
+PASS: Valid product asset: river_sand
+PASS: Valid product asset: botanist_kelp
+PASS: Valid product asset: anemone
+PASS: Two quests and portrait: rosie
+PASS: Accept rosie_welcome
+PASS: Complete configured objective rosie_welcome
+PASS: No duplicate quest reward rosie_welcome
+PASS: Accept rosie_help
+PASS: Complete configured objective rosie_help
+PASS: No duplicate quest reward rosie_help
+PASS: Valid product asset: island_tea
+PASS: Valid product asset: island_cookie
+PASS: Valid product asset: bait_dough
+PASS: Two quests and portrait: morris
+PASS: Accept morris_welcome
+PASS: Complete configured objective morris_welcome
+PASS: No duplicate quest reward morris_welcome
+PASS: Accept morris_help
+PASS: Complete configured objective morris_help
+PASS: No duplicate quest reward morris_help
+PASS: Valid product asset: antique_decor
+PASS: Valid product asset: antique_anchor
+PASS: Valid product asset: treasure_chest
+PASS: Valid product asset: treasure_clue
+PASS: Two quests and portrait: gull
+PASS: Accept gull_welcome
+PASS: Complete configured objective gull_welcome
+PASS: No duplicate quest reward gull_welcome
+PASS: Accept gull_help
+PASS: Complete configured objective gull_help
+PASS: No duplicate quest reward gull_help
+PASS: Valid product asset: gull_coral
+PASS: Valid product asset: pearl_frame
+PASS: Valid product asset: gull_hat
+PASS: Two quests and portrait: bruno
+PASS: Accept bruno_welcome
+PASS: Complete configured objective bruno_welcome
+PASS: No duplicate quest reward bruno_welcome
+PASS: Accept bruno_help
+PASS: Complete configured objective bruno_help
+PASS: No duplicate quest reward bruno_help
+PASS: Valid product asset: recycled_bench
+PASS: Valid product asset: salvage_cabinet
+PASS: Valid product asset: hull_component
+PASS: Two quests and portrait: iris
+PASS: Accept iris_welcome
+PASS: Complete configured objective iris_welcome
+PASS: No duplicate quest reward iris_welcome
+PASS: Accept iris_help
+PASS: Photo objective has purchasable camera
+PASS: Complete configured objective iris_help
+PASS: No duplicate quest reward iris_help
+PASS: Valid product asset: camera
+PASS: Valid product asset: picture_frame
+PASS: Valid product asset: camera_filter
+PASS: Valid product asset: photo_stand
+PASS: Two quests and portrait: lily
+PASS: Accept lily_welcome
+PASS: Complete configured objective lily_welcome
+PASS: No duplicate quest reward lily_welcome
+PASS: Accept lily_help
+PASS: Complete configured objective lily_help
+PASS: No duplicate quest reward lily_help
+PASS: Valid product asset: tailored_hat
+PASS: Valid product asset: tailored_coat
+PASS: Valid product asset: tailored_boots
+PASS: Valid product asset: tailored_skirt
+PASS: Valid product asset: tailored_glasses
+PASS: Valid product asset: tailored_bag
+PASS: Two quests and portrait: luna
+PASS: Accept luna_welcome
+PASS: Complete configured objective luna_welcome
+PASS: No duplicate quest reward luna_welcome
+PASS: Accept luna_help
+PASS: Complete configured objective luna_help
+PASS: No duplicate quest reward luna_help
+PASS: Valid product asset: luna_coral
+PASS: Valid product asset: reef_stone
+PASS: Valid product asset: aquarium_lantern
+PASS: Two quests and portrait: theo
+PASS: Accept theo_welcome
+PASS: Complete configured objective theo_welcome
+PASS: No duplicate quest reward theo_welcome
+PASS: Accept theo_help
+PASS: Complete configured objective theo_help
+PASS: No duplicate quest reward theo_help
+PASS: Two quests and portrait: eddie
+PASS: Accept eddie_welcome
+PASS: Complete configured objective eddie_welcome
+PASS: No duplicate quest reward eddie_welcome
+PASS: Accept eddie_help
+PASS: Complete configured objective eddie_help
+PASS: No duplicate quest reward eddie_help
+PASS: Two quests and portrait: henry
+PASS: Accept henry_welcome
+PASS: Complete configured objective henry_welcome
+PASS: No duplicate quest reward henry_welcome
+PASS: Accept henry_help
+PASS: Complete configured objective henry_help
+PASS: No duplicate quest reward henry_help
+PASS: Valid product asset: oak_bench
+PASS: Valid product asset: display_stand
+PASS: Valid product asset: oak_cabinet
+PASS: Valid product asset: oak_floor
+PASS: Valid product asset: wall_shelf
+PASS: Merchant availability spans midnight on the same trading night
+PASS: Arcade timing win grants three Coins
+PASS: Finished round and daily reward cannot repeat
+PASS: Arcade loss cannot claim reward

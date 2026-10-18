@@ -12,11 +12,13 @@ namespace OceanariumFishing
         public string SelectedInstanceId {get;private set;}public string SelectedSpeciesId {get;private set;}
         CozyUI ui;Vector2 scroll;string sort="date",island="";int rarity=-1,page;bool records;float opened;
         static readonly string[] sorts={"date","weight","rarity","species"};
+        bool townPage;TownJournal townJournal=new();
         string T(string key)=>GameSession.Current?.Languages.Text(key)??"";
         FishCollection Data=>fishing.Collection;
         public void Open(bool journal)
         {
             if(FindFirstObjectByType<AquariumHUD>()?.IsOpen==true||FindFirstObjectByType<AquariumBuildHUD>()?.IsOpen==true)return;
+            if(FindFirstObjectByType<TownHUD>()?.IsOpen==true)return;
             if(fishing.Active||FindFirstObjectByType<BoatHarbor>()?.InputLocked==true)return;Journal=journal;IsOpen=true;records=false;page=0;scroll=Vector2.zero;opened=Time.unscaledTime;
             if(SelectedInstanceId==null)SelectedInstanceId=Data.kept.FirstOrDefault()?.instanceId;
         }
@@ -40,7 +42,9 @@ namespace OceanariumFishing
             if(GUI.Button(new Rect(x+30,130,180,42),T("collection.inventory"),ui.tab)){Journal=false;records=false;scroll=Vector2.zero;}
             if(GUI.Button(new Rect(x+220,130,210,42),T("collection.journal"),ui.tab)){Journal=true;records=false;scroll=Vector2.zero;}
             if(GUI.Button(new Rect(x+440,130,170,42),T("collection.records"),ui.tab)){records=true;scroll=Vector2.zero;}
+            if(GUI.Button(new Rect(x+630,130,240,42),T("town.residents")+" / "+T("town.quests"),ui.tab)){townPage=!townPage;}
             if(!string.IsNullOrEmpty(Data.loadWarning))GUI.Label(new Rect(x+30,180,1200,60),T(Data.loadWarning),ui.text);
+            else if(townPage)townJournal.Draw(x,fishing,ui);
             else if(records)Records(x);
             else {Filters(x);if(Journal)JournalView(x);else Inventory(x);}
             GUI.Label(new Rect(x+32,807,1200,28),Data.resources.Count>0?T("travel.resource_inventory")+": "+string.Join(" · ",Data.resources.Select(r=>T("travel."+r.id)+" "+r.count)):T("collection.shortcuts"),ui.small);GUI.color=oldColor;GUI.matrix=old;GUI.depth=0;
@@ -125,6 +129,7 @@ namespace OceanariumFishing
         void OnDestroy()=>ui?.Dispose();
     }
 }
+
 
 
 

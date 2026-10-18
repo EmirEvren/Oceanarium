@@ -79,10 +79,10 @@ namespace OceanariumFishing
         {Score=Calculate(Data);foreach(var tank in Tanks)tank.Refresh();if(comfortVisual)comfortVisual.SetActive(Save.upgrades.Contains("comfort"));if(signageVisual)signageVisual.SetActive(Save.upgrades.Contains("signage"));if(decorVisual)decorVisual.SetActive(Save.upgrades.Contains("decor"));}
         void Update()
         {
-            if(!Ready)return;visitors.RemoveAll(v=>!v);clock-=Time.deltaTime;
+            if(!Ready)return;Hour=WorldTimeService.Current?.Simulation.Hour??Hour;visitors.RemoveAll(v=>!v);clock-=Time.deltaTime;
             bool inside=Mathf.Abs(Player.transform.position.x-transform.position.x)<6&&Player.transform.position.z-transform.position.z> -5.4f&&Player.transform.position.z-transform.position.z<5.4f+(Building?(Building.Layout.level-1)*8:0);
             foreach(var r in roof)if(r)r.enabled=!inside&&!(Building&&Building.UI&&Building.UI.IsOpen);
-            if(clock<=0){clock=Mathf.Max(economy.minSpawnSeconds,economy.spawnSeconds/(1+Score.Total*.015f+(Save.upgrades.Contains("signage")?economy.signageBonus:0)));if(Hour>=economy.dayStart&&Hour<economy.dayEnd&&visitors.Count<economy.maxVisitors&&Tanks.Any(t=>Display(t).Any())){var go=new GameObject("Aquarium guest");go.transform.position=arrival.position;var visitor=go.AddComponent<AquariumVisitor>();visitors.Add(visitor);visitor.Initialize(this,Save.visitors+visitors.Count);}}
+            if(clock<=0){clock=Mathf.Max(economy.minSpawnSeconds,economy.spawnSeconds/Mathf.Max(.5f,(WorldTimeService.Current?.Simulation.Current?.visitors??1)*(Hour<11?.75f:Hour<17?1.15f:.8f))/(1+Score.Total*.015f+(Save.upgrades.Contains("signage")?economy.signageBonus:0)));if(Hour>=economy.dayStart&&Hour<economy.dayEnd&&visitors.Count<economy.maxVisitors&&Tanks.Any(t=>Display(t).Any())){var go=new GameObject("Aquarium guest");go.transform.position=arrival.position;var visitor=go.AddComponent<AquariumVisitor>();visitors.Add(visitor);visitor.Initialize(this,Save.visitors+visitors.Count);}}
         }
         public IEnumerable<AquariumVisitor> Visitors=>visitors;
         void OnDestroy(){foreach(var v in visitors)if(v)Destroy(v.gameObject);}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256d482a31ca4594f835acae30fd9eb6, type: 3}
+  m_Name: WorldSettings
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.WorldSettings
+  minutesPerSecond: 1
+  startHour: 8
+  transitionMinutes: 30
+  weather:
+  - {fileID: 11400000, guid: aba2009e56df6e34caf3156b8fc18799, type: 2}
+  - {fileID: 11400000, guid: 611f43cbc007bc741a43f5e54b93b7d0, type: 2}
+  - {fileID: 11400000, guid: 1096a63737fd3ea4e9f7b0349c34dfb4, type: 2}
+  - {fileID: 11400000, guid: daccf29a49f6096469bdb17472edb2d3, type: 2}
+  - {fileID: 11400000, guid: 52b409edf0564fb4089e21c7d20d3f21, type: 2}
+  - {fileID: 11400000, guid: 9b46e48717fe093489492ee6138dda2f, type: 2}
+  - {fileID: 11400000, guid: ac001777b75d3ab40a0c071286b79ebb, type: 2}
+  - {fileID: 11400000, guid: 6e2a9f66be1e909489d432daff299563, type: 2}
+  - {fileID: 11400000, guid: c5627c342f42d9645a12dee967470571, type: 2}
+  seasons:
+  - {fileID: 11400000, guid: 9be864c4e8cdeb9428b066c6909687b2, type: 2}
+  - {fileID: 11400000, guid: 19fb25ea12381cd4d9b77c7c31c0f580, type: 2}
+  - {fileID: 11400000, guid: 3aec905acfca17e47ba8ab91a4d3d16a, type: 2}
+  - {fileID: 11400000, guid: 3a35c2bc68efab342a04135a848603d6, type: 2}
+  merchantWeekdays: 0000000004000000
+  merchantArrival: 20
+  merchantDeparture: 2
+  lightning: 1
+  tropicalSnowMultiplier: 0.12

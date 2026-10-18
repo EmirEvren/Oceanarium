@@ -1,4 +1,4 @@
-PASS 2026-10-18T15:02:56.9552600Z
+PASS 2026-10-18T20:16:55.5658146Z
 PASS: Start on existing Home Island
 PASS: LOCAL SIMULATION: independent seat 0
 PASS: LOCAL SIMULATION: independent seat 1
@@ -9,42 +9,6 @@ PASS: LOCAL SIMULATION: unboarded active player blocks departure
 PASS: LOCAL SIMULATION: disconnected player no longer blocks departure
 PASS: LOCAL SIMULATION: per-player readiness enforced
 PASS: Arrival skip completes story and restores camera
-PASS: Accept repair quest
-PASS: Inspect damaged boat
-PASS: Cannot repair before materials / proximity validation
-PASS: Collect finite world resource home_repair_0
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_1
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_2
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_3
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_4
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_5
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_6
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_7
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_8
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: Collect finite world resource home_repair_9
-PASS: Resource inventory increment
-PASS: Pickup cannot duplicate
-PASS: All required materials available without grinding
-PASS: Repair commits quest and consumes materials
-PASS: Exact repair resource consumption
 PASS: Repaired visuals and starter boat tier
 PASS: Completed repair cannot charge again
 PASS: Future upgrade remains locked
@@ -71,6 +35,14 @@ PASS: Destination scene loads without duplicate services
 PASS: Arrival skip restores gameplay camera and input
 PASS: Correct harbor arrival spawn
 PASS: Exactly one player and one session service
+PASS: Museum catalog deserializes after scene reload
+PASS: Restored museum has valid visitor routes
+PASS: Restored physical tank exists: reef
+PASS: Restored physical tank exists: coast
+PASS: Restored physical tank exists: lagoon
+PASS: Restored physical tank exists: gallery
+PASS: Restored physical tank exists: eadb33a3610c41b2b3536e110ed6b2e0
+PASS: Restored physical tank exists: b974e515d44c4c359edc565bc5de4b93
 PASS: Fish identities and aquarium assignments survive travel
 PASS: Museum layout survives travel
 PASS: Wallet unchanged by free introductory travel
@@ -97,6 +69,14 @@ PASS: Destination scene loads without duplicate services
 PASS: Arrival skip restores gameplay camera and input
 PASS: Correct harbor arrival spawn
 PASS: Exactly one player and one session service
+PASS: Museum catalog deserializes after scene reload
+PASS: Restored museum has valid visitor routes
+PASS: Restored physical tank exists: reef
+PASS: Restored physical tank exists: coast
+PASS: Restored physical tank exists: lagoon
+PASS: Restored physical tank exists: gallery
+PASS: Restored physical tank exists: eadb33a3610c41b2b3536e110ed6b2e0
+PASS: Restored physical tank exists: b974e515d44c4c359edc565bc5de4b93
 PASS: Fish identities and aquarium assignments survive travel
 PASS: Museum layout survives travel
 PASS: Wallet unchanged by free introductory travel

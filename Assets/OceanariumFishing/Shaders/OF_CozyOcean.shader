@@ -19,6 +19,7 @@ Shader "OceanariumFishing/Cozy Ocean"
  CBUFFER_START(UnityPerMaterial)
  half4 _Shallow,_Deep,_Foam;float _WaveHeight,_WaveSpeed,_WaveScale,_FoamWidth,_Reflection,_SunGlint;
  CBUFFER_END
+ float _OFNight;
  struct A {float4 p:POSITION;float4 c:COLOR;};
  struct V {float4 p:SV_POSITION;float3 w:TEXCOORD0;float4 c:COLOR;float fog:TEXCOORD1;float4 screen:TEXCOORD2;};
  V Vert(A i){V o;float3 p=TransformObjectToWorld(i.p.xyz);float t=_Time.y*_WaveSpeed;
@@ -39,7 +40,7 @@ Shader "OceanariumFishing/Cozy Ocean"
  float beachLight=pow(saturate(i.c.r),5);
  color+=_Shallow.rgb*caustic*.16*beachLight;
  float fresnel=.12+.72*pow(1-saturate(dot(n,v)),4);
- half3 sky=GlossyEnvironmentReflection(reflect(-v,n),.2,1);sky=max(sky,half3(.28,.57,.74));
+ half3 sky=GlossyEnvironmentReflection(reflect(-v,n),.2,1);sky=lerp(max(sky,half3(.28,.57,.74)),half3(.05,.1,.21),_OFNight);
  color=lerp(color,sky,saturate(fresnel*_Reflection));
  float glint=pow(saturate(dot(n,SafeNormalize(sun.direction+v))),85);
  color+=sun.color*glint*_SunGlint*.6;

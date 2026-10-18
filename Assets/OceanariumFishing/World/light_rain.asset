@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac226cd69281ac4ebe3fda21109b912, type: 3}
+  m_Name: light_rain
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.WeatherProfile
+  id: light_rain
+  nameKey: world.weather.light_rain
+  clouds: 0.75
+  sun: 0.7
+  wind: 0.35
+  waves: 1.35
+  rain: 0.35
+  snow: 0
+  fog: 0.005
+  visitors: 0.95
+  bite: 1.12
+  seasonalWeights:
+  - 18
+  - 6
+  - 15
+  - 12
+  ambient: {fileID: 0}
+  thunder: {fileID: 0}

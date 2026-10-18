@@ -1,0 +1,25 @@
+PASS 2026-10-18T19:59:38.8678637Z
+PASS: Reject foreign owner without spending
+PASS: Purchase uses existing wallet and resources
+PASS: Reject repeated command
+PASS: Reject stale revision
+PASS: Failed save leaves inventory and wallet untouched
+PASS: Daily conversation grants friendship
+PASS: Repeated daily conversation cannot farm friendship
+PASS: Loved gift consumes one owned item and grants points
+PASS: Daily gift limit enforced
+PASS: Second stocked item purchasable
+PASS: Stock limit enforced
+PASS: Temporary clock opens next daily conversation
+PASS: Next day gift limit resets
+PASS: Friendship reward delivered
+PASS: One-time reward cannot repeat
+PASS: Displayed fish cannot be sold
+PASS: Sale removes exact owned instance and pays exact rounded value
+PASS: Fish cannot be sold twice
+PASS: Town state roundtrips alongside existing travel and aquarium schemas
+PASS: Night merchant unavailable during daytime
+PASS: Quest accepts exactly once
+PASS: Missing delivery cannot claim reward
+PASS: Delivery consumes item and grants reward atomically
+PASS: Quest cannot pay twice
