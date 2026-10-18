@@ -41,7 +41,8 @@ namespace OceanariumFishing
     }
     [Serializable] public sealed class FishCollection
     {
-        public const int CurrentVersion=2;
+        public const int CurrentVersion=3;
+        public AquariumSave aquarium=new();public TravelProgress travel=new();public List<ResourceStack> resources=new();
         public int version=CurrentVersion;public List<FishInstance> kept=new();public List<FishRecord> records=new();public List<string> resolved=new();
         public List<FishInstance> history=new();public string ownerId;public string difficulty="cozy";public bool tutorialComplete;public int legacyUnattributedCatches;
         public List<string> unlockedIslands=new(){"OF_HomeIsland"};
@@ -91,6 +92,7 @@ namespace OceanariumFishing
             bool legacy=version<2;
             if(string.IsNullOrWhiteSpace(ownerId))ownerId=Guid.NewGuid().ToString("N");
             kept??=new();records??=new();resolved??=new();history??=new();unlockedIslands??=new(){"OF_HomeIsland"};
+            aquarium??=new();aquarium.Normalize();travel??=new();travel.Normalize();resources??=new();
             if(!unlockedIslands.Contains("OF_HomeIsland"))unlockedIslands.Add("OF_HomeIsland");
             if(difficulty!="cozy"&&difficulty!="normal"&&difficulty!="experienced")difficulty="cozy";
             kept=kept.Where(f=>f!=null&&f.Valid).GroupBy(f=>f.instanceId).Select(g=>g.First()).ToList();
@@ -132,6 +134,9 @@ namespace OceanariumFishing
             var json=File.ReadAllText(path);if(!json.TrimStart().StartsWith("{")||!json.Contains("\"version\""))throw new ArgumentException("Invalid collection document");
             var data=JsonUtility.FromJson<FishCollection>(json);
             if(data==null||data.version<1||data.version>FishCollection.CurrentVersion)throw new ArgumentException("Unsupported collection schema");
+            if(data.travel!=null&&data.travel.version!=1)throw new ArgumentException("Unsupported travel schema");
+            if(data.aquarium!=null&&data.aquarium.version!=1)throw new ArgumentException("Unsupported aquarium schema");
+            if(data.aquarium?.layout!=null&&data.aquarium.layout.version!=1)throw new ArgumentException("Unsupported aquarium layout schema");
             data.Normalize();return data;
         }
         public static FishCollection Load(string path=null)
@@ -158,3 +163,4 @@ namespace OceanariumFishing
     }
     [Serializable] public sealed class FishSpawnEntry {public FishSpecies species;public float weight=1;}
 }
+

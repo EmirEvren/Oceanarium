@@ -1,0 +1,4 @@
+# ASTRA 0.6 audit
+Existing AquariumWorld owns transactions through FishingController.CommitAquarium and FishCollection v3. AquariumSave v1 remains the atomic wallet/layout envelope. FishInstance instanceId/ownerId/tankId remain canonical. AquariumTank and AquariumFish can be reused. AquariumHUD/CozyUI and OF_UI localization are retained. The fixed visitor lane must be replaced for mutable layouts. Building shell and exterior are retained; added halls attach through a rear doorway.
+
+Plan: versioned additive layout data with stable object IDs, revision-checked commands and replay receipts; procedural catalog prefabs; footprint SAT and flood-fill route validation; event-driven path graph rebuild; dedicated build sidebar; substrate and interior material profiles; two deterministic hall expansions; targeted transaction/placement/persistence/runtime checks. No network transport, new wallet, external assets, save reset or ASTRA 0.7.

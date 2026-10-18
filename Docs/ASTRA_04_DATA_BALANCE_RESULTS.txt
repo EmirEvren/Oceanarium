@@ -1,4 +1,4 @@
-PASS 2026-10-17T09:31:12.8965640Z
+PASS 2026-10-18T14:16:45.7256632Z
 PASS: Exactly eight existing species, stable unique IDs
 PASS: Three configured difficulty profiles
 PASS: Cozy is the default for new players

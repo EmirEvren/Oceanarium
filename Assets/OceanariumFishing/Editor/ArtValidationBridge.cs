@@ -16,7 +16,22 @@ namespace OceanariumFishing.Editor
             string command;try{command=File.ReadAllText(path).Trim();File.Delete(path);}catch(IOException){return;}
             try
             {
-                if(command=="cozy-build")CozyFishingBuilder.Build();
+                if(command=="aquarium-build")AquariumBuilder.Build();
+                else if(command=="aquarium-checks")AquariumChecks.Run();
+                else if(command=="aquarium-restart-checks")AquariumChecks.Restart();
+                else if(command=="aquarium-polish-checks")AquariumChecks.Polish();
+                else if(command=="building-checks")AquariumBuildChecks.Run();
+                else if(command=="building-restart-checks")AquariumBuildChecks.Restart();
+                else if(command=="travel-checks")BoatTravelChecks.Run();
+                else if(command=="travel-restart-checks")BoatTravelChecks.Restart();
+                else if(command=="travel-build")BoatWorldBuilder.Build();
+                else if(command=="building-generate")AquariumBuildGenerator.Build();
+                else if(command=="building-open")Object.FindFirstObjectByType<AquariumBuildHUD>().Open();
+                else if(command=="building-close")Object.FindFirstObjectByType<AquariumBuildHUD>().Close();
+                else if(command=="aquarium-panel")Object.FindFirstObjectByType<AquariumWorld>().Panel.Open(null);
+                else if(command=="aquarium-close")Object.FindFirstObjectByType<AquariumWorld>().Panel.Close();
+                else if(command=="capture05"){Directory.CreateDirectory("Docs/Screenshots");ScreenCapture.CaptureScreenshot("Docs/Screenshots/ASTRA_05_Current.png");}
+                else if(command=="cozy-build")CozyFishingBuilder.Build();
                 else if(command=="cozy-checks")CozyFishingChecks.Run();
                 else if(command=="cozy-demo")CozyFishingDemo.Run();
                 else if(command=="cozy-runtime-checks")CozyRuntimeChecks.Run();
@@ -60,6 +75,10 @@ namespace OceanariumFishing.Editor
     }
 }
 // ASTRA 0.1 editor automation.
+
+
+
+
 
 
 

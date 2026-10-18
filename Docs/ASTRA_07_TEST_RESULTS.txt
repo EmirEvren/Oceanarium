@@ -1,0 +1,105 @@
+PASS 2026-10-18T15:02:56.9552600Z
+PASS: Start on existing Home Island
+PASS: LOCAL SIMULATION: independent seat 0
+PASS: LOCAL SIMULATION: independent seat 1
+PASS: LOCAL SIMULATION: independent seat 2
+PASS: LOCAL SIMULATION: independent seat 3
+PASS: LOCAL SIMULATION: fifth passenger rejected
+PASS: LOCAL SIMULATION: unboarded active player blocks departure
+PASS: LOCAL SIMULATION: disconnected player no longer blocks departure
+PASS: LOCAL SIMULATION: per-player readiness enforced
+PASS: Arrival skip completes story and restores camera
+PASS: Accept repair quest
+PASS: Inspect damaged boat
+PASS: Cannot repair before materials / proximity validation
+PASS: Collect finite world resource home_repair_0
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_1
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_2
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_3
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_4
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_5
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_6
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_7
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_8
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: Collect finite world resource home_repair_9
+PASS: Resource inventory increment
+PASS: Pickup cannot duplicate
+PASS: All required materials available without grinding
+PASS: Repair commits quest and consumes materials
+PASS: Exact repair resource consumption
+PASS: Repaired visuals and starter boat tier
+PASS: Completed repair cannot charge again
+PASS: Future upgrade remains locked
+PASS: Board existing customized player
+PASS: Map opens with one ready passenger
+PASS: Locked island rejected
+PASS: Authorized departure to town
+PASS: Repeated departure request rejected
+PASS: Destination scene loads without duplicate services
+PASS: Arrival skip restores gameplay camera and input
+PASS: Correct harbor arrival spawn
+PASS: Exactly one player and one session service
+PASS: Town harbor supports physical walking
+PASS: Fish identities and aquarium assignments survive travel
+PASS: Museum layout survives travel
+PASS: Wallet unchanged by free introductory travel
+PASS: Character appearance persists
+PASS: Board existing customized player
+PASS: Map opens with one ready passenger
+PASS: Locked island rejected
+PASS: Authorized departure to home
+PASS: Repeated departure request rejected
+PASS: Destination scene loads without duplicate services
+PASS: Arrival skip restores gameplay camera and input
+PASS: Correct harbor arrival spawn
+PASS: Exactly one player and one session service
+PASS: Fish identities and aquarium assignments survive travel
+PASS: Museum layout survives travel
+PASS: Wallet unchanged by free introductory travel
+PASS: Character appearance persists
+PASS: Board existing customized player
+PASS: Map opens with one ready passenger
+PASS: Locked island rejected
+PASS: Authorized departure to town
+PASS: Repeated departure request rejected
+PASS: Destination scene loads without duplicate services
+PASS: Arrival skip restores gameplay camera and input
+PASS: Correct harbor arrival spawn
+PASS: Exactly one player and one session service
+PASS: Fish identities and aquarium assignments survive travel
+PASS: Museum layout survives travel
+PASS: Wallet unchanged by free introductory travel
+PASS: Character appearance persists
+PASS: Board existing customized player
+PASS: Map opens with one ready passenger
+PASS: Locked island rejected
+PASS: Authorized departure to home
+PASS: Repeated departure request rejected
+PASS: Destination scene loads without duplicate services
+PASS: Arrival skip restores gameplay camera and input
+PASS: Correct harbor arrival spawn
+PASS: Exactly one player and one session service
+PASS: Fish identities and aquarium assignments survive travel
+PASS: Museum layout survives travel
+PASS: Wallet unchanged by free introductory travel
+PASS: Character appearance persists
+PASS: Completed travel persisted at safe Home harbor
+PASS: Finite pickups retain unique IDs

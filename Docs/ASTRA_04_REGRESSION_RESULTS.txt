@@ -1,4 +1,4 @@
-PASS 2026-10-17T11:24:54.9513719Z
+PASS 2026-10-18T14:23:34.7252880Z
 PASS: Fresh Play Mode session restores all saved inventory, history, records and preferences
 PASS: No duplicated catch events after restart
 PASS: One local player and camera
@@ -11,7 +11,7 @@ PASS: Sprint remains responsive
 PASS: RMB camera orbit responds
 PASS: Inventory shortcut opens modal and blocks movement
 PASS: Escape closes inventory without also opening pause menu
-MEASURED journal: 120 editor frames, mean 5,45 ms; managed heap delta 1585152 bytes (includes editor/runtime activity; not per-frame allocation or standalone profiling).
+MEASURED journal: 120 editor frames, mean 7,10 ms; managed heap delta 3153920 bytes (includes editor/runtime activity; not per-frame allocation or standalone profiling).
 PASS: Scene transition: MainMenu
 PASS: Main menu HUD available
 PASS: Scene transition: CharacterCreator
@@ -20,1809 +20,2567 @@ PASS: Scene transition: HomeIsland
 PASS: Fishing references survive scene transitions
 PASS: Character save bytes unchanged by collection workflows
 PASS: Scene transitions do not rewrite or lose collection progress
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Ramp handrail
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Glass edge
 PASS: Supported material: Petal
 PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Reel
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Coin slot
 PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
 PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Top rim
 PASS: Supported material: Petal
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Weathered board
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
+PASS: Supported material: Right glass
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Front siding
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Foundation
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Bamboo shaft
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Roof tile
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Lid board
 PASS: Supported material: Combined OF_Leaf
 PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
 PASS: Supported material: Petal
-PASS: Supported material: Pollen
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Meadow grass
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Planter board
+PASS: Supported material: Welcoming window
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cabinet handle
 PASS: Supported material: Petal
-PASS: Supported material: Weathered board
 PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Blossom
 PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Lantern
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Window cross
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
+PASS: Supported material: Donation box
 PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Rope rail
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Roof tile
-PASS: Supported material: Entry step
 PASS: Supported material: Pollen
-PASS: Supported material: Petal
+PASS: Supported material: Right glass
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rope rail
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Porch board
-PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
-PASS: Supported material: Petal
+PASS: Supported material: Cork grip
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Corner post
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Sanctuary ribbon
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_PetalWhite
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Pier support
-PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
+PASS: Supported material: Fish emblem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Body
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Brass binding
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Rock
-PASS: Supported material: Petal
-PASS: Supported material: Rock
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Roof
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fishing line
-PASS: Supported material: Back siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
 PASS: Supported material: Petal
 PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Corner post
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Weathered board
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Dark
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rock
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Porch board
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Rock
-PASS: Supported material: Petal
-PASS: Supported material: Front siding
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rope rail
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Bamboo shaft
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Rope rail
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Survey stake
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Reel
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Porch board
-PASS: Supported material: Bamboo shaft
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Back siding
-PASS: Supported material: Pollen
-PASS: Supported material: Roof tile
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Stem
-PASS: Supported material: Roof tile
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Reel
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Front siding
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Sand
-PASS: Supported material: Bamboo shaft
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Back siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Back siding
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Reel
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Front siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Terracotta
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Lantern
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Combined OF_Timber
+PASS: Supported material: River stone
 PASS: Supported material: Fern leaf
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
+PASS: Supported material: Window casing
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Rope rail
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
 PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Planter board
 PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Door
+PASS: Supported material: River stone
+PASS: Supported material: Combined OF_Glass
+PASS: Supported material: Side siding
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Stem
 PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pier support
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Lantern brass
+PASS: Supported material: Awning scallop
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Roof tile
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Survey stake
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pier support
-PASS: Supported material: Petal
-PASS: Supported material: Window cross
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pier support
-PASS: Supported material: Roof tile
-PASS: Supported material: Roof tile
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Roof
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Sanctuary ribbon
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Weathered board
-PASS: Supported material: Rock
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Back support
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
 PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Rope rail
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
 PASS: Supported material: Stem
-PASS: Supported material: Front siding
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Stem
 PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Side siding
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
+PASS: Supported material: Canvas awning stripe
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Back siding
 PASS: Supported material: Combined OF_Plank
 PASS: Supported material: Fern leaf
-PASS: Supported material: Corner post
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Weathered board
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Reel
-PASS: Supported material: Weathered board
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Shirt
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Pollen
 PASS: Supported material: Stem
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Seat slat
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
 PASS: Supported material: Combined OF_Leaf
 PASS: Supported material: Petal
-PASS: Supported material: Roof tile
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Five petal flower
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Wall chair rail
+PASS: Supported material: Petal
+PASS: Supported material: Stem
 PASS: Supported material: Petal
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Ivory corner trim
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Weathered board
-PASS: Supported material: Petal
-PASS: Supported material: Rope rail
+PASS: Supported material: Gable rake ivory
+PASS: Supported material: Glass edge
+PASS: Supported material: Side siding
+PASS: Supported material: Cork grip
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
 PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Window sill wall
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Awning scallop
+PASS: Supported material: Rope rail
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Post collar
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Glass edge
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Glass edge
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Window greenery
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Window mullion
+PASS: Supported material: Fern leaf
+PASS: Supported material: Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Pollen
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Stem
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Combined OF_Plank
 PASS: Supported material: Combined OF_Timber
+PASS: Supported material: River stone
+PASS: Supported material: Glass edge
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Five petal flower
+PASS: Supported material: Window sill wall
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pier support
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Side rim
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Side siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Porch board
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back support
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Glass edge
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Front painted panel
 PASS: Supported material: Combined OF_LeafSun
 PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_Rock
 PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rounded sign end
+PASS: Supported material: Window greenery
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Planter board
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Eye
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Timber
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Roof tile
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Lantern
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Dark
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fish emblem
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
 PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Glass
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Seat slat
 PASS: Supported material: Combined OF_Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Roof tile
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Pier support
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
+PASS: Supported material: Garden fence picket
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Petal
 PASS: Supported material: Petal
 PASS: Supported material: Weathered board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Side siding
+PASS: Supported material: Glass edge
+PASS: Supported material: Side siding
 PASS: Supported material: Fern leaf
-PASS: Supported material: Porch board
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
-PASS: Supported material: Pier support
+PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
 PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Window cross
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
 PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
+PASS: Supported material: Planter board
 PASS: Supported material: Stem
-PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Deep eave fascia
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch diagonal brace
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Porch board
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Gold
 PASS: Supported material: Petal
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Roof tile
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Gable rake ivory
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Lid board
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
-PASS: Supported material: Roof tile
+PASS: Supported material: River stone
+PASS: Supported material: Window mullion
 PASS: Supported material: Pollen
-PASS: Supported material: Roof ridge
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Brass binding
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
-PASS: Supported material: Garden sign
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_RoofLight
-PASS: Supported material: Pollen
 PASS: Supported material: Porch board
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Side siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Side siding
-PASS: Supported material: Pollen
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Roof
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Sanctuary ribbon
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Front siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Cream
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
 PASS: Supported material: Entry step
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fishing line
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Door handle
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Survey stake
-PASS: Supported material: Fern leaf
-PASS: Supported material: Cork grip
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Combined OF_Roof
-PASS: Supported material: Petal
-PASS: Supported material: Rock
-PASS: Supported material: Organic island
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Weathered board
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Glass
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Rock
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pier support
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Lid board
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Lid board
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Pier support
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Signpost
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Back siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rock
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Lagoon
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Back glass
 PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rope rail
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Warm glass
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Ivory corner trim
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rope rail
+PASS: Supported material: Petal
+PASS: Supported material: Entry step
+PASS: Supported material: Deep window sill
+PASS: Supported material: Oak frame post
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Oak frame post
+PASS: Supported material: Glass edge
+PASS: Supported material: Back slat
+PASS: Supported material: Combined OF_Timber
 PASS: Supported material: Roof tile
+PASS: Supported material: Five petal flower
 PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
 PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Stem
 PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
 PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Stem
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Side siding
-PASS: Supported material: Sanctuary ribbon
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Pier support
-PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
-PASS: Supported material: Latch
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Porch board
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Cork grip
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Rock
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Dark
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
 PASS: Supported material: Lid board
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rock
-PASS: Supported material: Combined OF_Gold
-PASS: Supported material: Combined OF_Petal
 PASS: Supported material: Pollen
-PASS: Supported material: Back siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
 PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Window
-PASS: Supported material: Stem
-PASS: Supported material: Window
-PASS: Supported material: Roof tile
-PASS: Supported material: Combined OF_Dark
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Front siding
-PASS: Supported material: Stem
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Terracotta
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pollen
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Stem
-PASS: Supported material: Roof tile
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Canopy
-PASS: Supported material: Roof tile
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Side siding
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Back siding
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Front siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Window cross
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Weathered board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Pier support
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Pollen
 PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_RoofLight
+PASS: Supported material: Stem
 PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Pollen
 PASS: Supported material: Combined OF_Timber
 PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Front siding
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Survey stake
-PASS: Supported material: Weathered board
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Side siding
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Back siding
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Front siding
-PASS: Supported material: Back siding
-PASS: Supported material: Petal
-PASS: Supported material: Stem
-PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Front siding
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Roof tile
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Leg
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Weathered board
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Pollen
+PASS: Supported material: Cedar frame
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
-PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Post collar
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Window greenery
+PASS: Supported material: Left glass
+PASS: Supported material: Front glass
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: River stone
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Window cross
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Terracotta pot
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
 PASS: Supported material: Combined OF_Plank
 PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Foundation stone course
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Back siding
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Back glass
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Top rim
+PASS: Supported material: Weathered board
+PASS: Supported material: Front siding
+PASS: Supported material: Window greenery
+PASS: Supported material: Timber cabinet
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Post collar
+PASS: Supported material: Five petal flower
+PASS: Supported material: Cork grip
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Five petal flower
+PASS: Supported material: Stem
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Latch
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Roof tile
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Sea canvas
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fin
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Blossom
+PASS: Supported material: Petal
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Door inset
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Top rim
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Terracotta pot
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fish crest eye
+PASS: Supported material: Porch column
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Tail emblem
+PASS: Supported material: Porthole enamel
+PASS: Supported material: Accessible wooden boardwalk
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Side wall
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Exposed oak tie
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Top rim
+PASS: Supported material: Side siding
+PASS: Supported material: Petal
+PASS: Supported material: Moving water surface
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Moving water surface
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Porch board
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Five petal flower
+PASS: Supported material: Top rim
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Gable rake shadow
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_RoofLight
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Lid board
+PASS: Supported material: Future tank plaque
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Stem
+PASS: Supported material: Window cross
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Sand
+PASS: Supported material: Stem
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Ivory corner trim
+PASS: Supported material: Fern leaf
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Back slat
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Front glass
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Body
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Window greenery
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Weathered board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Window header molding
+PASS: Supported material: Combined OF_Leaf
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Fern leaf
-PASS: Supported material: Back siding
-PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Brass door pull
+PASS: Supported material: Warm glass
+PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Fern leaf
 PASS: Supported material: Stem
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Door jamb
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Gable rake shadow
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Side siding
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Sand substrate
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Roof tile
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Roof tile
+PASS: Supported material: Eye
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Stone plinth
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Foundation
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Roof tile
+PASS: Supported material: Five petal flower
+PASS: Supported material: Side rim
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Five petal flower
+PASS: Supported material: Rock
+PASS: Supported material: Leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Window lintel
+PASS: Supported material: Petal
+PASS: Supported material: Sand substrate
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Window greenery
+PASS: Supported material: Porch board
 PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
 PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Window casing
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Petal
+PASS: Supported material: Window greenery
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
-PASS: Supported material: Fishing line
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Front siding
+PASS: Supported material: Five petal flower
 PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Rock
-PASS: Supported material: Side siding
+PASS: Supported material: Pupil
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Blossom
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
 PASS: Supported material: Fern leaf
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Cork grip
-PASS: Supported material: Pollen
-PASS: Supported material: Pollen
-PASS: Supported material: Fern leaf
 PASS: Supported material: Combined OF_LeafLight
-PASS: Supported material: Window cross
 PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
+PASS: Supported material: Blossom
+PASS: Supported material: Fishing line
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
+PASS: Supported material: Fish crest body
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Glass edge
+PASS: Supported material: Side cedar weatherboard
 PASS: Supported material: Rope rail
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
-PASS: Supported material: Petal
-PASS: Supported material: Combined OF_RoofLight
-PASS: Supported material: Petal
-PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Front siding
+PASS: Supported material: Roof tile
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Rope rail
+PASS: Supported material: Petal
+PASS: Supported material: Window lintel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back glass
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
 PASS: Supported material: Stem
 PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Fern leaf
-PASS: Supported material: Petal
+PASS: Supported material: Porthole surround
+PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
+PASS: Supported material: Window greenery
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Timber
 PASS: Supported material: Petal
-PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Awning scallop
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Door panel
+PASS: Supported material: Gable right
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Leg
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Leg
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Corner post
 PASS: Supported material: Petal
+PASS: Supported material: Lid board
+PASS: Supported material: Petal
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Blossom
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Front limestone base
+PASS: Supported material: Pollen
 PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back support
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Front glass
+PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Planter board
+PASS: Supported material: Rounded sign end
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
+PASS: Supported material: Body
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Welcoming window
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Porch board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
 PASS: Supported material: Pollen
-PASS: Supported material: Fishing line
-PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Combined OF_Plank
 PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
 PASS: Supported material: Combined OF_LeafLight
 PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Five petal flower
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Right glass
+PASS: Supported material: Left glass
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stone plinth
+PASS: Supported material: River stone
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Blossom
+PASS: Supported material: Fern leaf
+PASS: Supported material: Blossom
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Seat slat
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: River stone
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Gable panel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Window greenery
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Deep eave fascia
+PASS: Supported material: Side siding
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Window cross
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Rock
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Porch board
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Planter board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Seat slat
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Front siding
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Interior wainscot
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Stone plinth
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Awning scallop
 PASS: Supported material: Petal
 PASS: Supported material: Stem
 PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Oak frame post
+PASS: Supported material: Sand substrate
+PASS: Supported material: Terracotta pot
 PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Stem
+PASS: Supported material: Rock
+PASS: Supported material: Cedar planter front
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front limestone base
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Five petal flower
+PASS: Supported material: Warm glass
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Pollen
+PASS: Supported material: Window greenery
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Cork grip
+PASS: Supported material: Glass edge
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Door handle
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Petal
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
 PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Canopy
 PASS: Supported material: Rock
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Petal
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Fin
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fishing line
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Weathered board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side rim
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Blossom
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Front painted panel
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Window mullion
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Window greenery
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Timber cabinet
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Exposed oak tie
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Awning scallop
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: River stone
+PASS: Supported material: Petal
+PASS: Supported material: Weathered board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Shirt
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Reception donation counter
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Front glass
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Seat slat
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Bamboo shaft
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Oak frame post
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Oak frame post
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Reel
+PASS: Supported material: Gable right
+PASS: Supported material: Fin
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front painted panel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Oak frame post
+PASS: Supported material: Side siding
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Top rim
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Blossom
+PASS: Supported material: Roof tile
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Continuous roof underlay
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Terracotta
+PASS: Supported material: Pier support
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Lid board
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Side siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Sign outer frame
+PASS: Supported material: Tail emblem
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Continuous roof underlay
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Leaf
+PASS: Supported material: Combined OF_Dark
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Oak frame post
+PASS: Supported material: Sand substrate
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Lantern brass
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fish crest tail
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Back support
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: River stone
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Front limestone base
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Moving water surface
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Stone plinth
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Pollen
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Side rim
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Petal
+PASS: Supported material: Deep window sill
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Weathered board
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Porch board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Top rim
+PASS: Supported material: Reel
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Planter board
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Side siding
+PASS: Supported material: Cedar frame
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front painted panel
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Back siding
+PASS: Supported material: Cedar frame
+PASS: Supported material: Raised shop lettering
+PASS: Supported material: Natural stone foundation
+PASS: Supported material: Pollen
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Window mullion
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Glass edge
+PASS: Supported material: Stem
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Back slat
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Window greenery
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Front limestone base
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Planter board
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Weathered board
 PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Side rim
+PASS: Supported material: Fern leaf
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: River stone
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Window casing
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pupil
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Front painted panel
+PASS: Supported material: Stem
+PASS: Supported material: Front painted panel
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Corner post
+PASS: Supported material: Five petal flower
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Leg
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Combined OF_Lantern
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Roof tile
+PASS: Supported material: Pollen
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Corner post
+PASS: Supported material: Stem
+PASS: Supported material: Weathered board
+PASS: Supported material: Reel
+PASS: Supported material: Petal
+PASS: Supported material: Awning scallop
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fish emblem
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Front painted panel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Awning scallop
+PASS: Supported material: Lock emblem
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Porch board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Rock
+PASS: Supported material: Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Front limestone base
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Roof tile
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side cedar weatherboard
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Glass edge
+PASS: Supported material: Pollen
+PASS: Supported material: Window greenery
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Front limestone base
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Glass
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Timber cabinet
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Seat slat
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Terracotta
+PASS: Supported material: Fern leaf
+PASS: Supported material: Porch column
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Moving water surface
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Gable left
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Fern leaf
+PASS: Supported material: Organic island
+PASS: Supported material: Petal
+PASS: Supported material: Porch board
+PASS: Supported material: Oak frame post
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side rim
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Back siding
+PASS: Supported material: Cedar planter front
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Weathered board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back slat
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Pollen
+PASS: Supported material: Combined OF_PetalWhite
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Pollen
+PASS: Supported material: Gable left
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Door panel
+PASS: Supported material: Meadow grass
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Terracotta pot
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Front painted panel
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Back glass
+PASS: Supported material: Ridge cap
+PASS: Supported material: Rear wall
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Petal
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
+PASS: Supported material: Sign painted face
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Right glass
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Timber cabinet
+PASS: Supported material: Pier support
+PASS: Supported material: Front painted panel
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Fishing line
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Glass edge
+PASS: Supported material: Window mullion
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Left glass
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pier support
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Window
+PASS: Supported material: Five petal flower
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Window header molding
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Fern leaf
+PASS: Supported material: Gable right
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Side rim
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Post collar
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Pollen
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Pier support
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Roof tile
 PASS: Supported material: Petal
 PASS: Supported material: Pollen
 PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Five petal flower
+PASS: Supported material: Oak frame post
+PASS: Supported material: Pollen
+PASS: Supported material: Interior wainscot
+PASS: Supported material: Left glass
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: River stone
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Five petal flower
+PASS: Supported material: Gable rake ivory
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Sea canvas
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Door jamb
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Sea canvas
+PASS: Supported material: Roof ridge
+PASS: Supported material: Glass edge
+PASS: Supported material: Petal
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Gable left
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Gable rake ivory
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Cabinet handle
+PASS: Supported material: Back siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Back siding
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Exposed oak tie
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Rock
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Garden fence picket
+PASS: Supported material: Pollen
+PASS: Supported material: Window casing
+PASS: Supported material: Brass binding
+PASS: Supported material: Fish emblem
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Porch board
+PASS: Supported material: Entrance boardwalk plank
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Planter board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Awning scallop
+PASS: Supported material: Weathered board
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Lid board
+PASS: Supported material: Fern leaf
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Blossom
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Ramp baluster
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Front siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Gable panel
+PASS: Supported material: Combined OF_Cream
+PASS: Supported material: Window mullion
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Porch diagonal brace
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Pier support
+PASS: Supported material: Five petal flower
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Weathered board
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Awning scallop
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Combined OF_Petal
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Gable rake shadow
+PASS: Supported material: Ramp handrail
+PASS: Supported material: Five petal flower
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Gable rake shadow
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Tail emblem
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Ivory corner trim
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Top rim
+PASS: Supported material: Brass binding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Leaf
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Gable clapboard
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Rock
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Garden fence rail
+PASS: Supported material: Back siding
+PASS: Supported material: Five petal flower
+PASS: Supported material: Wall chair rail
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Petal
+PASS: Supported material: Pollen
+PASS: Supported material: Window greenery
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Glass edge
+PASS: Supported material: Leaf
+PASS: Supported material: Stem
+PASS: Supported material: Side wall
+PASS: Supported material: Roof tile
+PASS: Supported material: Fin
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Cedar floorboard
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Canvas awning stripe
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Combined OF_Timber
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Rock
+PASS: Supported material: Front painted panel
 PASS: Supported material: Petal
-PASS: Supported material: Roof tile
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Stem
+PASS: Supported material: Glass edge
+PASS: Supported material: River stone
+PASS: Supported material: Petal
+PASS: Supported material: Petal
+PASS: Supported material: Corner post
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Stem
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Canvas awning stripe
+PASS: Supported material: Warm glass
+PASS: Supported material: Door inset
+PASS: Supported material: Front limestone base
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fishing line
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Rope rail
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
-PASS: Supported material: Roof tile
+PASS: Supported material: Lantern brass
+PASS: Supported material: Awning scallop
+PASS: Supported material: Stem
 PASS: Supported material: Combined OF_Leaf
-PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
 PASS: Supported material: Petal
 PASS: Supported material: Petal
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Window
+PASS: Supported material: Planter board
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Foundation stone course
+PASS: Supported material: Fern leaf
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Back siding
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Stem
+PASS: Supported material: Five petal flower
+PASS: Supported material: Combined OF_Roof
+PASS: Supported material: Pollen
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_LeafLight
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Five petal flower
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Gold
+PASS: Supported material: Fern leaf
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Combined OF_Timber
+PASS: Supported material: Combined OF_Leaf
+PASS: Supported material: Petal
+PASS: Supported material: Lantern brass
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Fern leaf
+PASS: Supported material: Combined OF_Canopy
+PASS: Supported material: Fern leaf
+PASS: Supported material: Petal
+PASS: Supported material: Front siding
+PASS: Supported material: Fern leaf
+PASS: Supported material: Rock
+PASS: Supported material: Pollen
+PASS: Supported material: Petal
+PASS: Supported material: Brass door pull
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Petal
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Stem
+PASS: Supported material: Fern leaf
+PASS: Supported material: Side rim
+PASS: Supported material: Petal
 PASS: Supported material: Roof tile
+PASS: Supported material: Combined OF_Plank
+PASS: Supported material: Stem
+PASS: Supported material: Petal
+PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Fern leaf
 PASS: Supported material: Petal
 PASS: Supported material: Petal
-PASS: Supported material: Pollen
-PASS: Supported material: Cork grip
-PASS: Supported material: Porch board
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: Fern leaf
-PASS: Supported material: #854B49
-PASS: Supported material: #FFF4DF
-PASS: Supported material: warm_beige
-PASS: Supported material: #242630
+PASS: Supported material: Petal
+PASS: Supported material: Overlapping roof shingle
+PASS: Supported material: Front limestone base
+PASS: Supported material: #FFFFFF
 PASS: Supported material: navy
+PASS: Supported material: ochre
+PASS: Supported material: warm_beige
+PASS: Supported material: seafoam
+PASS: Supported material: cream
+PASS: Supported material: #FFF4DF
+PASS: Supported material: #854B49
 PASS: Supported material: #CC887B
 PASS: Supported material: green
-PASS: Supported material: brown
-PASS: Supported material: #FFFFFF
-PASS: Supported material: cream
-PASS: Supported material: seafoam
+PASS: Supported material: ginger
+PASS: Supported material: #242630

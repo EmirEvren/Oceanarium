@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaae9eb21e43b34197c95a6b0ef2e1c, type: 3}
+  m_Name: tank_2
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.AquariumBuildItem
+  id: tank_2
+  category: 0
+  price: 65
+  level: 2
+  popularity: 3
+  requiredPopularity: 0
+  comfort: 0
+  size: {x: 4.25, y: 3.1, z: 2.15}
+  habitats: 
+  prefab: {fileID: 6955699839853643549, guid: cc981ef98d57f3b42aecc7450b117b93, type: 3}
+  thumbnail: {fileID: 2800000, guid: 772aa71bfb600cd4284ba8ea66276501, type: 3}
+  material: {fileID: 0}
+  tank: {fileID: 11400000, guid: a11e141e433ff2e4ab01671619263c00, type: 2}
+  futureLocked: 0
+  wallMounted: 0
+  decorationCost: 1
+  theme: coastal

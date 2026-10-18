@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
   icon: {fileID: 2800000, guid: 658ef8535ee5294419be3c7a5e4ddd63, type: 2}
   silhouette: {fileID: 2800000, guid: 2954cdbb7660c1645a12f47c3679a8bb, type: 2}
+  aquariumHabitat: 1
+  swimSpeed: 0.4
+  schooling: 1
   id: sardine
   nameKey: fishing.fish.sardine
   rarity: 0

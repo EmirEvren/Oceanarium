@@ -56,7 +56,7 @@ namespace OceanariumFishing.Editor
         {
             var s=Species()[0];string dir="Temp/ASTRA04Checks";Directory.CreateDirectory(dir);string path=dir+"/collection.json";
             File.WriteAllText(path,"{\"version\":1,\"kept\":[{\"instanceId\":\"old-one\",\"speciesId\":\"clownfish\",\"weight\":0.2,\"length\":14,\"quality\":0.8,\"location\":\"home.beach\",\"caughtUtc\":\"2026-10-10T12:00:00Z\",\"aquariumEligible\":true}],\"records\":[{\"speciesId\":\"clownfish\",\"weight\":0.25,\"length\":15},{\"speciesId\":\"blue_tang\",\"weight\":0.4,\"length\":27}],\"resolved\":[\"old-one\",\"released-old\"]}");
-            var data=FishCollectionStore.Load(path);Check(data.version==2&&data.kept.Single().instanceId=="old-one"&&data.kept[0].weight==.2f,"Version 1 migrates without replacing specimen IDs or measurements");
+            var data=FishCollectionStore.Load(path);Check(data.version==FishCollection.CurrentVersion&&data.kept.Single().instanceId=="old-one"&&data.kept[0].weight==.2f,"Version 1 migrates without replacing specimen IDs or measurements");
             Check(data.Discovered("blue_tang")&&data.Record("clownfish").weight==.25f,"Migration preserves released-species records and personal bests");
             Check(data.TotalCaught==2&&data.legacyUnattributedCatches==1&&data.Record("blue_tang").incompleteLegacyHistory,"Incomplete legacy catch history is explicit, not invented");
             var fish=FishInstance.Roll(s,567,"home.pier");fish.ownerId=data.ownerId;fish.islandId="OF_HomeIsland";fish.captureMethod="rod:starter";

@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
   icon: {fileID: 2800000, guid: d43fe5e1781946b42a14df556e029bfd, type: 2}
   silhouette: {fileID: 2800000, guid: 3b29a9cfc01b6c44c98f46c368ded76f, type: 2}
+  aquariumHabitat: 1
+  swimSpeed: 0.4
+  schooling: 1
   id: mackerel
   nameKey: fishing.fish.mackerel
   rarity: 0

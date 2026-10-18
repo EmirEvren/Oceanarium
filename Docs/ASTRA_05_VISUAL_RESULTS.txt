@@ -1,0 +1,12 @@
+PASS 2026-10-18T14:27:48.3004964Z
+PASS: Physical player walk to (8.00, 2.97, -0.30)
+PASS: Updated terrain and floor align after physical entry
+PASS: Physical player walk to (8.00, 2.97, 1.15)
+PASS: Physical player walk to (11.70, 2.97, 1.15)
+PASS: Tank modal still opens after environment polish
+PASS: Escape closes aquarium without also opening pause
+PASS: Freshwater tank rejects marine specimen
+PASS: Unaffordable upgrade cannot spend wallet funds
+PASS: Swimming remains in volume: sardine
+PASS: Independent movement: sardine
+PASS: Duplicate specimens have diminishing popularity, not a new diversity bonus

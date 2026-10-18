@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
   icon: {fileID: 2800000, guid: 8a93d606f2886af41b680b828b31fe29, type: 2}
   silhouette: {fileID: 2800000, guid: 5546efcd7b5a83e46a9f3cafee9e3ec7, type: 2}
+  aquariumHabitat: 0
+  swimSpeed: 0.28
+  schooling: 0
   id: clownfish
   nameKey: fishing.fish.clownfish
   rarity: 0

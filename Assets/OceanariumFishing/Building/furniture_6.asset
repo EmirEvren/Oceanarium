@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaae9eb21e43b34197c95a6b0ef2e1c, type: 3}
+  m_Name: furniture_6
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.AquariumBuildItem
+  id: furniture_6
+  category: 5
+  price: 5
+  level: 1
+  popularity: 1
+  requiredPopularity: 0
+  comfort: 1
+  size: {x: 0.65, y: 1, z: 0.6}
+  habitats: 
+  prefab: {fileID: 1392546838067427638, guid: a518a14fcb9aabc428d46a100455de64, type: 3}
+  thumbnail: {fileID: 2800000, guid: 2e2bec9d6d574fc45bb4154d548fad20, type: 3}
+  material: {fileID: 0}
+  tank: {fileID: 0}
+  futureLocked: 0
+  wallMounted: 1
+  decorationCost: 1
+  theme: coastal

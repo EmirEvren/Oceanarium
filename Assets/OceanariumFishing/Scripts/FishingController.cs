@@ -61,6 +61,8 @@ namespace OceanariumFishing
         }
         public bool SetDifficulty(string id)
         {if(Active)return false;var next=Collection.Copy();next.difficulty=tuning.Difficulty(id).id;if(!FishCollectionStore.Save(next))return false;Collection=next;return true;}
+        public bool CommitAquarium(FishCollection staged)
+        {if(staged==null||staged.ownerId!=Collection.ownerId||!FishCollectionStore.Save(staged))return false;Collection=staged;return true;}
         void Update()
         {
             if(!rod || !tuning || !presentation || ExternalInput)return;if(actor.HasStarterRod && !Equipped)Equip();

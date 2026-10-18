@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.FishSpecies
   icon: {fileID: 2800000, guid: 4531cda4f3365514cbe391f0c20c38f0, type: 2}
   silhouette: {fileID: 2800000, guid: f20ed4e14dea9de4b9b98beb4bae98de, type: 2}
+  aquariumHabitat: 0
+  swimSpeed: 0.28
+  schooling: 0
   id: blue_tang
   nameKey: fishing.fish.blue_tang
   rarity: 1

@@ -1,0 +1,78 @@
+PASS 2026-10-18T14:48:52.0349994Z
+PASS: Existing museum and layout migration ready
+PASS: Eight tank geometries
+PASS: Ten plant models
+PASS: Twelve aquatic decorations
+PASS: Fifteen furniture prefabs
+PASS: Catalog prefabs and thumbnails assigned
+PASS: Original layout preserves visitor access
+PASS: Build mode opens
+PASS: Room expansion saved
+PASS: Navigation connected through new room
+PASS: Place tank_0 at (0.50, 0.00, 5.80): 
+PASS: Place tank_0 at (0.50, 0.00, 6.30): 
+PASS: Tank rotation saved
+PASS: Entrance placement rejected
+PASS: Outside placement rejected
+PASS: Foreign owner rejected
+PASS: Stale revision rejected
+PASS: Tank overlap rejected
+PASS: Place tank_3 at (-4.50, 0.00, 7.50): 
+PASS: Place furniture_0 at (-4.50, 0.00, 9.00): 
+PASS: Routes remain after mixed layout edits
+PASS: Substrate applied to selected tank
+PASS: Place plant_8 at (-0.40, 0.00, 0.00): 
+PASS: Place decor_0 at (0.30, 0.00, 0.00): 
+PASS: Glass boundary rejects decoration
+PASS: Decoration overlap rejected
+PASS: Remove decoration
+PASS: Place decor_0 at (0.30, 0.00, 0.00): 
+PASS: Remove/replace cannot farm popularity
+PASS: Existing genuinely caught compatible specimen available
+PASS: Place caught specimen in purchased tank
+PASS: Place tank_0 at (-1.00, 0.00, 6.30): 
+PASS: Moving tank retains fish identity and assignment
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Fish avoids placed interior obstacles
+PASS: Store occupied tank safely
+PASS: Stored tank returns fish to owner's inventory
+PASS: Place tank_0 at (-1.00, 0.00, 6.30): 
+PASS: Restore same specimen without duplication
+PASS: Purchase floor_4
+PASS: Apply floor_4
+PASS: Purchase wall_3
+PASS: Apply wall_3
+PASS: All original fish identities preserved
+PASS: Unique object IDs
+PASS: Layout atomic save/load round trip
+PASS: Wallet matches persisted layout transactions
+PASS: Live visitor navigates edited museum and donates
+PASS: Collect earned donations after layout edits

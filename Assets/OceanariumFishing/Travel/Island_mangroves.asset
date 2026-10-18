@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fce4062de1fab242bd7d0ee65552d45, type: 3}
+  m_Name: Island_mangroves
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.IslandRoute
+  id: mangroves
+  nameKey: travel.island_mangroves
+  requirementKey: require_mangroves
+  destination: 6
+  icon: {fileID: 2800000, guid: e886b130a6c09934c89c1fe14995c5f3, type: 3}
+  requiresRepair: 1
+  futureLocked: 1
+  hidden: 1
+  requiredTier: 3
+  requiredFlags:
+  - future_mangroves
+  spawn: {x: 0, y: 0.9, z: -32}
+  mapPosition: {x: 0.4, y: 0.25}

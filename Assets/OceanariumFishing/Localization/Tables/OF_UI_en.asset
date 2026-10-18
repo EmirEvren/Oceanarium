@@ -1341,6 +1341,1017 @@ MonoBehaviour:
     m_Localized: A golden ocean traveller with bold dark bars.
     m_Metadata:
       m_Items: []
+  - m_Id: 751787644977152
+    m_Localized: "Oceanarium \u2022 Living collection"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308800
+    m_Localized: Fish & specimens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308801
+    m_Localized: Decorations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308802
+    m_Localized: Reception & donations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308803
+    m_Localized: Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308804
+    m_Localized: Popularity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308805
+    m_Localized: Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308806
+    m_Localized: Fish capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308807
+    m_Localized: "Compatible \u2022 in storage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308808
+    m_Localized: On display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308809
+    m_Localized: Storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308810
+    m_Localized: Place this specimen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308811
+    m_Localized: Return to storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308812
+    m_Localized: Your fish is now swimming in its exhibit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308813
+    m_Localized: The same specimen is safely back in storage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308814
+    m_Localized: Rarity & quality contribution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308815
+    m_Localized: Small tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308816
+    m_Localized: Medium tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308817
+    m_Localized: Large tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308818
+    m_Localized: Tropical saltwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308819
+    m_Localized: Temperate saltwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308820
+    m_Localized: Freshwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308821
+    m_Localized: Coral Reef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308822
+    m_Localized: Coastal Shoal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308823
+    m_Localized: Quiet Lagoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308824
+    m_Localized: Ocean Gallery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308825
+    m_Localized: '[E] Manage aquarium tank'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308826
+    m_Localized: '[E] Donations & museum upgrades'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308827
+    m_Localized: This specimen belongs to another keeper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308828
+    m_Localized: Unlock this tank at reception.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308829
+    m_Localized: This specimen is already on display.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308830
+    m_Localized: Incompatible water habitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308831
+    m_Localized: This fish needs a larger tank.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308832
+    m_Localized: Tank full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308833
+    m_Localized: Could not save. Your previous state is preserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308834
+    m_Localized: Keep a fish from your next catch, then choose a compatible tank.
+      Displayed specimens retain their identity and ownership.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308835
+    m_Localized: A little reef, a happier museum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308836
+    m_Localized: The Basic Decoration Pack adds coral to all four exhibits and flowers
+      outside. It increases popularity without changing water chemistry. Buy it once
+      at reception.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308837
+    m_Localized: Large tanks and further museum wings are reserved for a future milestone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308838
+    m_Localized: Museum improvements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308839
+    m_Localized: Visitors served
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308840
+    m_Localized: Here now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308841
+    m_Localized: Pending donations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308842
+    m_Localized: Total collected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308843
+    m_Localized: Collect donations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308844
+    m_Localized: Donations collected into your wallet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308845
+    m_Localized: No donations to collect yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308846
+    m_Localized: Recent visitor donations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308847
+    m_Localized: Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308848
+    m_Localized: Already unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308849
+    m_Localized: Not enough Coins. Welcome more visitors first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308850
+    m_Localized: Increase exhibit popularity first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308851
+    m_Localized: Improvement purchased and saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308852
+    m_Localized: What a lovely fish!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308853
+    m_Localized: Species diversity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308854
+    m_Localized: Rarity & specimen quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308855
+    m_Localized: Tank variety & habitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308856
+    m_Localized: Decorations & upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308857
+    m_Localized: Unknown Aquarium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308858
+    m_Localized: Local Attraction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308859
+    m_Localized: Popular Aquarium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308860
+    m_Localized: Island Favorite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308861
+    m_Localized: Ocean Wonder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308862
+    m_Localized: Visitor Comfort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308863
+    m_Localized: Aquarium Signage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308864
+    m_Localized: Basic Decoration Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308865
+    m_Localized: Medium Tank Unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308866
+    m_Localized: "Extra seating \u2022 donations +20%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308867
+    m_Localized: "Welcoming banners \u2022 visitors arrive sooner"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308868
+    m_Localized: Coral, flowers and popularity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 751787695308869
+    m_Localized: "Six specimens \u2022 up to 75 cm \u2022 requires 15 popularity"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759649532280832
+    m_Localized: Small Rectangular Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759652099194880
+    m_Localized: Medium Rectangular Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759654372507648
+    m_Localized: Large Showcase Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759656708734976
+    m_Localized: Round Glass Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759658789109760
+    m_Localized: Corner Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759661171474432
+    m_Localized: Tall Column Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759663734194176
+    m_Localized: Wall-Mounted Display Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759666062032896
+    m_Localized: Premium Panoramic Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759668142407680
+    m_Localized: Anubias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759678871437312
+    m_Localized: Java Moss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759679798378496
+    m_Localized: Amazon Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759690741317632
+    m_Localized: Vallisneria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759693471809536
+    m_Localized: Java Fern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759704448303104
+    m_Localized: Hornwort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759738141147136
+    m_Localized: Cryptocoryne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759749566431232
+    m_Localized: Red Aquatic Plant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759760308043776
+    m_Localized: Sea Grass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759762950455296
+    m_Localized: Decorative Kelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759776066043904
+    m_Localized: Branching Coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759776997179392
+    m_Localized: Brain Coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759777936703488
+    m_Localized: Mushroom Coral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759778863644672
+    m_Localized: Sea Anemone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759779891249152
+    m_Localized: Small Reef Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759780914659328
+    m_Localized: Large Reef Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759781820628992
+    m_Localized: Driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759782739181568
+    m_Localized: Mini Shipwreck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759783703871488
+    m_Localized: Treasure Chest Decoration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759784655978496
+    m_Localized: Ancient Anchor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759785452896256
+    m_Localized: Seashell Cluster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759786274979840
+    m_Localized: Bubble Ornament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759787134812160
+    m_Localized: Fine White Sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759788724453376
+    m_Localized: Natural River Sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759790381203456
+    m_Localized: Black Volcanic Sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759792012787712
+    m_Localized: Golden Beach Sand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759793715675136
+    m_Localized: Coral Gravel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759795707969536
+    m_Localized: Dark Pebbles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759797645737984
+    m_Localized: Nutrient-Rich Soil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759799528980480
+    m_Localized: Wooden Bench
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759800380424192
+    m_Localized: Cozy Sofa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759801236062208
+    m_Localized: Visitor Chair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759802087505920
+    m_Localized: Small Coffee Table
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759802947338240
+    m_Localized: Potted Palm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759805946265600
+    m_Localized: Hanging Plant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759808227966976
+    m_Localized: Wall Shelf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759809083604992
+    m_Localized: Display Pedestal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759810081849344
+    m_Localized: Wooden Cabinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759811084288000
+    m_Localized: Floor Lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759811906371584
+    m_Localized: Wall Lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759812925587456
+    m_Localized: Aquarium Information Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759813890277376
+    m_Localized: Fish Painting Frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759814771081216
+    m_Localized: Small Rug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759815635107840
+    m_Localized: Decorative Seashell Stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759816482357248
+    m_Localized: Warm Oak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759817946169344
+    m_Localized: Cream Plaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759819409981440
+    m_Localized: Rustic Wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759820840239104
+    m_Localized: Warm Wood Panels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759823293906944
+    m_Localized: Dark Walnut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759824837410816
+    m_Localized: Ocean Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759826406080512
+    m_Localized: Light Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759827991527424
+    m_Localized: Pale Mint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759829384036352
+    m_Localized: Coastal Tiles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759830717825024
+    m_Localized: Natural Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759832177442816
+    m_Localized: Decorative Pebble Pattern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759833569951744
+    m_Localized: Coastal Wallpaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759835016986624
+    m_Localized: Expanded Exhibit Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759835268644864
+    m_Localized: Ocean Gallery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759835520303104
+    m_Localized: Grand Aquarium (Future)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022848
+    m_Localized: '[B] Build Mode'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022849
+    m_Localized: Museum Workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022850
+    m_Localized: Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022851
+    m_Localized: Comfort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022852
+    m_Localized: Tanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022853
+    m_Localized: Plants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022854
+    m_Localized: Corals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022855
+    m_Localized: Substrates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022856
+    m_Localized: Decorations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022857
+    m_Localized: Furniture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022858
+    m_Localized: Floors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022859
+    m_Localized: Walls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022860
+    m_Localized: Expansions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022861
+    m_Localized: "Search catalog\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022862
+    m_Localized: Select / preview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022863
+    m_Localized: Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022864
+    m_Localized: Purchased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022865
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022866
+    m_Localized: "Locked \u2014 progression required"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022867
+    m_Localized: "Your objects \xB7 move / store"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022868
+    m_Localized: Stored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022869
+    m_Localized: Placed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022870
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022871
+    m_Localized: "RMB orbit \xB7 wheel zoom \xB7 WASD pan \xB7 B close"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022872
+    m_Localized: 'Rotate [R]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022873
+    m_Localized: 'Grid [G]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838083022874
+    m_Localized: On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217152
+    m_Localized: Off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217153
+    m_Localized: 'Confirm [Enter]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217154
+    m_Localized: 'Cancel [Esc]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217155
+    m_Localized: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217156
+    m_Localized: Undo placement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217157
+    m_Localized: "Valid placement \xB7 click to place"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217158
+    m_Localized: 'Invalid placement: outside usable space'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217159
+    m_Localized: 'Invalid placement: object overlap / clearance'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217160
+    m_Localized: Keep the entrance and central approach clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217161
+    m_Localized: "Visitor Path Blocked \u2014 preserve exhibit and counter access"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217162
+    m_Localized: Place near a side or rear wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217163
+    m_Localized: "Choose tank \xB7 compatible habitat \xB7 floor decorations only"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217164
+    m_Localized: "Keep walkways clear \xB7 R rotate \xB7 click to place"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217165
+    m_Localized: Choose tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217166
+    m_Localized: Incompatible plant / coral habitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217167
+    m_Localized: Tank decoration budget exceeded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217168
+    m_Localized: 'Edit rejected: owner mismatch'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217169
+    m_Localized: This command was already processed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217170
+    m_Localized: "Layout changed \u2014 select again"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217171
+    m_Localized: Save failed; previous state retained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217172
+    m_Localized: Item unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217173
+    m_Localized: Purchase this style first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217174
+    m_Localized: Placement saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759838087217175
+    m_Localized: New gallery opened and saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 761497613926400
+    m_Localized: Insufficient Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940271718400
+    m_Localized: Captain Finn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855744
+    m_Localized: '[E] Talk to Captain Finn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855745
+    m_Localized: '[E] Inspect the damaged boat'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855746
+    m_Localized: '[E] Board boat'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855747
+    m_Localized: 'Leave boat [E]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855748
+    m_Localized: A Boat Worth Saving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855749
+    m_Localized: Collect repair materials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855750
+    m_Localized: Driftwood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855751
+    m_Localized: Scrap Metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855752
+    m_Localized: Rope Bundles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855753
+    m_Localized: '[E] Collect driftwood'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855754
+    m_Localized: '[E] Collect scrap metal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855755
+    m_Localized: '[E] Collect rope bundle'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855756
+    m_Localized: Ahoy! My little boat barely made it. Could you help me mend her?
+      Take a look by the boarding post.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855757
+    m_Localized: Inspect the boat first. Then we can work out what she needs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855758
+    m_Localized: Five pieces of driftwood, three metal scraps and two rope bundles
+      should do it. Look along the island paths and shore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855759
+    m_Localized: Everything we need! Let's give this boat a fresh start.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855760
+    m_Localized: She's ready for the sea! Step aboard and choose Town Island on the
+      chart. I'll handle the sailing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855761
+    m_Localized: I'll help!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855762
+    m_Localized: Repair boat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855763
+    m_Localized: Let's explore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855764
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855765
+    m_Localized: "An unexpected visitor\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855766
+    m_Localized: A little care, a new beginning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855767
+    m_Localized: Leaving the harbor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855768
+    m_Localized: A new shore awaits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855769
+    m_Localized: "Preparing the destination\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855770
+    m_Localized: 'Skip [Esc]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855771
+    m_Localized: "Boat repaired \u2014 island travel unlocked!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855772
+    m_Localized: Could not save. Please try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855773
+    m_Localized: Destination unavailable. You are safely back at the dock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855774
+    m_Localized: "The Island Almanac \xB7 World Map"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855775
+    m_Localized: Confirm destination & travel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855776
+    m_Localized: Locked island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855777
+    m_Localized: "All players ready \xB7 Captain Finn will take you there."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855778
+    m_Localized: Passengers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855779
+    m_Localized: You are here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855780
+    m_Localized: Repair Captain Finn's boat first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855781
+    m_Localized: A boat upgrade is required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855782
+    m_Localized: This upgrade belongs to future progression.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855783
+    m_Localized: Insufficient Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855784
+    m_Localized: Home Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855785
+    m_Localized: Town Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855786
+    m_Localized: Coral Cove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855787
+    m_Localized: Misty Mangroves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855788
+    m_Localized: Frostwhisper Isle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855789
+    m_Localized: Your cozy home, living aquarium and familiar fishing shore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855790
+    m_Localized: A welcoming harbor, colorful market street and a peaceful village
+      square.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855791
+    m_Localized: Warm reefs and new fish await a future expedition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940317855792
+    m_Localized: Hidden waterways beneath mysterious mangrove trees.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050048
+    m_Localized: A distant coast touched by snow and sea mist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050049
+    m_Localized: Coastal Explorer and Captain's future quest required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050050
+    m_Localized: Ocean Voyager and a discovered secret chart required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050051
+    m_Localized: Master Navigator and late-game expedition required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050052
+    m_Localized: Basic Boat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050053
+    m_Localized: Coastal Explorer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050054
+    m_Localized: Ocean Voyager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050055
+    m_Localized: Master Navigator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050056
+    m_Localized: Repair supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050057
+    m_Localized: Waiting for players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763940322050058
+    m_Localized: Select destination
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

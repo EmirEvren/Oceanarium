@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2787827ee1db6ff478a1fe6dcc1468fd, type: 3}
+  m_Name: tank_3_definition
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.AquariumDefinition
+  id: tank_3
+  size: 0
+  capacity: 4
+  maxLength: 40
+  dimensions: {x: 1.188, y: 1.6, z: 1.188}
+  habitats: 000000000100000002000000
+  futureLocked: 0
+  glass: {fileID: 2100000, guid: 3d68794be5d83cf4b94a3c62dfca713a, type: 2}
+  water: {fileID: 2100000, guid: 33b2b284109bd3d4982c40f8371ca1ea, type: 2}
+  footprint: {x: 1.9499999, y: 1.9499999}
+  decorationBudget: 12
+  waterVolume: 5184
+  buildType: tank_3

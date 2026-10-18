@@ -1,0 +1,38 @@
+PASS 2026-10-18T14:13:54.4632688Z
+PASS: Museum initialized in existing Home Island
+PASS: Three small exhibits and one medium exhibit
+PASS: Eight canonical marine species assigned plausible aquarium habitats
+PASS: Actual-input Cozy common/rare catches, Keep, inventory and journal
+PASS: Physical player walk to (8.00, 2.39, -0.50)
+PASS: Walkable ramp and interior floor
+PASS: Physical player walk to (8.00, 2.39, 1.15)
+PASS: Physical player walk to (11.70, 2.39, 1.15)
+PASS: E opens correct tank management
+PASS: Wrong-owner placement rejected
+PASS: Place exact retained specimen: 
+PASS: Duplicate placement rejected
+PASS: Displayed fish cannot be sold
+PASS: Ownership retained with displayed status
+PASS: Popularity grows from actual exhibits
+PASS: Exact specimen swims continuously
+PASS: Saved individual dimensions preserved in display
+PASS: Remove returns same specimen to storage
+PASS: Removed fish available in storage
+PASS: Same specimen can be placed again
+PASS: Incompatible habitat rejected
+PASS: Fill tank using an existing owned specimen
+PASS: Fill tank using an existing owned specimen
+PASS: Full tank rejects extra fish
+PASS: Real visitors enter, observe exhibits, reach reception and fund an upgrade
+PASS: Visitor donation IDs unique
+PASS: Collect actual visitor donations
+PASS: Wallet receives exact pending amount atomically
+PASS: Repeated empty collection rejected
+PASS: An affordable starter improvement exists
+PASS: Purchase funded upgrade: comfort
+PASS: Duplicate upgrade purchase rejected
+PASS: Versioned save reload succeeds
+PASS: Placement and exact specimen persist
+PASS: Wallet and upgrade persist together
+PASS: Aquarium transparent URP shader supported
+Restart verification is separate: stop/play and aquarium-restart-checks. No standalone process restart is implied.

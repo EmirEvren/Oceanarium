@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fce4062de1fab242bd7d0ee65552d45, type: 3}
+  m_Name: Island_home
+  m_EditorClassIdentifier: OceanariumFishing.Runtime::OceanariumFishing.IslandRoute
+  id: home
+  nameKey: travel.island_home
+  requirementKey: repair_required
+  destination: 3
+  icon: {fileID: 2800000, guid: fe3aaf8ce6e8e2343950e8c473e54526, type: 3}
+  requiresRepair: 0
+  futureLocked: 0
+  hidden: 0
+  requiredTier: 0
+  requiredFlags: []
+  spawn: {x: 1, y: 0.9, z: -18}
+  mapPosition: {x: 0.25, y: 0.68}

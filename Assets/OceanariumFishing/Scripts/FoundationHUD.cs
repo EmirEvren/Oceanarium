@@ -9,6 +9,7 @@ namespace OceanariumFishing
         private GUIStyle heading,body,small,button; private Vector2 languageScroll;
         public bool SettingsOpen=>settings;
         private CollectionHUD collection;
+        private BoatHarbor harbor;private AquariumHUD aquarium;private AquariumBuildHUD building;
         public void Bind(GameSession service,LocalPlayerController localPlayer,Destination scene)
         {
             session=service;player=localPlayer;destination=scene;collection=player?player.GetComponent<CollectionHUD>():null;
@@ -18,13 +19,14 @@ namespace OceanariumFishing
         private void OnDestroy(){if(interactor!=null && interactor.Actor!=null)interactor.Actor.Feedback-=Feedback;}
         private void Update()
         {
-            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true && collection?.IsOpen!=true)settings=!settings;
-            if(player!=null)player.InputEnabled=!settings && collection?.IsOpen!=true && session!=null && !session.Loading;
+            if(!harbor)harbor=FindFirstObjectByType<BoatHarbor>();if(!aquarium)aquarium=FindFirstObjectByType<AquariumHUD>();if(!building)building=FindFirstObjectByType<AquariumBuildHUD>();
+            if(Keyboard.current?.escapeKey.wasPressedThisFrame==true && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true)settings=!settings;
+            if(player!=null)player.InputEnabled=!settings && collection?.IsOpen!=true && aquarium?.IsOpen!=true && building?.IsOpen!=true && harbor?.InputLocked!=true && session!=null && !session.Loading;
         }
         private string T(string key)=>session.Languages.Text(key);
         private void OnGUI()
         {
-            if(session==null || !session.Languages.Ready || collection?.IsOpen==true)return;
+            if(session==null || !session.Languages.Ready || collection?.IsOpen==true || aquarium?.IsOpen==true || building?.IsOpen==true || harbor?.InputLocked==true)return;
             if(heading==null)
             {
                 heading=new GUIStyle(GUI.skin.label){fontSize=44,fontStyle=FontStyle.Bold,wordWrap=true};
@@ -42,10 +44,10 @@ namespace OceanariumFishing
                 if(GUILayout.Button(T("settings"),button))settings=!settings;
                 GUILayout.Space(18);GUILayout.Label(T("milestone"),small);GUILayout.EndArea();
             }
-            else if(destination==Destination.HomeIsland)
+            else if(destination==Destination.HomeIsland||destination==Destination.TownIsland)
             {
-                Panel(new Rect(28,25,340,115));GUI.Label(new Rect(48,40,300,30),T("home"),body);
-                GUI.Label(new Rect(48,77,300,55),T(interactor.Actor.HasStarterRod?"objective.done":"objective"),small);
+                Panel(new Rect(28,25,340,115));GUI.Label(new Rect(48,40,300,30),T(destination==Destination.TownIsland?"travel.island_town":"home"),body);
+                GUI.Label(new Rect(48,77,300,55),T(destination==Destination.TownIsland?"travel.description_town":interactor.Actor.HasStarterRod?"objective.done":"objective"),small);
                 Panel(new Rect(28,h-65,w-56,40));GUI.Label(new Rect(42,h-57,w-85,32),T("controls"),small);
                 if(interactor.Nearby!=null && !settings){Panel(new Rect(w/2-200,h-130,400,45));GUI.Label(new Rect(w/2-180,h-122,360,35),T(interactor.Nearby.PromptKey),body);}
                 if(Time.unscaledTime<noticeUntil){Panel(new Rect(w/2-310,h-240,620,80));GUI.Label(new Rect(w/2-290,h-230,580,65),T(notice),body);}
@@ -80,3 +82,6 @@ namespace OceanariumFishing
         private static void Panel(Rect rect){var old=GUI.color;GUI.color=new Color(.055f,.16f,.19f,.93f);GUI.DrawTexture(rect,Texture2D.whiteTexture);GUI.color=old;}
     }
 }
+
+
+

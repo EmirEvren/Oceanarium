@@ -16,7 +16,8 @@ namespace OceanariumFishing
         FishCollection Data=>fishing.Collection;
         public void Open(bool journal)
         {
-            if(fishing.Active)return;Journal=journal;IsOpen=true;records=false;page=0;scroll=Vector2.zero;opened=Time.unscaledTime;
+            if(FindFirstObjectByType<AquariumHUD>()?.IsOpen==true||FindFirstObjectByType<AquariumBuildHUD>()?.IsOpen==true)return;
+            if(fishing.Active||FindFirstObjectByType<BoatHarbor>()?.InputLocked==true)return;Journal=journal;IsOpen=true;records=false;page=0;scroll=Vector2.zero;opened=Time.unscaledTime;
             if(SelectedInstanceId==null)SelectedInstanceId=Data.kept.FirstOrDefault()?.instanceId;
         }
         public void Close()=>IsOpen=false;
@@ -42,7 +43,7 @@ namespace OceanariumFishing
             if(!string.IsNullOrEmpty(Data.loadWarning))GUI.Label(new Rect(x+30,180,1200,60),T(Data.loadWarning),ui.text);
             else if(records)Records(x);
             else {Filters(x);if(Journal)JournalView(x);else Inventory(x);}
-            GUI.Label(new Rect(x+32,807,1200,28),T("collection.shortcuts"),ui.small);GUI.color=oldColor;GUI.matrix=old;GUI.depth=0;
+            GUI.Label(new Rect(x+32,807,1200,28),Data.resources.Count>0?T("travel.resource_inventory")+": "+string.Join(" · ",Data.resources.Select(r=>T("travel."+r.id)+" "+r.count)):T("collection.shortcuts"),ui.small);GUI.color=oldColor;GUI.matrix=old;GUI.depth=0;
         }
         void Filters(float x)
         {
@@ -60,7 +61,7 @@ namespace OceanariumFishing
         }
         void Inventory(float x)
         {
-            var list=Data.Query(sort,island,rarity).ToArray();GUI.Label(new Rect(x+30,236,700,35),T("collection.fish")+" · "+list.Length,ui.heading);
+            var list=Data.Query(sort,island,rarity).Where(f=>f.ownership==FishOwnership.Stored).ToArray();GUI.Label(new Rect(x+30,236,700,35),T("collection.fish")+" · "+list.Length,ui.heading);
             scroll=GUI.BeginScrollView(new Rect(x+30,280,685,500),scroll,new Rect(0,0,660,Mathf.Max(495,list.Length*86)));
             for(int i=0;i<list.Length;i++)
             {
@@ -124,3 +125,7 @@ namespace OceanariumFishing
         void OnDestroy()=>ui?.Dispose();
     }
 }
+
+
+
+

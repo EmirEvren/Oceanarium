@@ -1,0 +1,5 @@
+PASS 2026-10-18T14:50:14.9514721Z
+PASS: Fresh Play Mode restores exact layout, styles, ownership, revision and expansion
+PASS: Purchased tank visuals restored once
+PASS: Restored paths connected
+PASS: All displayed fish have valid live tanks

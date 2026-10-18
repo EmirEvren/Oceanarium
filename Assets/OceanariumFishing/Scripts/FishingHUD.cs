@@ -3,9 +3,9 @@ namespace OceanariumFishing
 {
     public sealed class FishingHUD:MonoBehaviour
     {
-        public FishingController fishing;CozyUI ui;float progress,tension;FoundationHUD foundation;CollectionHUD collection;
+        public FishingController fishing;CozyUI ui;float progress,tension;FoundationHUD foundation;CollectionHUD collection;AquariumWorld aquarium;
         string T(string key)=>GameSession.Current?.Languages.Text("fishing."+key)??"";
-        void Start(){foundation=FindFirstObjectByType<FoundationHUD>();collection=GetComponent<CollectionHUD>();}
+        void Start(){foundation=FindFirstObjectByType<FoundationHUD>();collection=GetComponent<CollectionHUD>();aquarium=FindFirstObjectByType<AquariumWorld>();}
         void Update(){progress=Mathf.MoveTowards(progress,fishing?.Fight?.Progress??0,Time.unscaledDeltaTime*1.7f);tension=Mathf.MoveTowards(tension,fishing?.Fight?.Tension??0,Time.unscaledDeltaTime*2);}
         void Bar(float x,float y,float value,string key,Color color)
         {
@@ -14,6 +14,7 @@ namespace OceanariumFishing
         }
         void OnGUI()
         {
+            if(aquarium&&(aquarium.Panel?.IsOpen==true||(!fishing.Active&&Vector3.Distance(transform.position,aquarium.transform.position)<11)))return;
             if(!fishing||!fishing.Equipped||GameSession.Current?.Languages.Ready!=true||collection?.IsOpen==true||foundation?.SettingsOpen==true)return;
             ui??=new CozyUI();var old=GUI.matrix;float scale=Mathf.Min(Screen.width/1440f,Screen.height/900f);GUI.matrix=Matrix4x4.Scale(Vector3.one*scale);float w=Screen.width/scale,h=Screen.height/scale;float x=w-465;
             if(fishing.State==FishingState.CatchSuccess)
