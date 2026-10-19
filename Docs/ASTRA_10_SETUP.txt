@@ -1,0 +1,1 @@
+Network prefab and owned camera generated. Steam App ID: 4241310. Tick rate: 30. Session capacity: 4 including host.

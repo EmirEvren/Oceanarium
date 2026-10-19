@@ -13,11 +13,11 @@ namespace OceanariumFishing
         string T(string key)=>GameSession.Current?.Languages.Text("world."+key)??"";
         void Awake(){Current=this;}
         public void OpenSleep(IslandInteractable source){if(!ValidSleep(source))return;cabin=source;sleep=true;IsOpen=true;}
-        bool ValidSleep(IslandInteractable source){var player=FindFirstObjectByType<FishingController>();return source&&source.kind==InteractionKind.Cabin&&player&&!player.Active&&Vector3.Distance(player.transform.position,source.transform.position)<5&&SceneManager.GetActiveScene().name=="OF_HomeIsland"&&WorldTimeService.Current.IsAuthority;}
+        bool ValidSleep(IslandInteractable source){var player=GamePlayers.Inventory;return source&&source.kind==InteractionKind.Cabin&&player&&!player.Active&&Vector3.Distance(player.transform.position,source.transform.position)<5&&SceneManager.GetActiveScene().name=="OF_HomeIsland"&&WorldTimeService.Current.IsAuthority;}
         void Close(){IsOpen=false;sleep=false;closedFrame=Time.frameCount;}
         void Update()
         {
-            if(Busy)return;var player=FindFirstObjectByType<LocalPlayerController>();
+            if(Busy)return;var player=GamePlayers.Local;
             if(Keyboard.current?.cKey.wasPressedThisFrame==true&&player&&(IsOpen||player.InputEnabled)){if(IsOpen)Close();else{IsOpen=true;monthPage=WorldTimeService.Current.Simulation.Day/28;}}
             if(IsOpen&&Keyboard.current?.escapeKey.wasPressedThisFrame==true)Close();
         }
@@ -37,7 +37,7 @@ namespace OceanariumFishing
         }
         void OnGUI()
         {
-            var service=WorldTimeService.Current;if(service?.Simulation==null||GameSession.Current?.Languages.Ready!=true||!FindFirstObjectByType<FishingController>())return;
+            var service=WorldTimeService.Current;if(service?.Simulation==null||GameSession.Current?.Languages.Ready!=true||!GamePlayers.Inventory)return;
             var sim=service.Simulation;ui??=new();var matrix=GUI.matrix;float scale=Mathf.Min(Screen.width/1440f,Screen.height/900f);GUI.matrix=Matrix4x4.Scale(Vector3.one*scale);float w=Screen.width/scale;GUI.depth=-40;
             if(!IsOpen&&!Busy){GUI.Box(new Rect(w-335,24,310,100),"");GUI.Label(new Rect(w-320,29,285,90),((int)sim.Hour).ToString("00")+":"+(sim.State.minute%60).ToString("00")+" · "+sim.DayOfMonth+" "+T("month."+sim.Month)+"\n"+GameSession.Current.Languages.Text(sim.Current.nameKey)+"  [C]",ui.small);}
             if(IsOpen)

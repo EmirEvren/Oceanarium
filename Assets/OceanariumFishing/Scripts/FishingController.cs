@@ -16,6 +16,7 @@ namespace OceanariumFishing
         LocalPlayerController controller;InteractionActor actor;FishingWater water;float age,wait,steer,rippleTimer,cueTimer;int seed,lastCombo;Vector3 start,target;FishingZone zone;
         public event Action<FishingState> StateChanged;
         public bool ExternalInput {get;set;}
+        public void RestoreCollection(FishCollection data){Collection=data.Copy();}
         void Awake(){controller=GetComponent<LocalPlayerController>();actor=GetComponent<InteractionActor>();Collection=FishCollectionStore.Load();presentation.owner=this;}
         bool SaveWorld(FishCollection data){WorldTimeService.Current?.Stamp(data);return FishCollectionStore.Save(data);}
         void Start(){WorldTimeService.Ensure(Collection);water=FindFirstObjectByType<FishingWater>();if(!GetComponent<TownEquipment>())gameObject.AddComponent<TownEquipment>();if(!GetComponent<TownQuestTracker>())gameObject.AddComponent<TownQuestTracker>();}
@@ -35,7 +36,7 @@ namespace OceanariumFishing
         public bool Equip()
         {if(Active || Equipped || !actor.HasStarterRod)return false;var avatar=GetComponentInChildren<CharacterAppearance>();if(avatar?.Bones==null)return false;presentation.Equip(avatar.Bones[11],rod.visualPrefab);Equipped=true;return Transition(FishingState.Equipping);}
         public bool BeginAim()
-        {if(!Equipped || Active || !controller.InputEnabled)return false;Charge=0;Feedback="charge";return Transition(FishingState.Aiming);}
+        {if(WorldPersistence.ReadOnly||!Equipped || Active || !controller.InputEnabled)return false;Charge=0;Feedback="charge";return Transition(FishingState.Aiming);}
         public Vector3 AimPoint()
         {var direction=Vector3.ProjectOnPlane(controller.view.transform.forward,Vector3.up).normalized;return transform.position+direction*Mathf.Lerp(tuning.minCast,rod.castDistance,Charge);}
         public bool Cast()
@@ -104,5 +105,3 @@ namespace OceanariumFishing
         void OnDisable(){if(controller)controller.FishingLocked=false;if(presentation)presentation.ClearCast();State=FishingState.Idle;Fight=null;Catch=null;}
     }
 }
-
-

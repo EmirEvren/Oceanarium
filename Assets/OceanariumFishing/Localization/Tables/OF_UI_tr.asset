@@ -3616,6 +3616,214 @@ MonoBehaviour:
       molas\u0131 d\u0131\u015F\u0131nda gel."
     m_Metadata:
       m_Items: []
+  - m_Id: 1095555171565568
+    m_Localized: "Tek ba\u015F\u0131na oyna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451648
+    m_Localized: Oyun kur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451649
+    m_Localized: "Oyuna kat\u0131l"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451650
+    m_Localized: "Arkada\u015Flar\u0131n\u0131 davet et"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451651
+    m_Localized: "\xC7\u0131k\u0131\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451652
+    m_Localized: Ada ekibi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451653
+    m_Localized: Ev sahibi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451654
+    m_Localized: "Oturumdan ayr\u0131l"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451655
+    m_Localized: "Adalar\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451656
+    m_Localized: "Yeni d\xFCnya olu\u015Ftur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451657
+    m_Localized: "D\xFCnya ad\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451658
+    m_Localized: Adam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451659
+    m_Localized: "Mevcut ilerlememi bu d\xFCnyaya kopyala"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451660
+    m_Localized: "Lobi g\xF6r\xFCn\xFCrl\xFC\u011F\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451661
+    m_Localized: "Yaln\u0131zca arkada\u015Flar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451662
+    m_Localized: "Arkada\u015Flar\u0131n Steam davetiyle kat\u0131labilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451663
+    m_Localized: "Bu d\xFCnya herkese a\xE7\u0131k lobi listesinde g\xF6r\xFCn\xFCr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451664
+    m_Localized: Adaya gir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451665
+    m_Localized: Lobileri yenile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451666
+    m_Localized: "Steam aray\xFCz\xFCnden gelen davetleri de kabul edebilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451667
+    m_Localized: "E\u015Fli oyun temeli: misafirler ke\u015Ffedebilir. D\xFCnya etkile\u015Fimlerini
+      \u015Fu an ev sahibi y\xF6netir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451668
+    m_Localized: "Adana ho\u015F geldin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451669
+    m_Localized: Tek oyunculu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451670
+    m_Localized: "Steam lobisi olu\u015Fturuluyor\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451671
+    m_Localized: "Adaya kat\u0131l\u0131n\u0131yor\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451672
+    m_Localized: "Ada haz\u0131rlan\u0131yor\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451673
+    m_Localized: "Ba\u011Fland\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451674
+    m_Localized: "Oturumdan ayr\u0131ld\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451675
+    m_Localized: "Bu adada zaten d\xF6rt oyuncu var."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451676
+    m_Localized: "Bu hesab\u0131n zaten etkin bir ba\u011Flant\u0131s\u0131 var."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451677
+    m_Localized: "Steam kimli\u011Fi do\u011Frulanamad\u0131. L\xFCtfen yeniden ba\u011Flan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451678
+    m_Localized: "Ba\u011Flant\u0131 zaman a\u015F\u0131m\u0131na u\u011Frad\u0131.
+      L\xFCtfen tekrar dene."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451679
+    m_Localized: "Steam App ID do\u011Fru yap\u0131land\u0131r\u0131lmam\u0131\u015F."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451680
+    m_Localized: "Steam kullan\u0131lam\u0131yor. \xC7evrimi\xE7i oyun i\xE7in Steam'i
+      a\xE7; tek oyunculu mod \xE7al\u0131\u015F\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451681
+    m_Localized: "Oceanarium eri\u015Fimi olan bir Steam hesab\u0131 kullan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451682
+    m_Localized: "Steam lobisi olu\u015Fturulamad\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451683
+    m_Localized: "Steam lobisine kat\u0131l\u0131namad\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451684
+    m_Localized: "Lobi listesi y\xFCklenemedi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451685
+    m_Localized: "Bu davet art\u0131k ge\xE7erli de\u011Fil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451686
+    m_Localized: "Ba\u015Fka bir oturuma kat\u0131lmadan \xF6nce mevcut oturumdan
+      ayr\u0131l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451687
+    m_Localized: "\xD6nce bir Steam lobisine kat\u0131l veya lobi olu\u015Ftur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451688
+    m_Localized: "Ev sahibi ayr\u0131ld\u0131. Ada art\u0131k \xE7evrimd\u0131\u015F\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451689
+    m_Localized: "Ba\u011Flant\u0131 kesildi. Kay\u0131tl\u0131 karakterini geri
+      almak i\xE7in yeniden kat\u0131labilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451690
+    m_Localized: "A\u011F ba\u011Flant\u0131s\u0131 ba\u015Flat\u0131lamad\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451691
+    m_Localized: "A\u011F varl\u0131klar\u0131 eksik. L\xFCtfen oyun dosyalar\u0131n\u0131
+      do\u011Frula."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451692
+    m_Localized: "Bu d\xFCnya ba\u015Fka bir Steam hesab\u0131na ait."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451693
+    m_Localized: "Bir d\xFCnya kayd\u0131 okunamad\u0131. \xD6zg\xFCn dosyalar\u0131n
+      korundu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451694
+    m_Localized: "Kay\u0131t ba\u015Far\u0131s\u0131z. Bo\u015F disk alan\u0131n\u0131
+      kontrol edip tekrar dene."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451695
+    m_Localized: "Ortak d\xFCnyay\u0131 yaln\u0131zca ev sahibi de\u011Fi\u015Ftirebilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451696
+    m_Localized: "Bu adan\u0131n kilidi bu d\xFCnyada a\xE7\u0131lmam\u0131\u015F."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

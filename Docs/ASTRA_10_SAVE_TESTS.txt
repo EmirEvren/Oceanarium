@@ -1,0 +1,19 @@
+FAIL 2026-10-19T12:56:14.9628581Z
+PASS User-supplied Steam App ID 4241310
+PASS Same world names produce independent IDs
+PASS Atomic complete-world save
+PASS Returning player reuses profile and stable fish ID
+PASS Appearance, inventory and equipment round trip
+PASS Independent player locations
+PASS Independent fish and personal progression
+PASS Returning host resumes the unlocked saved island
+PASS Unavailable saved island falls back to Home Island
+PASS Shared calendar, aquarium economy and boat survive reload
+PASS Separate world has separate progression
+PASS Interrupted tmp does not replace valid committed world
+PASS Second save creates backup
+PASS Checksum failure recovers backup and retains corrupt evidence
+System.IO.InvalidDataException: save_invalid
+  at OceanariumFishing.WorldSlotStore.Decode (System.String json) [0x00289] in C:\Users\emire\Documents\GitHub\Oceanarium\Assets\OceanariumFishing\Scripts\WorldSlots.cs:76 
+  at OceanariumFishing.WorldSlotStore.Save (OceanariumFishing.WorldSlot world, System.String& status, System.String root) [0x0004d] in C:\Users\emire\Documents\GitHub\Oceanarium\Assets\OceanariumFishing\Scripts\WorldSlots.cs:100 
+  at OceanariumFishing.Editor.NetworkChecks.Run () [0x006aa] in C:\Users\emire\Documents\GitHub\Oceanarium\Assets\OceanariumFishing\Editor\NetworkChecks.cs:38 

@@ -8,6 +8,7 @@ namespace OceanariumFishing
         private Destination destination; private bool settings; private string notice; private float noticeUntil;
         private GUIStyle heading,body,small,button; private Vector2 languageScroll;
         public bool SettingsOpen=>settings;
+        public void ToggleSettings(){settings=!settings;}
         private CollectionHUD collection;
         private BoatHarbor harbor;private AquariumHUD aquarium;private AquariumBuildHUD building;private TownHUD town;
         public void Bind(GameSession service,LocalPlayerController localPlayer,Destination scene)
@@ -38,11 +39,7 @@ namespace OceanariumFishing
             GUI.matrix=Matrix4x4.Scale(Vector3.one*scale);float w=Screen.width/scale,h=Screen.height/scale;
             if(destination==Destination.MainMenu)
             {
-                Panel(new Rect(65,90,500,420));GUILayout.BeginArea(new Rect(95,115,440,375));
-                GUILayout.Label(T("brand"),heading);GUILayout.Label(T("tagline"),body);GUILayout.Space(35);
-                if(GUILayout.Button(T("play"),button))session.Travel(Destination.CharacterCreator);
-                if(GUILayout.Button(T("settings"),button))settings=!settings;
-                GUILayout.Space(18);GUILayout.Label(T("milestone"),small);GUILayout.EndArea();
+                // The persistent MultiplayerHUD draws the localized cozy main menu.
             }
             else if(destination==Destination.HomeIsland||destination==Destination.TownIsland)
             {
@@ -82,8 +79,3 @@ namespace OceanariumFishing
         private static void Panel(Rect rect){var old=GUI.color;GUI.color=new Color(.055f,.16f,.19f,.93f);GUI.DrawTexture(rect,Texture2D.whiteTexture);GUI.color=old;}
     }
 }
-
-
-
-
-

@@ -1,0 +1,1 @@
+{"name":"FishySteamworks","references":["FishNet.Runtime","com.rlabrecque.steamworks.net"],"includePlatforms":["Editor","WindowsStandalone64","LinuxStandalone64","macOSStandalone"]}

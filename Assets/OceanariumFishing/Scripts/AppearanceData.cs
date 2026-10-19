@@ -54,14 +54,17 @@ namespace OceanariumFishing
     }
     public static class AppearanceStore
     {
-        public static string PathName=>Path.Combine(Application.persistentDataPath,"appearance-v1.json");
+        public static string LegacyPath=>Path.Combine(Application.persistentDataPath,"appearance-v1.json");
+        public static string PathName=>LegacyPath;
         public static AppearanceData Load(string path=null)
         {
+            if(path==null&&WorldPersistence.Local!=null)return WorldPersistence.Local.appearance.Copy();
             try{var p=path??PathName;if(!File.Exists(p))return new();var text=File.ReadAllText(p);var d=JsonUtility.FromJson<AppearanceData>(text);if(d==null || d.version>1 || d.version<0)return new();d.Validate();return d;}
             catch(Exception e) when(e is IOException || e is ArgumentException || e is UnauthorizedAccessException){return new();}
         }
         public static bool Save(AppearanceData data,out string error,string path=null)
         {
+            if(path==null&&WorldPersistence.Local!=null){bool ok=WorldPersistence.SaveAppearance(data);error=ok?null:"save_failed";return ok;}
             try{var p=path??PathName;var safe=data.Copy();safe.Validate();Directory.CreateDirectory(Path.GetDirectoryName(p));var tmp=p+".tmp";File.WriteAllText(tmp,JsonUtility.ToJson(safe,true));if(File.Exists(p))File.Replace(tmp,p,p+".bak");else File.Move(tmp,p);error=null;return true;}
             catch(Exception e) when(e is IOException || e is UnauthorizedAccessException){error=e.Message;return false;}
         }

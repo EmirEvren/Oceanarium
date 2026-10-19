@@ -17,19 +17,22 @@ namespace OceanariumFishing
             if(Current!=null && Current!=this) {Destroy(gameObject);return;}
             Current=this; DontDestroyOnLoad(gameObject);
             Languages=GetComponent<LanguageService>();
+            NetworkSession.Ensure();
         }
         public void Travel(Destination destination)
         {
-            if(Loading)return; if(destination==Destination.TownIsland){var data=FindFirstObjectByType<FishingController>()?.Collection??FishCollectionStore.Load();if(!data.travel.repaired){TransitionFailed?.Invoke(destination,"repair_required");return;}} if(destination==Destination.ExplorationIsland01||destination==Destination.ExplorationIsland02||destination==Destination.ExplorationIsland03){TransitionFailed?.Invoke(destination,"locked");return;} StartCoroutine(Load(destination));
+            if(NetworkSession.Current?.Online==true){NetworkSession.Current.Travel(destination);return;}
+            if(Loading)return; if(destination==Destination.TownIsland){var data=GamePlayers.Inventory?.Collection??FishCollectionStore.Load();if(!data.travel.repaired){TransitionFailed?.Invoke(destination,"repair_required");return;}} if(destination==Destination.ExplorationIsland01||destination==Destination.ExplorationIsland02||destination==Destination.ExplorationIsland03){TransitionFailed?.Invoke(destination,"locked");return;} StartCoroutine(Load(destination));
         }
         private IEnumerator Load(Destination destination)
         {
+            NetworkSession.Current?.CaptureAll();
             WorldTimeService.Current?.Flush();Loading=true;
             AsyncOperation operation=null;string error=null;try{string path=catalog.Resolve(destination);if(!Application.CanStreamedLevelBeLoaded(path))error="unavailable";else operation=SceneManager.LoadSceneAsync(path);}catch(Exception e){error=e.Message;}if(operation==null){Loading=false;TransitionFailed?.Invoke(destination,error);yield break;}yield return operation;
             Loading=false;
+            if(destination==Destination.MainMenu){WorldPersistence.Close();if(WorldTimeService.Current)Destroy(WorldTimeService.Current.gameObject);}
             TransitionCompleted?.Invoke(destination);
         }
         private void OnDestroy() {if(Current==this) Current=null;}
     }
 }
-

@@ -189,6 +189,207 @@ MonoBehaviour:
     m_Localized: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430"
     m_Metadata:
       m_Items: []
+  - m_Id: 1095555171565568
+    m_Localized: Play solo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451648
+    m_Localized: Host game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451649
+    m_Localized: Join game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451650
+    m_Localized: Invite friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451651
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451652
+    m_Localized: Island crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451653
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451654
+    m_Localized: Leave session
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451655
+    m_Localized: Your islands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451656
+    m_Localized: Create a new world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451657
+    m_Localized: World name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451658
+    m_Localized: My island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451659
+    m_Localized: Copy my existing progress into this world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451660
+    m_Localized: Lobby privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451661
+    m_Localized: Friends only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451662
+    m_Localized: Friends can join through Steam invitations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451663
+    m_Localized: This world appears in the public lobby list.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451664
+    m_Localized: Enter the island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451665
+    m_Localized: Refresh lobbies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451666
+    m_Localized: You can also accept an invitation in the Steam overlay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451667
+    m_Localized: 'Co-op foundation: guests can explore. World interactions are currently
+      controlled by the host.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451668
+    m_Localized: Welcome to your island.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451669
+    m_Localized: Playing solo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451670
+    m_Localized: "Creating your Steam lobby\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451671
+    m_Localized: "Joining the island\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451672
+    m_Localized: "Preparing the island\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451673
+    m_Localized: Connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451674
+    m_Localized: You left the session.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451675
+    m_Localized: This island already has four players.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451676
+    m_Localized: This account already has an active connection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451677
+    m_Localized: Steam identity verification failed. Please reconnect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451678
+    m_Localized: The connection timed out. Please try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451679
+    m_Localized: Steam App ID is not configured correctly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451680
+    m_Localized: Steam is unavailable. Start Steam to play online; solo still works.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451681
+    m_Localized: Use a Steam account with access to Oceanarium.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451682
+    m_Localized: The Steam lobby could not be created.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451683
+    m_Localized: The Steam lobby could not be joined.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451684
+    m_Localized: The lobby list could not be loaded.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451685
+    m_Localized: This invitation is no longer valid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451686
+    m_Localized: Leave the current session before joining another.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451687
+    m_Localized: Join or host a Steam lobby first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451688
+    m_Localized: The host left. Your island is now offline.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451689
+    m_Localized: Connection lost. You can rejoin to restore your saved character.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451690
+    m_Localized: The network connection could not be started.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451691
+    m_Localized: Network assets are missing. Please verify the game files.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451692
+    m_Localized: This world belongs to another Steam account.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451693
+    m_Localized: A world save could not be read. Your original files have been preserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451694
+    m_Localized: Saving failed. Check available disk space and retry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451695
+    m_Localized: Only the host can change the shared world.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451696
+    m_Localized: This island is not unlocked in this world.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

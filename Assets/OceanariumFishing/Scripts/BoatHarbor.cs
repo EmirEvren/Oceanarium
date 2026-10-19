@@ -17,7 +17,8 @@ namespace OceanariumFishing
         public string Owner=>Inventory.Collection.ownerId;public int Count(string id)=>Inventory.Collection.resources.FirstOrDefault(s=>s.id==id)?.count??0;
         IEnumerator Start()
         {
-            Player=FindFirstObjectByType<LocalPlayerController>();Inventory=FindFirstObjectByType<FishingController>();hud=GetComponent<BoatTravelHUD>();dockPosition=boat.position;dockRotation=boat.rotation;
+            while(!GamePlayers.Inventory)yield return null;
+            Player=GamePlayers.Local;Inventory=GamePlayers.Inventory;hud=GetComponent<BoatTravelHUD>();dockPosition=boat.position;dockRotation=boat.rotation;
             while(!GameSession.Current||!GameSession.Current.Languages.Ready||!Inventory||Inventory.Collection==null)yield return null;
             Readiness.Connect(Owner);Refresh();GameSession.Current.TransitionFailed+=LoadFailed;
             if(Progress.pendingDestination==islandId){StartCoroutine(Arrival());}
@@ -25,7 +26,7 @@ namespace OceanariumFishing
         void OnDestroy(){if(GameSession.Current)GameSession.Current.TransitionFailed-=LoadFailed;if(cinematicCamera)Destroy(cinematicCamera.gameObject);}
         void Update()
         {
-            if(!Ready)return;elapsed+=Time.deltaTime;
+            if(!Ready||WorldPersistence.ReadOnly)return;elapsed+=Time.deltaTime;
             if(Busy&&Keyboard.current?.escapeKey.wasPressedThisFrame==true)SkipRequested=true;
             if(!Busy){boat.position=dockPosition+Vector3.up*Mathf.Sin(Time.time*1.6f)*.035f;boat.rotation=dockRotation*Quaternion.Euler(0,0,Mathf.Sin(Time.time*1.2f)*1.2f);}
             if(islandId=="home"&&!Progress.introduced&&!introQueued&&elapsed>8&&Player.GetComponent<InteractionActor>().HasStarterRod&&!Inventory.Active&&FindFirstObjectByType<AquariumBuildHUD>()?.IsOpen!=true&&FindFirstObjectByType<AquariumHUD>()?.IsOpen!=true){introQueued=true;StartCoroutine(Introduction());}

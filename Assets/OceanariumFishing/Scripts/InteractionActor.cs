@@ -7,6 +7,7 @@ namespace OceanariumFishing
         [SerializeField] private string actorId="local-player-1";
         public string ActorId=>actorId;
         public bool HasStarterRod {get;private set;}
+        public void RestoreRod(bool owned){HasStarterRod=owned;}
         public event Action<string> Feedback;
         public bool TryGiveStarterRod() {if(HasStarterRod)return false;HasStarterRod=true;return true;}
         public void Notify(string key)=>Feedback?.Invoke(key);

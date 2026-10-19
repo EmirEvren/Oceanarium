@@ -12,10 +12,11 @@ namespace OceanariumFishing
         public FishCollection Data=>Player.Collection;public AquariumSave Save=>Data.aquarium;public AquariumScore Score {get;private set;}=new();
         public AquariumBuilding Building {get;private set;} public float Hour=12;public int ActiveVisitors=>visitors.Count;public int Rank=>Mathf.Max(0,Array.FindLastIndex(economy.ranks,r=>Score.Total>=r));
         readonly List<AquariumVisitor> visitors=new();float clock=5;public bool Ready=>Player!=null;
-        void Start()
+        System.Collections.IEnumerator Start()
         {
-            Player=FindFirstObjectByType<FishingController>();Tanks=GetComponentsInChildren<AquariumTank>();Panel=GetComponent<AquariumHUD>();
-            if(!Player)return;Building=GetComponent<AquariumBuilding>();if(Building)Building.Initialize(this);ReindexTanks();var staged=Data.Copy();
+            while(!GamePlayers.Inventory)yield return null;
+            Player=GamePlayers.Inventory;Tanks=GetComponentsInChildren<AquariumTank>();Panel=GetComponent<AquariumHUD>();
+            if(!Player)yield break;Building=GetComponent<AquariumBuilding>();if(Building)Building.Initialize(this);ReindexTanks();var staged=Data.Copy();
             foreach(var tank in Tanks){tank.world=this;if(!staged.aquarium.tanks.Exists(t=>t.id==tank.id))staged.aquarium.tanks.Add(new(){id=tank.id,definitionId=tank.definition.id});}
             // Recover orphaned display assignments into the same owner's storage.
             foreach(var f in staged.kept.Where(f=>f.ownership==FishOwnership.Displayed&&!Tanks.Any(t=>t.id==f.tankId)))staged.TryMove(f.instanceId,staged.ownerId,FishOwnership.Stored);
@@ -24,7 +25,7 @@ namespace OceanariumFishing
         public void ReindexTanks(){Tanks=GetComponentsInChildren<AquariumTank>();foreach(var t in Tanks)t.world=this;}
         public FishSpecies Species(string id)=>species.FirstOrDefault(s=>s.id==id);
         public bool Unlocked(AquariumTank tank)=>!tank.definition.futureLocked&&(!string.IsNullOrEmpty(tank.definition.buildType)||tank.definition.size!=AquariumTankSize.Medium||Save.upgrades.Contains("medium"));
-        public IEnumerable<FishInstance> Display(AquariumTank tank)=>Data.kept.Where(f=>f.ownership==FishOwnership.Displayed&&f.tankId==tank.id);
+        public IEnumerable<FishInstance> Display(AquariumTank tank)=>(WorldPersistence.ReadOnly?WorldPersistence.Active.shared.displayedFish:Data.kept).Where(f=>f.ownership==FishOwnership.Displayed&&f.tankId==tank.id);
         public string Validate(FishInstance fish,AquariumTank tank)
         {
             if(fish==null||tank==null||fish.ownerId!=Data.ownerId)return "owner";
@@ -79,7 +80,7 @@ namespace OceanariumFishing
         {Score=Calculate(Data);foreach(var tank in Tanks)tank.Refresh();if(comfortVisual)comfortVisual.SetActive(Save.upgrades.Contains("comfort"));if(signageVisual)signageVisual.SetActive(Save.upgrades.Contains("signage"));if(decorVisual)decorVisual.SetActive(Save.upgrades.Contains("decor"));}
         void Update()
         {
-            if(!Ready)return;Hour=WorldTimeService.Current?.Simulation.Hour??Hour;visitors.RemoveAll(v=>!v);clock-=Time.deltaTime;
+            if(!Ready)return;Hour=WorldTimeService.Current?.Simulation.Hour??Hour;visitors.RemoveAll(v=>!v);if(!WorldPersistence.ReadOnly)clock-=Time.deltaTime;
             bool inside=Mathf.Abs(Player.transform.position.x-transform.position.x)<6&&Player.transform.position.z-transform.position.z> -5.4f&&Player.transform.position.z-transform.position.z<5.4f+(Building?(Building.Layout.level-1)*8:0);
             foreach(var r in roof)if(r)r.enabled=!inside&&!(Building&&Building.UI&&Building.UI.IsOpen);
             if(clock<=0){clock=Mathf.Max(economy.minSpawnSeconds,economy.spawnSeconds/Mathf.Max(.5f,(WorldTimeService.Current?.Simulation.Current?.visitors??1)*(Hour<11?.75f:Hour<17?1.15f:.8f))/(1+Score.Total*.015f+(Save.upgrades.Contains("signage")?economy.signageBonus:0)));if(Hour>=economy.dayStart&&Hour<economy.dayEnd&&visitors.Count<economy.maxVisitors&&Tanks.Any(t=>Display(t).Any())){var go=new GameObject("Aquarium guest");go.transform.position=arrival.position;var visitor=go.AddComponent<AquariumVisitor>();visitors.Add(visitor);visitor.Initialize(this,Save.visitors+visitors.Count);}}
@@ -88,5 +89,3 @@ namespace OceanariumFishing
         void OnDestroy(){foreach(var v in visitors)if(v)Destroy(v.gameObject);}
     }
 }
-
-

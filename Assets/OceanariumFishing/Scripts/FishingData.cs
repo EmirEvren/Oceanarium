@@ -129,7 +129,8 @@ namespace OceanariumFishing
     public static class FishCollectionStore
     {
         // Keep the existing path. Versioning is in the document; character/rod saves stay untouched.
-        public static string PathName=>Path.Combine(Application.persistentDataPath,"fish-collection-v1.json");
+        public static string LegacyPath=>Path.Combine(Application.persistentDataPath,"fish-collection-v1.json");
+        public static string PathName=>LegacyPath;
         static FishCollection Read(string path)
         {
             var json=File.ReadAllText(path);if(!json.TrimStart().StartsWith("{")||!json.Contains("\"version\""))throw new ArgumentException("Invalid collection document");
@@ -144,6 +145,7 @@ namespace OceanariumFishing
         }
         public static FishCollection Load(string path=null)
         {
+            if(path==null&&WorldPersistence.Active!=null)return WorldPersistence.LoadCollection();
             string p=path??PathName;
             try{if(!File.Exists(p)){var empty=new FishCollection();empty.Normalize();return empty;}return Read(p);}
             catch(Exception e)when(e is IOException||e is ArgumentException||e is UnauthorizedAccessException)
@@ -156,6 +158,7 @@ namespace OceanariumFishing
         public static bool Save(FishCollection data,string path=null)
         {
             if(data==null||data.writeBlocked)return false;
+            if(path==null&&WorldPersistence.Active!=null)return WorldPersistence.SaveCollection(data);
             try
             {
                 string p=path??PathName;data.Normalize();Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(p)));
@@ -166,4 +169,3 @@ namespace OceanariumFishing
     }
     [Serializable] public sealed class FishSpawnEntry {public FishSpecies species;public float weight=1;}
 }
-

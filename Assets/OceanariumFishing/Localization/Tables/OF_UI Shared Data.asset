@@ -3499,6 +3499,206 @@ MonoBehaviour:
     m_Key: town.error.closed
     m_Metadata:
       m_Items: []
+  - m_Id: 1095555171565568
+    m_Key: net.solo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451648
+    m_Key: net.host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451649
+    m_Key: net.join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451650
+    m_Key: net.invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451651
+    m_Key: net.quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451652
+    m_Key: net.crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451653
+    m_Key: net.host_badge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451654
+    m_Key: net.leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451655
+    m_Key: net.worlds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451656
+    m_Key: net.new_world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451657
+    m_Key: net.world_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451658
+    m_Key: net.default_world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451659
+    m_Key: net.import
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451660
+    m_Key: net.privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451661
+    m_Key: net.friends_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451662
+    m_Key: net.friends_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451663
+    m_Key: net.public_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451664
+    m_Key: net.enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451665
+    m_Key: net.refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451666
+    m_Key: net.invite_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451667
+    m_Key: net.foundation_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451668
+    m_Key: net.status.idle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451669
+    m_Key: net.status.solo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451670
+    m_Key: net.status.hosting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451671
+    m_Key: net.status.joining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451672
+    m_Key: net.status.loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451673
+    m_Key: net.status.connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451674
+    m_Key: net.status.left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451675
+    m_Key: net.status.full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451676
+    m_Key: net.status.duplicate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451677
+    m_Key: net.status.authentication
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451678
+    m_Key: net.status.timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451679
+    m_Key: net.status.steam_config
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451680
+    m_Key: net.status.steam_unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451681
+    m_Key: net.status.steam_access
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451682
+    m_Key: net.status.lobby_create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451683
+    m_Key: net.status.lobby_join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451684
+    m_Key: net.status.lobby_list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451685
+    m_Key: net.status.lobby_invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451686
+    m_Key: net.status.already_connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451687
+    m_Key: net.status.not_hosting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451688
+    m_Key: net.status.host_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451689
+    m_Key: net.status.connection_lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451690
+    m_Key: net.status.connection_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451691
+    m_Key: net.status.prefab_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451692
+    m_Key: net.status.world_owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451693
+    m_Key: net.status.save_invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451694
+    m_Key: net.status.save_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451695
+    m_Key: net.status.host_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095555255451696
+    m_Key: net.status.island_locked
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
